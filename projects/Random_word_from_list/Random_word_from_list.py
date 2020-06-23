@@ -1,24 +1,29 @@
 import sys
 import random
 
+# check if filename is supplied as a command line argument
 if sys.argv[1:]:
-    filename = sys.argv[1] # check if filename is supplied as a command line argument
+    filename = sys.argv[1]
 else:
     filename = input("What is the name of the file? (extension included): ")
 
 try:
     file = open(filename)
-except:
-    print("File doesn't exist!") # handle exception
+except (FileNotFoundError, IOError):
+    print("File doesn't exist!")
     exit()
+# handle exception
 
-num_lines = sum(1 for line in file if line.rstrip()) # get number of lines
+# get number of lines
+num_lines = sum(1 for line in file if line.rstrip())
 
-random_line = random.randint(0, num_lines) # generate a random number between possible interval
+# generate a random number between possible interval
+random_line = random.randint(0, num_lines)
 
-file.seek(0) # re-iterate from first line
+# re-iterate from first line
+file.seek(0)
 
 for i, line in enumerate(file):
     if i == random_line:
-        print(line.rstrip()) # rstrip removes any trailing newlines :)
+        print(line.rstrip())  # rstrip removes any trailing newlines :)
         break
