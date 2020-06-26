@@ -1,45 +1,50 @@
 import smtplib
-import pandas as pd
-
-with open("credentials.txt", "r") as f:
-    Email_Address = f.readline()
-    Email_Pass = f.readline()
-
-emails_list = pd.read_csv("emails.csv")
+import csv
 
 
-# Get Credentials From Environment
-"""
-Email_Address = os.environ.get("Email_User")
-Emial_Pass = os.environ.get("Email_Pass")
-print(Email_Address)
-"""
-
-# creates SMTP session
-s = smtplib.SMTP("smtp.gmail.com", 587)
-s.ehlo()
-# start TLS for security
-s.starttls()
-s.ehlo()
-# Authentication
-s.login(Email_Address, Email_Pass)
-print("login")
-# message to be sent
-subject = "Welcome to python"
-body = """Python is an interpreted, high-level,
-general-purpose programming language.\n
-Created by Guido van Rossum and first released in 1991,
-Python's design philosophy emphasizes code readability\n
-with its notable use of significant whitespace"""
-message = f"Subject : {subject} \n\n {body}"
-
-# sending the mail
-for ind in range(len(emails_list)):
-    email = emails_list.loc[ind, "Emails"]
-    s.sendmail(Email_Address, email, message)
-    print("Send To " + email)
+def get_credentials(filepath):
+    with open("credentials.txt", "r") as f:
+        Email_Address = f.readline()
+        Email_Pass = f.readline()
+    return (Email_Address, Email_Pass)
 
 
-# terminating the session
-s.quit()
-print("sent")
+def login(email_address, email_pass, s):
+    s.ehlo()
+    # start TLS for security
+    s.starttls()
+    s.ehlo()
+    # Authentication
+    s.login(email_address, email_pass)
+    print("login")
+
+
+
+def Send_mail():
+    s = smtplib.SMTP("smtp.gmail.com", 587)
+    Email_Address, Email_Pass = get_credentials("./credentials.txt")
+    login(Email_Address, Email_Pass, s)
+    
+
+    # message to be sent
+    subject = "Welcome to python"
+    body = """Python is an interpreted, high-level,
+    general-purpose programming language.\n
+    Created by Guido van Rossum and first released in 1991,
+    Python's design philosophy emphasizes code readability\n
+    with its notable use of significant whitespace"""
+    message = f"Subject : {subject} \n\n {body}"
+
+    with open("emails.csv", newline="") as csvfile:
+        spamreader = csv.reader(csvfile, delimiter=" ", quotechar="|")
+        for email in spamreader:
+            s.sendmail(Email_Address, email[0], message)
+            print("Send To " + email[0])
+
+    # terminating the session
+    s.quit()
+    print("sent")
+
+
+if __name__ == "__main__":
+    Send_mail()
