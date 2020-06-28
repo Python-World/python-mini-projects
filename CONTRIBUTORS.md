@@ -11,3 +11,5 @@ Sr no | Project Name | Author
 6 | [Get All links from Webpage](https://github.com/chavarera/python-mini-projects/tree/master/projects/All%20Links%20from%20given%20Webpage) | [Mitesh](https://github.com/Mitesh2499)
 7 | [Todo Application With Flask](https://github.com/chavarera/python-mini-projects/tree/master/projects/Todo%20app) | [Mitesh](https://github.com/Mitesh2499)
 8 | [Add Watermark on Images](https://github.com/chavarera/python-mini-projects/tree/master/projects/image%20watermark) | [Mitesh](https://github.com/Mitesh2499)
+9 | [WishList Application Using Django](https://github.com/chavarera/python-mini-projects/tree/master/projects/WishList%20App%20Using%20Django) | [Ravi Chavare]((https://github.com/chavarera)
+
