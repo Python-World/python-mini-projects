@@ -8,3 +8,8 @@ Sr no | Project Name | Author
 3 | [Random Password Generator](https://github.com/chavarera/python-mini-projects/tree/master/projects/Random%20password%20generator) | [Mitesh](https://github.com/Mitesh2499)
 4 | [Instagram Profile Info](https://github.com/chavarera/python-mini-projects/tree/master/projects/InstagramProfile) | [Ravi Chavare](https://github.com/chavarera)
 5 | [Search string in multile Files](https://github.com/chavarera/python-mini-projects/tree/master/projects/string%20search%20from%20multiple%20files) | [Mitesh](https://github.com/Mitesh2499)
+6 | [Get All links from Webpage](https://github.com/chavarera/python-mini-projects/tree/master/projects/All%20Links%20from%20given%20Webpage) | [Mitesh](https://github.com/Mitesh2499)
+7 | [Todo Application With Flask](https://github.com/chavarera/python-mini-projects/tree/master/projects/Todo%20app) | [Mitesh](https://github.com/Mitesh2499)
+8 | [Add Watermark on Images](https://github.com/chavarera/python-mini-projects/tree/master/projects/image%20watermark) | [Mitesh](https://github.com/Mitesh2499)
+9 | [WishList Application Using Django](https://github.com/chavarera/python-mini-projects/tree/master/projects/WishList) | [Ravi Chavare](https://github.com/chavarera)
+
