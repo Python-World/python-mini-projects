@@ -30,7 +30,7 @@ Sr no | Project Name | Author
 8 | [Add Watermark on Images](https://github.com/chavarera/python-mini-projects/tree/master/projects/image%20watermark) | [Mitesh](https://github.com/Mitesh2499)
 9 | [WishList Application Using Django](https://github.com/chavarera/python-mini-projects/tree/master/projects/WishList) | [Ravi Chavare](https://github.com/chavarera)
 10 | [Split Folders into Subfolders](https://github.com/chavarera/python-mini-projects/tree/master/projects/split%20folder%20into%20subfolders) | [Ravi Chavare](https://github.com/chavarera)
-11 | [Download Images from giveen Webpages](https://github.com/chavarera/python-mini-projects/tree/master/projects/download%20images%20from%20website) | [Mitesh](https://github.com/Mitesh2499)
+11 | [Download Images from given Webpages](https://github.com/chavarera/python-mini-projects/tree/master/projects/download%20images%20from%20website) | [Mitesh](https://github.com/Mitesh2499)
 12 | [Get Random word from wordlist file](https://github.com/chavarera/python-mini-projects/tree/master/projects/Random_word_from_list) | 
 13 | [Get battery Notification(laptop)](https://github.com/chavarera/python-mini-projects/tree/master/projects/battery%20notification) | 
 14 | [Calulae Age](https://github.com/chavarera/python-mini-projects/tree/master/projects/Calculate%20age) | [Gaodong](https://github.com/xlgd)
