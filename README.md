@@ -36,4 +36,5 @@ Sr no | Project Name | Author
 14 | [Calulae Age](https://github.com/chavarera/python-mini-projects/tree/master/projects/Calculate%20age) | [Gaodong](https://github.com/xlgd)
 15 | [Text File Analysis](https://github.com/chavarera/python-mini-projects/tree/master/projects/Textfile%20analysis) | [m044de](https://github.com/m044de/)
 16 | [Generate Image Snipets from code](https://github.com/chavarera/python-mini-projects/tree/master/projects/py-carbon-clips) | [ravi chavare](https://github.com/chavarera/)
-
+17 | [organized download folder with different categories](https://github.com/chavarera/python-mini-projects/tree/master/projects/organized%20download%20folder%20with%20different%20categories) |
+18 | [Send Emmail from csv file](https://github.com/chavarera/python-mini-projects/tree/master/projects/send%20email%20from%20CSV) | [Mitesh](https://github.com/Mitesh2499)
