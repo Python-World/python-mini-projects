@@ -32,9 +32,9 @@ Sr no | Project Name | Author
 10 | [Split Folders into Subfolders](https://github.com/chavarera/python-mini-projects/tree/master/projects/split%20folder%20into%20subfolders) | [Ravi Chavare](https://github.com/chavarera)
 11 | [Download bulk images](https://github.com/chavarera/python-mini-projects/tree/master/projects/download%20images%20from%20website) | [Mitesh](https://github.com/Mitesh2499)
 12 | [Ranom word from file](https://github.com/chavarera/python-mini-projects/tree/master/projects/Random_word_from_list) | 
-13 | [Battery notification](https://github.com/chavarera/python-mini-projects/tree/master/projects/battery%20notification) | 
+13 | [Battery notification](https://github.com/chavarera/python-mini-projects/tree/master/projects/battery%20notification) | [Mitesh](https://github.com/Mitesh2499)
 14 | [Calculate age](https://github.com/chavarera/python-mini-projects/tree/master/projects/Calculate%20age) | [Gaodong](https://github.com/xlgd)
 15 | [Text file analysis](https://github.com/chavarera/python-mini-projects/tree/master/projects/Textfile%20analysis) | [m044de](https://github.com/m044de/)
 16 | [Generate image snipets](https://github.com/chavarera/python-mini-projects/tree/master/projects/py-carbon-clips) | [ravi chavare](https://github.com/chavarera/)
-17 | [Organize file system](https://github.com/chavarera/python-mini-projects/tree/master/projects/organized%20download%20folder%20with%20different%20categories) |
+17 | [Organize file system](https://github.com/chavarera/python-mini-projects/tree/master/projects/organized%20download%20folder%20with%20different%20categories) | [Mitesh](https://github.com/Mitesh2499)
 18 | [Send emails](https://github.com/chavarera/python-mini-projects/tree/master/projects/send%20email%20from%20CSV) | [Mitesh](https://github.com/Mitesh2499)
