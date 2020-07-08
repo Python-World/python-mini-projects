@@ -1,5 +1,6 @@
 import exifread
 import requests,json
+from geopy.geocoders import Nominatim
 
 def format_lati_long(data):
 	list_tmp=str(data).replace('[', '').replace(']', '').split(',')
@@ -11,13 +12,9 @@ def format_lati_long(data):
 	return result
 
 def get_location(filename):
-    img=exifread.process_file(open('picture.jpg','rb'))
+    img=exifread.process_file(open(filename,'rb'))
     latitude=format_lati_long(str(img['GPS GPSLatitude']))
     longitude=format_lati_long(str(img['GPS GPSLongitude']))
-    
-    api_key = 'f84cbb2dc078c087c6dc37b6ae74ab85'
-    url_get_position = 'https://restapi.amap.com/v3/geocode/regeo?output=JSON&location={}&key={}&radius=1000&extensions=base'
-    resp=requests.get(url_get_position.format(f'{longitude},{latitude}',api_key))
-    location_data = json.loads(resp.text)
-    address = location_data.get('regeocode').get('formatted_address')
-    return address
+    geolocator = Nominatim(user_agent = "your email")
+    position = geolocator.reverse(str(latitude) + ',' + str(longitude))
+    return position.address
