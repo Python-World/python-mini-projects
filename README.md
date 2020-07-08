@@ -38,3 +38,6 @@ Sr no | Project Name | Author
 16 | [Generate image snipets](https://github.com/chavarera/python-mini-projects/tree/master/projects/py-carbon-clips) | [ravi chavare](https://github.com/chavarera/)
 17 | [Organize file system](https://github.com/chavarera/python-mini-projects/tree/master/projects/organized%20download%20folder%20with%20different%20categories) | [Mitesh](https://github.com/Mitesh2499)
 18 | [Send emails](https://github.com/chavarera/python-mini-projects/tree/master/projects/send%20email%20from%20CSV) | [Mitesh](https://github.com/Mitesh2499)
+19 | [Get Ipaddress and Hostname of Website](https://github.com/chavarera/python-mini-projects/tree/master/projects/Find%20Out%20Hostname%20and%20IP%20address) | [Nuh Mohammed](https://github.com/NuhMohammed)|
+20 | [Progressbar using tqdm](https://github.com/chavarera/python-mini-projects/tree/master/projects/Terminal%20Progress%20Bar%20with%20Images%20Resizing) | [Mitesh](https://github.com/Mitesh2499)
+
