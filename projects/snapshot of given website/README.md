@@ -5,7 +5,7 @@
 `pip install chromedriver-binary==XX.X.XXXX.XX.X`  
 
 - 'XX.X.XXXX.XX.X' is chrome driver version.  
-- the version of 'chrome driver' need to match the version of your google chrome.  
+- The version of 'chrome driver' need to match the version of your google chrome.  
 
 *How to find your google chrome version*
 1. Click on the Menu icon in the upper right corner of the screen.
