@@ -43,6 +43,5 @@ Sr no | Project Name | Author
 21 | [Get meta information of images](https://github.com/Xlgd/python-mini-projects/tree/master/projects/Get%20meta%20information%20of%20images) | [Gaodong](https://github.com/xlgd)
 22 | [Captures Frames from video](https://github.com/chavarera/python-mini-projects/tree/master/projects/Capture_Video_Frames) | [phileinSophos](https://github.com/phileinSophos/)
 23 | [Fetch Wifi Saved Password Windows](https://github.com/chavarera/python-mini-projects/tree/master/projects/Get%20Wifi%20password) |  [Mitesh](https://github.com/Mitesh2499)
-24 | [Get Image Meta Information](https://github.com/chavarera/python-mini-projects/tree/master/projects/Get%20meta%20information%20of%20images) | [Gaodong](https://github.com/xlgd)
-25 | [Save Screenshot of given Website](https://github.com/chavarera/python-mini-projects/tree/master/projects/snapshot%20of%20given%20website) | [m044de](https://github.com/m044de/)
+24 | [Save Screenshot of given Website](https://github.com/chavarera/python-mini-projects/tree/master/projects/snapshot%20of%20given%20website) | [m044de](https://github.com/m044de/)
 
