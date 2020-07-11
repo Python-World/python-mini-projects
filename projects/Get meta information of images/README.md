@@ -2,7 +2,7 @@
 
 ### usage
 
-python get_meta_from_pic image_name
+python get_meta_from_pic.py image_file
 
 ### note
 
