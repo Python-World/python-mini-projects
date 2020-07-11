@@ -44,4 +44,6 @@ Sr no | Project Name | Author
 22 | [Captures Frames from video](https://github.com/chavarera/python-mini-projects/tree/master/projects/Capture_Video_Frames) | [phileinSophos](https://github.com/phileinSophos/)
 23 | [Fetch Wifi Saved Password Windows](https://github.com/chavarera/python-mini-projects/tree/master/projects/Get%20Wifi%20password) |  [Mitesh](https://github.com/Mitesh2499)
 24 | [Save Screenshot of given Website](https://github.com/chavarera/python-mini-projects/tree/master/projects/snapshot%20of%20given%20website) | [m044de](https://github.com/m044de/)
-
+25 | [Split files using no of lines](https://github.com/chavarera/python-mini-projects/tree/master/projects/Split_File) | [phileinSophos](https://github.com/phileinSophos/)
+26 | [Encode and decode text using key](https://github.com/chavarera/python-mini-projects/tree/master/projects/create%20script%20to%20encode%20and%20decode%20text) | [Gaodong](https://github.com/xlgd)
+27 | [captures screenshot at regular interval of time](https://github.com/chavarera/python-mini-projects/tree/master/projects/capture_screenshot) | [d33pc](https://github.com/d33pc/)
