@@ -1,7 +1,5 @@
 sumy
 
-textwrap
-
-logging
-
+nltk
+numpy
 argparse
