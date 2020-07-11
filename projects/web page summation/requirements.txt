@@ -1,0 +1,4 @@
+sumy
+textwrap
+logging
+argparse
