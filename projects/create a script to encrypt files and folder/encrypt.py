@@ -4,6 +4,7 @@ from Cryptodome.Cipher import AES
 from Cryptodome import Random
 from binascii import b2a_hex
 
+
 def encrypt_dir(path):
     for root, _, files in os.walk("."):
         for file in files:

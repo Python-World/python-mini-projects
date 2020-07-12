@@ -9,13 +9,15 @@ plain_text = sys.argv[1]
 # The key length must be 16 (AES-128), 24 (AES-192), or 32 (AES-256) Bytes.
 key = b'this is a 16 key'
 
-# Generate a non-repeatable key vector with a length equal to the size of the AES block
+# Generate a non-repeatable key vector with a length
+# equal to the size of the AES block
 iv = Random.new().read(AES.block_size)
 
 # Use key and iv to initialize AES object, use MODE_CFB mode
 mycipher = AES.new(key, AES.MODE_CFB, iv)
 
-# Add iv (key vector) to the beginning of the encrypted ciphertext and transmit it together
+# Add iv (key vector) to the beginning of the encrypted ciphertext
+# and transmit it together
 ciphertext = iv + mycipher.encrypt(plain_text.encode())
 
 
