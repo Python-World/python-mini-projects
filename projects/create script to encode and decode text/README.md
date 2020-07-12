@@ -2,6 +2,9 @@
 
 ### usage
 
-python aes_encode.py file.txt
+python aes_encode.py "a text"
+
+example:
+    python aes_encode.py "hello world"
 
 An encrypted file("encrypted.bin") will be generated after the program is run

@@ -4,8 +4,7 @@ from binascii import b2a_hex
 import sys
 
 # get the plaintext
-f = open(sys.argv[1])
-plain_text = f.read()
+plain_text = sys.argv[1]
 
 # The key length must be 16 (AES-128), 24 (AES-192), or 32 (AES-256) Bytes.
 key = b'this is a 16 key'
@@ -35,5 +34,3 @@ print("The key k is: ", key)
 print("iv is: ", b2a_hex(ciphertext)[:16])
 print("The encrypted data is: ", b2a_hex(ciphertext)[16:])
 print("The decrypted data is: ", decrypttext.decode())
-
-f.close()
