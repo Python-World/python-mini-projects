@@ -47,3 +47,4 @@ Sr no | Project Name | Author
 25 | [Split files using no of lines](https://github.com/chavarera/python-mini-projects/tree/master/projects/Split_File) | [phileinSophos](https://github.com/phileinSophos/)
 26 | [Encode and decode text using key](https://github.com/chavarera/python-mini-projects/tree/master/projects/create%20script%20to%20encode%20and%20decode%20text) | [Gaodong](https://github.com/xlgd)
 27 | [captures screenshot at regular interval of time](https://github.com/chavarera/python-mini-projects/tree/master/projects/capture_screenshot) | [d33pc](https://github.com/d33pc/)
+28 | [Create password hash](https://github.com/chavarera/python-mini-projects/tree/master/projects/hashing%20passwords) | [m044de](https://github.com/m044de/)
