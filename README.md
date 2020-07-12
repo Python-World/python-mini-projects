@@ -48,3 +48,6 @@ Sr no | Project Name | Author
 26 | [Encode and decode text using key](https://github.com/chavarera/python-mini-projects/tree/master/projects/create%20script%20to%20encode%20and%20decode%20text) | [Gaodong](https://github.com/xlgd)
 27 | [captures screenshot at regular interval of time](https://github.com/chavarera/python-mini-projects/tree/master/projects/capture_screenshot) | [d33pc](https://github.com/d33pc/)
 28 | [Create password hash](https://github.com/chavarera/python-mini-projects/tree/master/projects/hashing%20passwords) | [m044de](https://github.com/m044de/)
+29 | [Encrypt file and folders](https://github.com/chavarera/python-mini-projects/tree/master/projects/create%20a%20script%20to%20encrypt%20files%20and%20folder) | [Gaodong](https://github.com/xlgd)
+30 | [Decimal to binary and vice versa](https://github.com/chavarera/python-mini-projects/tree/master/projects/decimal%20to%20binary%20convertor%20and%20vice%20versa) | [Alan Anaya](https://github.com/alananayaa/)
+
