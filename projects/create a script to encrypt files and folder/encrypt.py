@@ -4,6 +4,7 @@ from Cryptodome.Cipher import AES
 from Cryptodome import Random
 from binascii import b2a_hex
 
+
 def encrypt_dir(path):
     for root, _, files in os.walk("."):
         for file in files:
@@ -14,8 +15,8 @@ def encrypt_dir(path):
 
 def encrypt_file(path):
     # get the plaintext
-    f = open(path)
-    plain_text = f.read()
+    with open(path) as f:
+        plain_text = f.read()
 
     # The key length must be 16 (AES-128), 24 (AES-192), or 32 (AES-256) Bytes.
     key = b'this is a 16 key'
@@ -25,9 +26,8 @@ def encrypt_file(path):
     ciphertext = iv + mycipher.encrypt(plain_text.encode())
 
     # output
-    file_out = open(path + ".bin", "wb")
-    file_out.write(ciphertext[16:])
-    file_out.close()
+    with open(path + ".bin", "wb") as file_out:
+        file_out.write(ciphertext[16:])
 
 
 path = sys.argv[1]
