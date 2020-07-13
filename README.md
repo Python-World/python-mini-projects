@@ -51,4 +51,5 @@ Sr no | Project Name | Author
 29 | [Encrypt file and folders](https://github.com/chavarera/python-mini-projects/tree/master/projects/create%20a%20script%20to%20encrypt%20files%20and%20folder) | [Gaodong](https://github.com/xlgd)
 30 | [Decimal to binary and vice versa](https://github.com/chavarera/python-mini-projects/tree/master/projects/decimal%20to%20binary%20convertor%20and%20vice%20versa) | [Alan Anaya](https://github.com/alananayaa/)
 31 | [Cli Based Todo Application](https://github.com/chavarera/python-mini-projects/tree/master/projects/CLI%20Todo) | [Audrey Yang](https://github.com/audrey-yang)
-
+32 | [Currency Convertor cli app](https://github.com/chavarera/python-mini-projects/tree/master/projects/Currency%20Converter) | [github-of-wone](https://github.com/github-of-wone/)
+33 | [Stopwatch Application](https://github.com/chavarera/python-mini-projects/tree/master/projects/create%20a%20simple%20stopwatch) | [Gaodong](https://github.com/xlgd)
