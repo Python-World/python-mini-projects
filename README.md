@@ -1,9 +1,11 @@
 # mini-projects-python
+
 A collection of simple python mini projects to enhance your python skills
 
-
 If you want to learn about python visit [Here](https://github.com/chavarera/PythonScript)
+
 ## Steps To Follow
+
 - Select an issue
 - Open [project here](https://github.com/chavarera/python-mini-projects)
 - Create a fork of the project
@@ -31,7 +33,7 @@ Sr no | Project Name | Author
 9 | [WishList App Using Django](https://github.com/chavarera/python-mini-projects/tree/master/projects/WishList) | [Ravi Chavare](https://github.com/chavarera)
 10 | [Split Folders into Subfolders](https://github.com/chavarera/python-mini-projects/tree/master/projects/split%20folder%20into%20subfolders) | [Ravi Chavare](https://github.com/chavarera)
 11 | [Download bulk images](https://github.com/chavarera/python-mini-projects/tree/master/projects/download%20images%20from%20website) | [Mitesh](https://github.com/Mitesh2499)
-12 | [Ranom word from file](https://github.com/chavarera/python-mini-projects/tree/master/projects/Random_word_from_list) | 
+12 | [Random word from file](https://github.com/chavarera/python-mini-projects/tree/master/projects/Random_word_from_list) | 
 13 | [Battery notification](https://github.com/chavarera/python-mini-projects/tree/master/projects/battery%20notification) | [Mitesh](https://github.com/Mitesh2499)
 14 | [Calculate age](https://github.com/chavarera/python-mini-projects/tree/master/projects/Calculate%20age) | [Gaodong](https://github.com/xlgd)
 15 | [Text file analysis](https://github.com/chavarera/python-mini-projects/tree/master/projects/Textfile%20analysis) | [m044de](https://github.com/m044de/)
@@ -53,3 +55,4 @@ Sr no | Project Name | Author
 31 | [Cli Based Todo Application](https://github.com/chavarera/python-mini-projects/tree/master/projects/CLI%20Todo) | [Audrey Yang](https://github.com/audrey-yang)
 32 | [Currency Convertor cli app](https://github.com/chavarera/python-mini-projects/tree/master/projects/Currency%20Converter) | [github-of-wone](https://github.com/github-of-wone/)
 33 | [Stopwatch Application](https://github.com/chavarera/python-mini-projects/tree/master/projects/create%20a%20simple%20stopwatch) | [Gaodong](https://github.com/xlgd)
+34 | [CLI Proxy Tester](https://github.com/chavarera/python-mini-projects/tree/master/projects/cli_proxy_tester) | [Ingo Kleiber](https://github.com/IngoKl)
