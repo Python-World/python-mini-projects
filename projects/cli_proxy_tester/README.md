@@ -13,7 +13,8 @@ This script tests proxies by querying (GET request) a testing website that retur
 
 `python cli.py single http://1.1.1.1`
 
-This will test the HTTP proxy 1.1.1.1 against the default testing website [iptest.ingokleiber.de](http://iptest.ingokleiber.de). You can run your own testing service using the PHP script in `/ipinfo`.
+This will test the HTTP proxy 1.1.1.1 against the default testing website [iptest.ingokleiber.de](http://iptest.ingokleiber.de).
+You can run your own testing service using the PHP script in `/ipinfo`. This service should be offered both via HTTP and HTTPs.
 
 `python cli.py single http://1.1.1.1 --iptest iptest.yourdomain.com`
 
