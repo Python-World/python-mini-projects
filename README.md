@@ -58,3 +58,5 @@ Sr no | Project Name | Author
 34 | [CLI Proxy Tester](https://github.com/chavarera/python-mini-projects/tree/master/projects/cli_proxy_tester) | [Ingo Kleiber](https://github.com/IngoKl)
 35 | [XML to JSON file Convertor](https://github.com/chavarera/python-mini-projects/tree/master/projects/Convert_XML_To_JSON) | [John Kirtley](https://github.com/johnkirtley)
 36 | [Compress file and folders](https://github.com/chavarera/python-mini-projects/tree/master/projects/write%20script%20to%20compress%20folder%20and%20files) | [Gaodong](https://github.com/xlgd)
+37 | [Find IMDB movie ratings](https://github.com/chavarera/python-mini-projects/tree/master/projects/Find%20IMDb%20rating) | [ShivSt](https://github.com/ShivSt)
+38 | [Convert dictionary to python object](https://github.com/chavarera/python-mini-projects/tree/master/projects/convert_dictionary_to_python_object) | [Varun-22](https://github.com/Varun-22)
