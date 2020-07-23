@@ -61,7 +61,3 @@ Sr no | Project Name | Author
 37 | [Find IMDB movie ratings](https://github.com/chavarera/python-mini-projects/tree/master/projects/Find%20IMDb%20rating) | [ShivSt](https://github.com/ShivSt)
 38 | [Convert dictionary to python object](https://github.com/chavarera/python-mini-projects/tree/master/projects/convert_dictionary_to_python_object) | [Varun-22](https://github.com/Varun-22)
 39 | [move files to alphabetically arranged folders](https://github.com/chavarera/python-mini-projects/tree/master/projects/Write%20script%20to%20move%20files%20into%20alphabetically%20ordered%20folder) | [Chathura Nimesh](https://github.com/kana800/)
-40 | [Scrape Youtube video comment](https://github.com/chavarera/python-mini-projects/tree/master/projects/Web%20scraping%20a%20youtube%20comment) | [Saicharan67](https://github.com/Saicharan67)
-41 | [Website Summerization](https://github.com/chavarera/python-mini-projects/tree/master/projects/Web%20scraping%20a%20youtube%20comment) | [Believe Ohiozua](https://github.com/believeohiozua)
-42 | [Text To speech(mp3)](https://github.com/chavarera/python-mini-projects/tree/master/projects/TextToSpeech) | [Sergej Dikun](https://github.com/Serhazor)
-
