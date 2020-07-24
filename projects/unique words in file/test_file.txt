@@ -1,0 +1,10 @@
+test this Words and handle the file
+it should return the unique words
+in sorted manner
+Ok lets give it a try
+write a script to find unique words from file
+good first issue beginner file-handling
+Problem Statement
+write a script to find unique sorted words from file
+this this that that that
+here here there there all all every every
