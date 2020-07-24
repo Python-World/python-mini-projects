@@ -64,4 +64,3 @@ Sr no | Project Name | Author
 40 | [Scrape Youtube video comment](https://github.com/chavarera/python-mini-projects/tree/master/projects/Web%20scraping%20a%20youtube%20comment) | [Saicharan67](https://github.com/Saicharan67)
 41 | [Website Summerization](https://github.com/chavarera/python-mini-projects/tree/master/projects/Web%20scraping%20a%20youtube%20comment) | [Believe Ohiozua](https://github.com/believeohiozua)
 42 | [Text To speech(mp3)](https://github.com/chavarera/python-mini-projects/tree/master/projects/TextToSpeech) | [Sergej Dikun](https://github.com/Serhazor)
-
