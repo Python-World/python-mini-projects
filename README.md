@@ -68,4 +68,6 @@ Sr no | Project Name | Author
 44 | [Save random article from wikipedia](https://github.com/chavarera/python-mini-projects/tree/master/projects/Random_Wikipedia_Article) | [Rakshit Puri](https://github.com/skate1512)
 45 | [Check website connectivity](https://github.com/chavarera/python-mini-projects/tree/master/projects/check%20website%20connectivity) | [Shiv Thakur](https://github.com/ShivSt)
 46 | [Fetch city weather information](https://github.com/chavarera/python-mini-projects/tree/master/projects/Fetch%20Current%20Weather) | [Kushal Agrawal](https://github.com/kushal98)
-
+47 | [Calculator App](https://github.com/chavarera/python-mini-projects/tree/master/projects/Create%20calculator%20app) | [Gaodong](https://github.com/xlgd)
+48 | [Merge Csv files](https://github.com/chavarera/python-mini-projects/tree/master/projects/Merge%20CSV%20Files) | [Kushal Agrawal](https://github.com/kushal98)
+49 | [Fetch tweets and save in csv](https://github.com/chavarera/python-mini-projects/tree/master/projects/Fetch%20and%20Store%20Tweets) | [Kushal Agrawal](https://github.com/kushal98)
