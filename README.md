@@ -75,4 +75,4 @@ Sr no | Project Name | Author
 49 | [Fetch tweets and save in csv](https://github.com/chavarera/python-mini-projects/tree/master/projects/Fetch%20and%20Store%20Tweets) | [Kushal Agrawal](https://github.com/kushal98)
 50 | [Language Translator using googletrans](https://github.com/chavarera/python-mini-projects/tree/master/projects/Language%20Translator) | [Ashiqur Rahman Tusher](https://github.com/ashikurt77)
 51 | [Split video using timeperiod](https://github.com/chavarera/python-mini-projects/tree/master/projects/split%20a%20video%20file%20by%20given%20time%20period) | [Chathura Nimesh](https://github.com/kana800/)
-
+52 | [Fetch unique words from file](https://github.com/chavarera/python-mini-projects/tree/master/projects/Unique%20words%20in%20a%20file) | [Rakshit Puri](https://github.com/skate1512)
