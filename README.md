@@ -71,3 +71,6 @@ Sr no | Project Name | Author
 47 | [Calculator App](https://github.com/chavarera/python-mini-projects/tree/master/projects/Create%20calculator%20app) | [Gaodong](https://github.com/xlgd)
 48 | [Merge Csv files](https://github.com/chavarera/python-mini-projects/tree/master/projects/Merge%20CSV%20Files) | [Kushal Agrawal](https://github.com/kushal98)
 49 | [Fetch tweets and save in csv](https://github.com/chavarera/python-mini-projects/tree/master/projects/Fetch%20and%20Store%20Tweets) | [Kushal Agrawal](https://github.com/kushal98)
+50 | [Language Translator using googletrans](https://github.com/chavarera/python-mini-projects/tree/master/projects/Language%20Translator) | [Ashiqur Rahman Tusher](https://github.com/ashikurt77)
+51 | [Split video using timeperiod](https://github.com/chavarera/python-mini-projects/tree/master/projects/split%20a%20video%20file%20by%20given%20time%20period) | [Chathura Nimesh](https://github.com/kana800/)
+
