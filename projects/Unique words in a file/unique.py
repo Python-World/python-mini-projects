@@ -28,7 +28,8 @@ s = []
 # If occurence of a word(val) is 1 then it is unique
 for key, val in unique.items():
     if val == 1:
-        print(key)
+        s.append(key)
+        
 print(sorted(s))
     
 
