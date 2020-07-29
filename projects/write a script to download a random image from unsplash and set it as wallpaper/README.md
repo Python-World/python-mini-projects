@@ -21,11 +21,6 @@ python background_linux.py
 ```
 OR
 
-For windows version is `64`
 ```python
-python background_windows.py 64
-```
-For windows version is `32`
-```python
-python background_windows.py 32
+python background_windows.py
 ```
