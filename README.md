@@ -78,3 +78,4 @@ Sr no | Project Name | Author
 52 | [Fetch unique words from file](https://github.com/chavarera/python-mini-projects/tree/master/projects/Unique%20words%20in%20a%20file) | [Rakshit Puri](https://github.com/skate1512)
 53 | [Speech to text converter](https://github.com/chavarera/python-mini-projects/tree/master/projects/Speech%20to%20text) | [Paulo Henrique](https://github.com/chavarera/python-mini-projects/tree/master/projects/Speech%20to%20text)
 54 | [Set Random Wallpaper](https://github.com/chavarera/python-mini-projects/tree/master/projects/write%20a%20script%20to%20download%20a%20random%20image%20from%20unsplash%20and%20set%20it%20as%20wallpaper) | [Chathura Nimesh](https://github.com/kana800/)
+55 | [Find Dominant color from image](https://github.com/chavarera/python-mini-projects/tree/master/projects/dominant%20color) | [Mitesh](https://github.com/Mitesh2499)
