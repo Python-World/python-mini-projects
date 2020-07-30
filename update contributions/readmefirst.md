@@ -9,6 +9,7 @@
 
 - api call is usedi instead of gitlog or direct frontend requests due to speed and accuracy factor
 - two different scripts are written to remove dependency
+- contributions.md file is wrriten now will later can be merged into main readme
 
 
 ### Suggestions:
