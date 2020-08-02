@@ -3,6 +3,7 @@
 import cv2
 
 def draw(image):
+    '''prints the ascii art of the given image'''
     pass
 
 if __name__ == '__main__':
