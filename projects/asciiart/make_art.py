@@ -5,11 +5,12 @@ import numpy as np
 
 import sys
 
+symbols_list = ["#", "-", "*", ".", "+", "o"]
+threshold_list = [0, 50, 100, 150, 200]
 
 def print_out_ascii(array):
     """prints the coded image with symbols"""
 
-    symbols = ["#", "-", "*", ".", "+", "o"]
     for row in array:
         for e in row:
         	# select symbol based on the type of coding
@@ -28,7 +29,6 @@ def img_to_ascii(image):
     # resize image to fit the printing screen
     resized_image = cv2.resize(image, (new_width, new_height),)
 
-    threshold_list = [0, 50, 100, 150, 200]  # list of threshold values
     thresh_image = np.zeros(resized_image.shape)
 
     for i, threshold in enumerate(threshold_list):
