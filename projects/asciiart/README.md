@@ -22,3 +22,9 @@ There are two things you can customize in [make_art.py](https://github.com/Shiny
 
 Modify the threshold list to take **different threshold values** thereby changing the patterns in the printed image.
 Modify the symbols list to substitute **different symbols** in the coded patterns.
+
+## Sample
+Input Image :
+![input_image](sample_image.png)
+Output :
+![output_image](sample_output.png)

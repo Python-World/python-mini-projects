@@ -14,7 +14,7 @@ def print_out_ascii(array):
     for row in array:
         for e in row:
         	# select symbol based on the type of coding
-            print(symbols[int(e) % len(symbols)], end="")
+            print(symbols_list[int(e) % len(symbols_list)], end="")
         print()
 
 
