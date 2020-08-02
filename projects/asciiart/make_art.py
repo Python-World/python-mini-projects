@@ -1,31 +1,37 @@
 #!/usr/bin/env python3
 
 import cv2
+import numpy as np
 
 def print_out(array):
 	'''prints the array line by line'''
+
+	symbols = ['|','-','*','=','+',':']
 	for row in array:
 		for e in row:
-			if e:
-				print('-', end='')
-			else:
-				print('|', end='')
+			print(symbols[int(e)%len(symbols)], end='')
 		print()
 
 def img_to_ascii(image):
-    """converts the image to ascii art"""
+    """returns the numeric coded image"""
     
+    width, height = image.shape
+    width = int(width*0.1)
+    height = int(height*0.1)
+    # resize image to fit the printing screen
     resized_image = cv2.resize(
-        image, (50, 50)
-    )  # resize image to fit the printing screen
-    _, thresh = cv2.threshold(
-        resized_image, 127, 1, 1
-    )  # apply threshold to substitute different symbols
+        image, (height, width),
+    )  
 
-    return thresh
+    threshold_list = [0,50,100,150,200]
+    thresh_image = np.zeros(resized_image.shape)
+    
+    for i, threshold in enumerate(threshold_list):
+    	thresh_image[resized_image > threshold] = i
+    return thresh_image
 
 if __name__ == "__main__":
-    image_path = "sample_image.png"
+    image_path = '/home/akash/Downloads/cars.jpg' 
     image = cv2.imread(image_path, 0)
 
     ascii_art = img_to_ascii(image)
