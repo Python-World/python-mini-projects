@@ -14,7 +14,7 @@ def print_out_ascii(array):
     for row in array:
         for e in row:
         	# select symbol based on the type of coding
-            print(symbols[int(e) % len(symbols)], end="")
+            print(symbols_list[int(e) % len(symbols_list)], end="")
         print()
 
 
@@ -22,9 +22,10 @@ def img_to_ascii(image):
     """returns the numeric coded image"""
 
     # resizing parameters
+    # adjust these parameters if the output doesn't fit to the screen
     height, width = image.shape
-    new_width = int(width / 12)
-    new_height = int(height / 18)
+    new_width = int(width / 20) 
+    new_height = int(height / 40)
 
     # resize image to fit the printing screen
     resized_image = cv2.resize(image, (new_width, new_height),)
