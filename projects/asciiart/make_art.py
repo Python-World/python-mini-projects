@@ -6,7 +6,7 @@ import numpy as np
 def print_out(array):
 	'''prints the array line by line'''
 
-	symbols = ['|','-','*','=','+',':']
+	symbols = ['#','-','*','.','+','o']
 	for row in array:
 		for e in row:
 			print(symbols[int(e)%len(symbols)], end='')
@@ -16,8 +16,8 @@ def img_to_ascii(image):
     """returns the numeric coded image"""
     
     width, height = image.shape
-    width = int(width*0.1)
-    height = int(height*0.1)
+    width = int(width/18)
+    height = int(height/10)
     # resize image to fit the printing screen
     resized_image = cv2.resize(
         image, (height, width),
@@ -31,7 +31,7 @@ def img_to_ascii(image):
     return thresh_image
 
 if __name__ == "__main__":
-    image_path = '/home/akash/Downloads/cars.jpg' 
+    image_path = '/home/akash/Downloads/2017505508.jpg' 
     image = cv2.imread(image_path, 0)
 
     ascii_art = img_to_ascii(image)
