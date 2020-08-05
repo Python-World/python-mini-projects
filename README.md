@@ -79,3 +79,6 @@ Sr no | Project Name | Author
 53 | [Speech to text converter](https://github.com/chavarera/python-mini-projects/tree/master/projects/Speech%20to%20text) | [Paulo Henrique](https://github.com/chavarera/python-mini-projects/tree/master/projects/Speech%20to%20text)
 54 | [Set Random Wallpaper](https://github.com/chavarera/python-mini-projects/tree/master/projects/write%20a%20script%20to%20download%20a%20random%20image%20from%20unsplash%20and%20set%20it%20as%20wallpaper) | [Chathura Nimesh](https://github.com/kana800/)
 55 | [Find Dominant color from image](https://github.com/chavarera/python-mini-projects/tree/master/projects/dominant%20color) | [Mitesh](https://github.com/Mitesh2499)
+56 | [ascii art](https://github.com/chavarera/python-mini-projects/tree/master/projects/asciiart) | [Shiny Akash](https://github.com/Shiny-Akash)
+57 | [Merge Pdf Files](https://github.com/chavarera/python-mini-projects/tree/master/projects/merge%20pdfs) | [ShivSt](https://github.com/ShivSt)
+58 | [Fetch Open Port](https://github.com/chavarera/python-mini-projects/tree/master/projects/Fetch%20Open%20Ports) | [Kushal Agrawal](https://github.com/kushal98)
