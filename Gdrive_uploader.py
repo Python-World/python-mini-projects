@@ -37,9 +37,9 @@ drive = GoogleDrive(gauth)
 
 Dir_Path = r"C:\Users\Admin\Desktop\Test"
 
-for x in os.listdir(path): 
+for x in os.listdir(Dir_Path): 
    
     f = drive.CreateFile({'title': x}) 
-    f.SetContentFile(os.path.join(path, x)) 
+    f.SetContentFile(os.path.join(Dir_Path, x)) 
     f.Upload() 
     f = none #pydrive bugfix Line
