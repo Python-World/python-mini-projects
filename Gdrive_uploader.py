@@ -3,7 +3,7 @@ Python Gdrive uploader using pydrive
 It will upload all files in a "Dir_Path" folder
 '''
 
-
+import os
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 
