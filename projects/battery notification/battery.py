@@ -5,9 +5,8 @@ battery = psutil.sensors_battery()
 plugged = battery.power_plugged
 percent = battery.percent
 
-if percent >= 30:
+if percent <= 30:
 
-    # pip install pynotifier
     # pip install win10toast
     from pynotifier import Notification
 
