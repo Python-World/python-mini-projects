@@ -82,3 +82,6 @@ Sr no | Project Name | Author
 56 | [ascii art](https://github.com/chavarera/python-mini-projects/tree/master/projects/asciiart) | [Shiny Akash](https://github.com/Shiny-Akash)
 57 | [Merge Pdf Files](https://github.com/chavarera/python-mini-projects/tree/master/projects/merge%20pdfs) | [ShivSt](https://github.com/ShivSt)
 58 | [Fetch Open Port](https://github.com/chavarera/python-mini-projects/tree/master/projects/Fetch%20Open%20Ports) | [Kushal Agrawal](https://github.com/kushal98)
+59 | [Convert Numbers To Words](https://github.com/chavarera/python-mini-projects/tree/master/projects/convert%20numbers%20to%20word) | [Niraj Shrestha](https://github.com/CrestNiraj12)
+60 | [Restart and Shutdown System](https://github.com/chavarera/python-mini-projects/tree/master/projects/Shutdown%20or%20restart%20your%20device) | [Phillibob55](https://github.com/Phillibob55)
+
