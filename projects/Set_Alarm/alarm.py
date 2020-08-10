@@ -8,9 +8,7 @@ def rename_files_with_whitespaces(cd, files, extra_path=""):
     for file in files:
         if " " in file:
             renamed_file = file.replace(" ", "_")
-            if extra_path:
-                extra_path = "\\" + extra_path + "\\"
-            os.rename(cd + extra_path + file, cd + extra_path + renamed_file)
+            os.rename(os.path.join(cd, extra_path, file), os.path.join(cd, extra_path, renamed_file))
 
 
 def clean_filename(file):
@@ -28,11 +26,13 @@ def set_alarm():
             error = False
         else:
             print(">>> Error: Time format invalid! Please try again!\n")
-
+            
     cd = os.path.dirname(os.path.realpath(__file__))
-    rename_files_with_whitespaces(cd, os.listdir(cd + "\\musics"), "musics")
+    musics_path = os.path.join(cd, "musics")
+    
+    rename_files_with_whitespaces(cd, os.listdir(musics_path), "musics")
 
-    musics = os.listdir(cd + "\\musics")
+    musics = os.listdir(musics_path)
     if len(musics) < 1:
         print(">>> Error: No music in the musics folder! Please add music first!\n")
         exit()
