@@ -1,6 +1,6 @@
 import requests
 
-def internet_conntection_test():
+def internet_connection_test():
 	url = 'https://www.google.com/'
 	print(f'Attempting to connect to {url} to determine internet connection status.')
 	
