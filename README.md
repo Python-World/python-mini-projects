@@ -85,3 +85,6 @@ Sr no | Project Name | Author
 59 | [Convert Numbers To Words](https://github.com/chavarera/python-mini-projects/tree/master/projects/convert%20numbers%20to%20word) | [Niraj Shrestha](https://github.com/CrestNiraj12)
 60 | [Restart and Shutdown System](https://github.com/chavarera/python-mini-projects/tree/master/projects/Shutdown%20or%20restart%20your%20device) | [Phillibob55](https://github.com/Phillibob55)
 61 | [Check website connectivity](https://github.com/chavarera/python-mini-projects/tree/master/projects/qr%20code%20generator) | [Shiv Thakur](https://github.com/ShivSt)
+62 | [Digital clock using tkinter](https://github.com/chavarera/python-mini-projects/tree/master/projects/Digital%20Clock) | [Aditya Jetely](https://github.com/adityaj7)
+63 | [Covert Image To Pdf](https://github.com/chavarera/python-mini-projects/tree/master/projects/convert%20a%20image%20to%20pdf) | [Gaodong](https://github.com/xlgd)
+64 | [Store emails in csv file](https://github.com/chavarera/python-mini-projects/tree/master/projects/store%20emails%20in%20csv) | [Shiv Thakur](https://github.com/ShivSt)
