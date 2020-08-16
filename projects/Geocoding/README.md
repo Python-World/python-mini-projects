@@ -6,4 +6,4 @@
 
 #### To be able to use this script you have to create a *free account* at https://locationiq.com/ and obtain your *private token*.
 
-#### Remember, *don'tshare* your private token with anyone.
+#### Remember, *don't share* your private token with anyone.
