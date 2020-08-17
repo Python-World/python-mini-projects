@@ -1,17 +1,11 @@
 # -*- coding: utf-8 -*-
 import time
-
+from calendar import isleap
 
 # judge the leap year
 def judge_leap_year(year):
-    if (year % 4) == 0:
-        if (year % 100) == 0:
-            if (year % 400) == 0:
-                return True
-            else:
-                return False
-        else:
-            return True
+    if isleap(year):
+        return True
     else:
         return False
 
