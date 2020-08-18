@@ -10,7 +10,7 @@ parser.add_argument("-l", "--issue", required=True, help="Comics Issue Number")
 args = vars(parser.parse_args())
 
 
-#Storing the absolute path of the jpg file provided by the user
+#Storing the comic issue number provided by the user
 issue_number = args['issue']
 
 #Complete url for the issue
