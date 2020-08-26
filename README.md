@@ -89,3 +89,5 @@ Sr no | Project Name | Author
 63 | [Covert Image To Pdf](https://github.com/chavarera/python-mini-projects/tree/master/projects/convert%20a%20image%20to%20pdf) | [Gaodong](https://github.com/xlgd)
 64 | [Store emails in csv file](https://github.com/chavarera/python-mini-projects/tree/master/projects/store%20emails%20in%20csv) | [Shiv Thakur](https://github.com/ShivSt)
 65 | [Test Internet Connection](https://github.com/chavarera/python-mini-projects/tree/master/projects/Internet%20Connection%20Check) | [Jacob Ogle](https://github.com/Jakeogle94)
+66 | [XKCD Comics Downloader](https://github.com/chavarera/python-mini-projects/tree/master/projects/XKCD_downloader)| [Aditya Jetely](https://github.com/adityaj7)
+67 | [Website Blocker And Unblocker](https://github.com/chavarera/python-mini-projects/tree/master/projects/Website%20Blocker)| [Phillibob55](https://github.com/Phillibob55)
