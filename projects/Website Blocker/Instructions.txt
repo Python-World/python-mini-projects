@@ -1,0 +1,2 @@
+To block a website, put it inside the website list in both files.
+Run these scripts as administrator
