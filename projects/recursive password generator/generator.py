@@ -1,4 +1,5 @@
 import random
+import string
 
 def stretch(text,maxlength):
     if len(text) < maxlength:
@@ -8,7 +9,7 @@ def stretch(text,maxlength):
         return text
 
 def get_random_char():
-    chars = 'abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*?'
+    chars = string.printable
     randomChar = chars[random.randint(0,len(chars)-1)]
     return randomChar
 
