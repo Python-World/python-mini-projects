@@ -14,4 +14,4 @@ def get_random_char():
 
 while 1:
     maxlength = int(input(' [?] Enter a length for your password: '))
-    print(' [+]',stretch('',maxlength),'\n')
+    print('\'',stretch('',maxlength),'\'\n')
