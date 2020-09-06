@@ -16,7 +16,11 @@ If you want to learn about python visit [Here](https://github.com/chavarera/Pyth
 - Write your code
 - Commit the changes
 - Push the code
-- Create a pull request
+- Create a pull request 
+
+## README Template for scripts
+[README Template](https://github.com/chavarera/python-mini-projects/blob/master/README_TEMPLATE.md)
+
 
 ## Connect On Social media
 [Join WhatsApp group](https://chat.whatsapp.com/Ghp25kidWLaGrAVA0G0GAa)
