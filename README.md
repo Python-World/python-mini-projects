@@ -20,7 +20,9 @@ If you want to learn about python visit [Here](https://github.com/chavarera/Pyth
 
 ## README Template for the scripts
 
-<script src="https://gist.github.com/AdityaJ7/ed57a92a11a1268a59b0de6cf0765cbe.js"></script>
+<script src="https://gist.github.com/AdityaJ7/ed57a92a11a1268a59b0de6cf0765cbe.js">
+</script>
+
 
 ## Connect On Social media
 [Join WhatsApp group](https://chat.whatsapp.com/Ghp25kidWLaGrAVA0G0GAa)
