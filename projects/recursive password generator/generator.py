@@ -13,5 +13,10 @@ def get_random_char():
     return randomChar
 
 while 1:
-    maxlength = int(input(' [?] Enter a length for your password: '))
-    print("'",stretch('',maxlength),"'\n")
+    try:
+        maxlength = int(input(' [?] Enter a length for your password (e for exit): '))
+        print("'",stretch('',maxlength),"'\n")
+    except:
+        if maxlength == 'e':
+            break
+        print('Please Enter an integer')
