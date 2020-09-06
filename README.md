@@ -24,18 +24,21 @@ A collection of simple python mini projects to enhance your python skills
 
 If you want to learn about python visit [Here](https://github.com/chavarera/PythonScript)
 
+If you are new to Github and open source then visit [Here](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
+
 ## Steps To Follow
 
-- Select an issue
-- Open [project here](https://github.com/chavarera/python-mini-projects)
-- Create a fork of the project
-- Create clone of forked project on your local machine
-- Checkout to development branch
-- Create a folder in projects directory according to issue name
-- Write your code
-- Commit the changes
-- Push the code
-- Create a pull request 
+- Select an issue and ask to be assigned to it.
+- Check existing scripts [project here](https://github.com/AdityaJ7/python-mini-projects/tree/master/projects)
+- Star the repository.
+- Create a fork of the project(repository).
+- Create clone of forked project on your local machine.
+- Checkout to development branch(Name your branch according to the issue name).
+- Create a folder in projects directory according to issue name.
+- Write your code.
+- Commit the changes.
+- Push the code.
+- Create a pull request.
 
 ## README Template for scripts
 [README Template](https://github.com/chavarera/python-mini-projects/blob/master/README_TEMPLATE.md)
@@ -43,6 +46,7 @@ If you want to learn about python visit [Here](https://github.com/chavarera/Pyth
 
 ## Connect On Social media
 [Join WhatsApp group](https://chat.whatsapp.com/Ghp25kidWLaGrAVA0G0GAa)
+
 ## Contributors ✨
 
 SR No   | Project | Author  
