@@ -99,4 +99,4 @@ SR No   | Project | Author
 73 | [Random Password Generator](https://github.com/chavarera/python-mini-projects/blob/master/projects/Random%20password%20generator/random_password_gen.py)| [Tushar Nankani](https://github.com/tusharnankani)
 74 | [Script to perform Geocoding](https://github.com/chavarera/python-mini-projects/tree/master/projects/Geocoding)| [Aditya Jetely](https://github.com/AdityaJ7)
 75 | [Python Carbon Clips](https://github.com/chavarera/python-mini-projects/tree/master/projects/py-carbon-clips)| [Ravishankar Chavare](https://github.com/chavarera)
-76 | [QR Code Generator](https://github.com/chavarera/python-mini-projects/tree/master/projects/qr%20code%20generator)[Shiv Thakur](https://github.com/ShivSt)
+76 | [QR Code Generator](https://github.com/chavarera/python-mini-projects/tree/master/projects/qr%20code%20generator)| [Shiv Thakur](https://github.com/ShivSt)
