@@ -239,11 +239,11 @@ while True:
     print(f"\n{turn} will go first!")
     
     #Asking the user, if ready to play the game; Output will be True or False;
-    if(mode == 1):
-        play_game = play()   
-    else:
+    if(mode == 2):
         ent = input("\nThis is going to be fast! Press Enter for the battle to begin!\n")
         play_game = 1
+    else:
+        play_game = play()   
     
     while play_game:
         
@@ -255,11 +255,11 @@ while True:
             display_board(theBoard, available)
 
             #Position of the input;
-            if mode == 1:
-                position = player_choice(theBoard, p2_name, p2_choice)
+            if mode != 2:
+                position = player_choice(theBoard, p1_name, p1_choice)
             else:
-                position = CompAI(theBoard, p2_name, p2_choice)
-                print(f'\n{p2_name} ({p2_choice}) has placed on {position}\n')
+                position = CompAI(theBoard, p1_name, p1_choice)
+                print(f'\n{p1_name} ({p1_choice}) has placed on {position}\n')
             
             #Replacing the ' ' at *position* to *p1_choice* in *theBoard* list; 
             place_marker(theBoard, available, p1_choice, position)
