@@ -28,3 +28,7 @@ Adding a simple AI to the Tic-Tac-Toe Game:
   - [Algorithms Explained – minimax and alpha-beta pruning](https://www.youtube.com/watch?v=l-hh51ncgDI)
   
   
+# Author:
+  - Tushar Nankani (tusharnankani, tusharnankani3@gmail.com)
+    - [Github](https://www.github.com/tusharnankani)
+	  - [LinkedIn](https://www.linkedin.com/in/tusharnankani)
