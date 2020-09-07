@@ -1,6 +1,6 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-30-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-31-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![GitHub forks](https://img.shields.io/github/forks/chavarera/python-mini-projects.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/chavarera/python-mini-projects/network/)
