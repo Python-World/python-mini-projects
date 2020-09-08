@@ -2,16 +2,11 @@
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-34-orange.svg?style=flat-square)](#contributors-)
 
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-[![GitHub forks](https://img.shields.io/github/forks/chavarera/python-mini-projects.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/chavarera/python-mini-projects/network/)
-[![GitHub stars](https://img.shields.io/github/stars/chavarera/python-mini-projects.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/chavarera/python-mini-projects/stargazers/)
-
-
-[![GitHub issues](https://img.shields.io/github/issues/chavarera/python-mini-projects.svg)](https://github.com/chavarera/python-mini-projects/issues)
-[![GitHub issues closed](https://img.shields.io/github/issues-closed/chavarera/python-mini-projects.svg)](https://github.com/chavarera/python-mini-projects/issues?q=is%3Aissue+is%3Aclosed)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/chavarera/python-mini-projects.svg)](https://github.com/chavarera/python-mini-projects/pulls)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr-closed/chavarera/python-mini-projects.svg)](https://github.com/chavarera/python-mini-projects/pulls?q=is%3Apr+is%3Aclosed)
-
+![Issues](https://img.shields.io/github/issues/chavarera/python-mini-projects)
+![Pull Requests](https://img.shields.io/github/issues-pr/chavarera/python-mini-projects?)
+![Forks](https://img.shields.io/github/forks/chavarera/python-mini-projects)
+![Stars](	https://img.shields.io/github/stars/chavarera/python-mini-projects)
+![License](https://img.shields.io/github/license/chavarera/python-mini-projects)
 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
