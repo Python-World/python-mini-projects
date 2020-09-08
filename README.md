@@ -59,7 +59,7 @@ If you are new to Github and open source then, visit [here.](https://towardsdata
 - Add the changes with `git add`, `git commit` ([write a good commit message](https://chris.beams.io/posts/git-commit/), if possible):
 
     ```bash
-    git add CONTRIBUTORS.md
+    git add -A
     git commit -m "<your message>"
     ```
 - Push the code *to your repository*.
