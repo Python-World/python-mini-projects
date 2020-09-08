@@ -1,17 +1,12 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-32-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-34-orange.svg?style=flat-square)](#contributors-)
 
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-[![GitHub forks](https://img.shields.io/github/forks/chavarera/python-mini-projects.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/chavarera/python-mini-projects/network/)
-[![GitHub stars](https://img.shields.io/github/stars/chavarera/python-mini-projects.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/chavarera/python-mini-projects/stargazers/)
-
-
-[![GitHub issues](https://img.shields.io/github/issues/chavarera/python-mini-projects.svg)](https://github.com/chavarera/python-mini-projects/issues)
-[![GitHub issues closed](https://img.shields.io/github/issues-closed/chavarera/python-mini-projects.svg)](https://github.com/chavarera/python-mini-projects/issues?q=is%3Aissue+is%3Aclosed)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/chavarera/python-mini-projects.svg)](https://github.com/chavarera/python-mini-projects/pulls)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr-closed/chavarera/python-mini-projects.svg)](https://github.com/chavarera/python-mini-projects/pulls?q=is%3Apr+is%3Aclosed)
-
+![Issues](https://img.shields.io/github/issues/chavarera/python-mini-projects)
+![Pull Requests](https://img.shields.io/github/issues-pr/chavarera/python-mini-projects?)
+![Forks](https://img.shields.io/github/forks/chavarera/python-mini-projects)
+![Stars](https://img.shields.io/github/stars/chavarera/python-mini-projects)
+![License](https://img.shields.io/github/license/chavarera/python-mini-projects)
 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
@@ -20,31 +15,70 @@
 
 # Mini-Projects-Python
 
-A collection of simple python mini projects to enhance your python skills
+A collection of simple python mini projects to enhance your Python skills.
 
-If you want to learn about python visit [Here](https://github.com/chavarera/PythonScript)
+If you want to learn about python, visit [here.](https://github.com/chavarera/PythonScript)
 
-If you are new to Github and open source then visit [Here](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
+If you are new to Github and open source then, visit [here.](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 
 ## Steps To Follow
 
-- Select an issue and ask to be assigned to it.
-- Check existing scripts [project here](https://github.com/AdityaJ7/python-mini-projects/tree/master/projects)
-- Star the repository.
-- Create a fork of the project(repository).
-- Create clone of forked project on your local machine.
-- Checkout to development branch(Name your branch according to the issue name).
-- Create a folder in projects directory according to issue name.
-- Write your code.
-- Commit the changes.
-- Push the code.
-- Create a pull request.
+- Select an issue and ask to be *assigned* to it.
+- Check existing scripts [project here.](https://github.com/AdityaJ7/python-mini-projects/tree/master/projects)
+- **Star** the repository.
+- On the [GitHub page for this repository](https://github.com/chavarera/python-mini-projects), click on the Button "**Fork**".
+   ![fork image](https://help.github.com/assets/images/help/repository/fork_button.jpg)
+- Create clone ***your forked repository*** on your local machine.
+   ![code ui](https://docs.github.com/assets/images/help/repository/code-button.png)
+
+    For example, run this command inside your terminal:
+
+    ```bash
+    git clone https://github.com/<your-github-username>/python-mini-projects.git
+    ```
+
+    **Replace \<your-github-username\>!**
+
+    Learn more about [forking](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) and [cloning a repo](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+- Before you make any changes, [keep your fork in sync](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/) to avoid merge conflicts:
+
+    ```bash
+    git remote add upstream https://github.com/chavarera/python-mini-projects.git
+    git fetch upstream
+    git pull upstream master
+    git push
+    ```
+    - If you run into a **merge conflict**, you have to resolve the conflict. There are a lot of guides online, or you can try this one by [opensource.com](https://opensource.com/article/20/4/git-merge-conflict).
+- Checkout to development branch (*name your branch according to the issue name*).
+    ```basg
+    git checkout -b <branch-name>
+    ```
+- Create a folder in [projects directory](https://github.com/chavarera/python-mini-projects/tree/master/projects) according to issue name.
+- Write your code and add to the respective folder in the projects directory, locally.
+- Don't forget to add a `README.md` in your folder, according to the [README_TEMPLATE.](https://github.com/chavarera/python-mini-projects/blob/master/README_TEMPLATE.md)
+- Add the changes with `git add`, `git commit` ([write a good commit message](https://chris.beams.io/posts/git-commit/), if possible):
+
+    ```bash
+    git add -A
+    git commit -m "<your message>"
+    ```
+- Push the code *to your repository*.
+    ```bash
+    git push origin <branch-name>
+    ```
+- Go to the GitHub page of _your fork_, and make a pull request:
+
+    ![pull request image](https://help.github.com/assets/images/help/pull_requests/choose-base-and-compare-branches.png)
+
+    Read more about pull requests on the [GitHub help pages](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+- Now wait, until one of us *reviews your Pull Request*! If there are any conflicts, you will get a notification. 
 
 ## README Template for scripts
+
 [README Template](https://github.com/chavarera/python-mini-projects/blob/master/README_TEMPLATE.md)
 
-
 ## Connect On Social media
+
 [Join WhatsApp group](https://chat.whatsapp.com/Ghp25kidWLaGrAVA0G0GAa)
 
 ## Contributors ✨
@@ -129,3 +163,7 @@ SR No   | Project | Author
 76 | [QR Code Generator](https://github.com/chavarera/python-mini-projects/tree/master/projects/qr%20code%20generator)| [Shiv Thakur](https://github.com/ShivSt)
 77 | [Recursive Password Generator](https://github.com/chavarera/python-mini-projects/tree/master/projects/recursive%20password%20generator)| [Erfan Saberi](https://github.com/erfansaberi)
 78 | [Tic Tac Toe](https://github.com/chavarera/python-mini-projects/tree/master/projects/tic%20tac%20toe%20(xo))| [Erfan Saberi](https://github.com/erfansaberi)
+79 | [Tic Tac Toe with AI](https://github.com/chavarera/python-mini-projects/tree/master/projects/TIC-TAC-TOE-with-AI)| [Tushar Nankani](https://github.com/tusharnankani)
+80 | [Cartoonify an Image](https://github.com/chavarera/python-mini-projects/tree/master/projects/EasyCartoonify)| [Bartu Yaman](https://github.com/brtymn)
+81 | [Quote Scrapper](https://github.com/chavarera/python-mini-projects/tree/master/projects/Scrape%20quotes)| [Anandha Krishnan Aji](https://github.com/anandhakrishnanaji)
+82 | [Time To Load Website](https://github.com/chavarera/python-mini-projects/tree/master/projects/Time%20to%20load%20Website)| [Aditya Jetely](https://github.com/AdityaJ7)
