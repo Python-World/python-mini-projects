@@ -87,3 +87,4 @@ SR No   | Project | Author
 80 | [Cartoonify an Image](https://github.com/chavarera/python-mini-projects/tree/master/projects/EasyCartoonify)| [Bartu Yaman](https://github.com/brtymn)
 81 | [Quote Scrapper](https://github.com/chavarera/python-mini-projects/tree/master/projects/Scrape%20quotes)| [Anandha Krishnan Aji](https://github.com/anandhakrishnanaji)
 82 | [Time To Load Website](https://github.com/chavarera/python-mini-projects/tree/master/projects/Time%20to%20load%20Website)| [Aditya Jetely](https://github.com/AdityaJ7)
+83 | [Customer Loan Repayment Prediction](https://github.com/chavarera/python-mini-projects/tree/master/Notebooks/Customer_loan_repayment_problem)| [ART](https://github.com/Tomyzon1728)
