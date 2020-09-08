@@ -166,3 +166,4 @@ SR No   | Project | Author
 79 | [Tic Tac Toe with AI](https://github.com/chavarera/python-mini-projects/tree/master/projects/TIC-TAC-TOE-with-AI)| [Tushar Nankani](https://github.com/tusharnankani)
 80 | [Cartoonify an Image](https://github.com/chavarera/python-mini-projects/tree/master/projects/EasyCartoonify)| [Bartu Yaman](https://github.com/brtymn)
 81 | [Quote Scrapper](https://github.com/chavarera/python-mini-projects/tree/master/projects/Scrape%20quotes)| [Anandha Krishnan Aji](https://github.com/anandhakrishnanaji)
+82 | [Time To Load Website](https://github.com/chavarera/python-mini-projects/tree/master/projects/Time%20to%20load%20Website)| [Aditya Jetely](https://github.com/AdityaJ7)
