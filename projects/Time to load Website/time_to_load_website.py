@@ -24,4 +24,4 @@ end_time = time.time()
 open_this_url.close()
 
 print()
-print(f"The time taken to load {URL} is {end_time - start_time}")
+print(f"The time taken to load {URL} is {end_time - start_time} seconds.")
