@@ -89,3 +89,4 @@ SR No   | Project | Author
 82 | [Time To Load Website](https://github.com/chavarera/python-mini-projects/tree/master/projects/Time%20to%20load%20Website)| [Aditya Jetely](https://github.com/AdityaJ7)
 83 | [Customer Loan Repayment Prediction](https://github.com/chavarera/python-mini-projects/tree/master/Notebooks/Customer_loan_repayment_problem)| [ART](https://github.com/Tomyzon1728)
 84 | [Generate Wordcloud from Wikipedia Article](https://github.com/chavarera/python-mini-projects/tree/master/projects/Wikipedia%20Search%20Wordcloud)| [Naman Shah](https://github.com/namanshah01)
+85 | [Number Guessing Game](https://github.com/chavarera/python-mini-projects/tree/master/projects/Number%20guessing%20game)| [Javokhirbek](https://github.com/leader2one)
