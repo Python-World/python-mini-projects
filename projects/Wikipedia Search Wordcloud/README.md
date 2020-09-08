@@ -1,19 +1,12 @@
-# Script Title
-<!--Remove the below lines and add yours -->
-A short description about the script must be mentioned here.
+# Wordcloud Images for Wikipedia Article
+Python script that prompts the user for an input, searches for the corresponding article on wikipedia and generates a wordcloud based on the searched article.
 
 ### Prerequisites
-<!--Remove the below lines and add yours -->
-Modules required to be able to use the script successfully and how to install them. (Including a requirements.txt file will work.)
+`pip install` the models in `requirements.txt` from your command prompt.
 
 ### How to run the script
-<!--Remove the below lines and add yours -->
-Steps on how to run the script along with suitable examples.
-
-### Screenshot/GIF showing the sample use of the script
-<!--Remove the below lines and add yours -->
-Add a jpeg/png/gif file here.
+Run like any other python file. Upon executing, the wordcloud image will be saved to the current directory. The script will also promt a y/n if the user wants to see the generated image during execution.
+![script execution](script_execution.jpg)
 
 ## *Author Name*
-<!--Remove the below lines and add yours -->
-Your name goes here.
+[Naman Shah](https://github.com/namanshah01)

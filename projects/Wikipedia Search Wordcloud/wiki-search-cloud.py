@@ -17,7 +17,7 @@ def gen_cloud(topic):
     return wordcloud
 
 def save_cloud(wordcloud):
-    wordcloud.to_file("./wc.png")
+    wordcloud.to_file("./wordcloud.png")
 
 def show_cloud(wordcloud):
     plt.imshow(wordcloud, interpolation='bilinear')
@@ -28,6 +28,8 @@ if __name__ == '__main__':
     topic = input("What do you want to search: ").strip()
     wordcloud = gen_cloud(topic)
     save_cloud(wordcloud)
+    print("Wordcloud saved to current directory as wordcloud.png")
     desc = input("Do you wish to see the output(y/n): ")
     if desc == 'y':
         show_cloud(wordcloud)
+    sys.exit()
