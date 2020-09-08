@@ -28,7 +28,7 @@ If you are new to Github and open source then, visit [here.](https://towardsdata
 - **Star** the repository.
 - On the [GitHub page for this repository](https://github.com/chavarera/python-mini-projects), click on the Button "**Fork**".
    ![fork image](https://help.github.com/assets/images/help/repository/fork_button.jpg)
-- Create clone *your forked repository* on your local machine.
+- Create clone ***your forked repository*** on your local machine.
    ![code ui](https://docs.github.com/assets/images/help/repository/code-button.png)
 
     For example, run this command inside your terminal:
@@ -49,11 +49,13 @@ If you are new to Github and open source then, visit [here.](https://towardsdata
     git push
     ```
     - If you run into a **merge conflict**, you have to resolve the conflict. There are a lot of guides online, or you can try this one by [opensource.com](https://opensource.com/article/20/4/git-merge-conflict).
-- Checkout to development branch (Name your branch according to the issue name).
-    ```git checkout -b <branch-name>
+- Checkout to development branch (*name your branch according to the issue name*).
+    ```basg
+    git checkout -b <branch-name>
     ```
 - Create a folder in [projects directory](https://github.com/chavarera/python-mini-projects/tree/master/projects) according to issue name.
 - Write your code and add to the respective folder in the projects directory, locally.
+- Don't forget to add a `README.md` in your folder, according to the [README_TEMPLATE.](https://github.com/chavarera/python-mini-projects/blob/master/README_TEMPLATE.md)
 - Add the changes with `git add`, `git commit` ([write a good commit message](https://chris.beams.io/posts/git-commit/), if possible):
 
     ```bash
@@ -69,7 +71,7 @@ If you are new to Github and open source then, visit [here.](https://towardsdata
     ![pull request image](https://help.github.com/assets/images/help/pull_requests/choose-base-and-compare-branches.png)
 
     Read more about pull requests on the [GitHub help pages](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
-- Now wait, until one of us reviews your Pull Request! If there are any conflicts, you will get a notification. 
+- Now wait, until one of us *reviews your Pull Request*! If there are any conflicts, you will get a notification. 
 
 ## README Template for scripts
 
