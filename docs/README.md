@@ -83,3 +83,6 @@ SR No   | Project | Author
 76 | [QR Code Generator](https://github.com/chavarera/python-mini-projects/tree/master/projects/qr%20code%20generator)| [Shiv Thakur](https://github.com/ShivSt)
 77 | [Recursive Password Generator](https://github.com/chavarera/python-mini-projects/tree/master/projects/recursive%20password%20generator)| [Erfan Saberi](https://github.com/erfansaberi)
 78 | [Tic Tac Toe](https://github.com/chavarera/python-mini-projects/tree/master/projects/tic%20tac%20toe%20(xo))| [Erfan Saberi](https://github.com/erfansaberi)
+79 | [Tic Tac Toe with AI](https://github.com/chavarera/python-mini-projects/tree/master/projects/TIC-TAC-TOE-with-AI)| [Tushar Nankani](https://github.com/tusharnankani)
+80 | [Cartoonify an Image](https://github.com/chavarera/python-mini-projects/tree/master/projects/EasyCartoonify)| [Bartu Yaman](https://github.com/brtymn)
+81 | [Quote Scrapper](https://github.com/chavarera/python-mini-projects/tree/master/projects/Scrape%20quotes)| [Anandha Krishnan Aji](https://github.com/anandhakrishnanaji)
