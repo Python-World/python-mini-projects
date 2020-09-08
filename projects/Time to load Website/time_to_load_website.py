@@ -35,5 +35,4 @@ if __name__ == '__main__':
 
     url = input("Enter the url whose loading time you want to check: ")
 
-    print(
-        f"\nThe time taken to load {url} is {get_load_time(url):.2} seconds.")
+    print(f"\nThe time taken to load {url} is {get_load_time(url):.2} seconds.")
