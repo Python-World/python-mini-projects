@@ -5,7 +5,7 @@
 ![Issues](https://img.shields.io/github/issues/chavarera/python-mini-projects)
 ![Pull Requests](https://img.shields.io/github/issues-pr/chavarera/python-mini-projects?)
 ![Forks](https://img.shields.io/github/forks/chavarera/python-mini-projects)
-![Stars](	https://img.shields.io/github/stars/chavarera/python-mini-projects)
+![Stars](https://img.shields.io/github/stars/chavarera/python-mini-projects)
 ![License](https://img.shields.io/github/license/chavarera/python-mini-projects)
 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
@@ -15,31 +15,68 @@
 
 # Mini-Projects-Python
 
-A collection of simple python mini projects to enhance your python skills
+A collection of simple python mini projects to enhance your Python skills.
 
-If you want to learn about python visit [Here](https://github.com/chavarera/PythonScript)
+If you want to learn about python, visit [here.](https://github.com/chavarera/PythonScript)
 
-If you are new to Github and open source then visit [Here](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
+If you are new to Github and open source then, visit [here.](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 
 ## Steps To Follow
 
-- Select an issue and ask to be assigned to it.
-- Check existing scripts [project here](https://github.com/AdityaJ7/python-mini-projects/tree/master/projects)
-- Star the repository.
-- Create a fork of the project(repository).
-- Create clone of forked project on your local machine.
-- Checkout to development branch(Name your branch according to the issue name).
-- Create a folder in projects directory according to issue name.
-- Write your code.
-- Commit the changes.
-- Push the code.
-- Create a pull request.
+- Select an issue and ask to be *assigned* to it.
+- Check existing scripts [project here.](https://github.com/AdityaJ7/python-mini-projects/tree/master/projects)
+- **Star** the repository.
+- On the [GitHub page for this repository](https://github.com/chavarera/python-mini-projects), click on the Button "**Fork**".
+   ![fork image](https://help.github.com/assets/images/help/repository/fork_button.jpg)
+- Create clone *your forked repository* on your local machine.
+   ![code ui](https://docs.github.com/assets/images/help/repository/code-button.png)
+
+    For example, run this command inside your terminal:
+
+    ```bash
+    git clone https://github.com/<your-github-username>/python-mini-projects.git
+    ```
+
+    **Replace \<your-github-username\>!**
+
+    Learn more about [forking](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) and [cloning a repo](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+- Before you make any changes, [keep your fork in sync](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/) to avoid merge conflicts:
+
+    ```bash
+    git remote add upstream https://github.com/chavarera/python-mini-projects.git
+    git fetch upstream
+    git pull upstream master
+    git push
+    ```
+    - If you run into a **merge conflict**, you have to resolve the conflict. There are a lot of guides online, or you can try this one by [opensource.com](https://opensource.com/article/20/4/git-merge-conflict).
+- Checkout to development branch (Name your branch according to the issue name).
+    ```git checkout -b <branch-name>
+    ```
+- Create a folder in [projects directory](https://github.com/chavarera/python-mini-projects/tree/master/projects) according to issue name.
+- Write your code and add to the respective folder in the projects directory, locally.
+- Add the changes with `git add`, `git commit` ([write a good commit message](https://chris.beams.io/posts/git-commit/), if possible):
+
+    ```bash
+    git add CONTRIBUTORS.md
+    git commit -m "<your message>"
+    ```
+- Push the code *to your repository*.
+    ```bash
+    git push origin <branch-name>
+    ```
+- Go to the GitHub page of _your fork_, and make a pull request:
+
+    ![pull request image](https://help.github.com/assets/images/help/pull_requests/choose-base-and-compare-branches.png)
+
+    Read more about pull requests on the [GitHub help pages](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+- Now wait, until one of us reviews your Pull Request! If there are any conflicts, you will get a notification. 
 
 ## README Template for scripts
+
 [README Template](https://github.com/chavarera/python-mini-projects/blob/master/README_TEMPLATE.md)
 
-
 ## Connect On Social media
+
 [Join WhatsApp group](https://chat.whatsapp.com/Ghp25kidWLaGrAVA0G0GAa)
 
 ## Contributors ✨
