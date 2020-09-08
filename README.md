@@ -66,7 +66,7 @@ If you are new to Github and open source then, visit [here.](https://towardsdata
     ```bash
     git push origin <branch-name>
     ```
-- Go to the GitHub page of _your fork_, and make a pull request:
+- Go to the GitHub page of _your fork_, and **make a pull request**:
 
     ![pull request image](https://help.github.com/assets/images/help/pull_requests/choose-base-and-compare-branches.png)
 
@@ -87,7 +87,7 @@ SR No   | Project | Author
 --- | --- | ---
 1 | [Hello World](https://github.com/chavarera/python-mini-projects/tree/master/projects/Hello) | [Ravi Chavare](https://github.com/chavarera)
 2 | [JSON to CSV](https://github.com/chavarera/python-mini-projects/tree/master/projects/Convert_JSON_to_CSV)| [Murilo Pagliuso](https://github.com/DarkCeptor44)
-3 | [Random Password Generator](https://github.com/chavarera/python-mini-projects/tree/master/projects/Random%20password%20generator) | [Mitesh](https://github.com/Mitesh2499)
+3 | [Random Password Generator](https://github.com/chavarera/python-mini-projects/tree/master/projects/Random%20password%20generator/random_password_gen.py) | [Mitesh](https://github.com/Mitesh2499)
 4 | [Instagram Profile Info](https://github.com/chavarera/python-mini-projects/tree/master/projects/InstagramProfile) | [Ravi Chavare](https://github.com/chavarera)
 5 | [Search string in Files](https://github.com/chavarera/python-mini-projects/tree/master/projects/string%20search%20from%20multiple%20files) | [Mitesh](https://github.com/Mitesh2499)
 6 | [Fetch links from Webpage](https://github.com/chavarera/python-mini-projects/tree/master/projects/All%20Links%20from%20given%20Webpage) | [Mitesh](https://github.com/Mitesh2499) & [Michael Mba](https://github.com/mikeysan)
@@ -96,7 +96,7 @@ SR No   | Project | Author
 9 | [WishList App Using Django](https://github.com/chavarera/python-mini-projects/tree/master/projects/WishList) | [Ravi Chavare](https://github.com/chavarera)
 10 | [Split Folders into Subfolders](https://github.com/chavarera/python-mini-projects/tree/master/projects/split%20folder%20into%20subfolders) | [Ravi Chavare](https://github.com/chavarera)
 11 | [Download bulk images](https://github.com/chavarera/python-mini-projects/tree/master/projects/download%20images%20from%20website) | [Mitesh](https://github.com/Mitesh2499)
-12 | [Random word from file](https://github.com/chavarera/python-mini-projects/tree/master/projects/Random_word_from_list) | 
+12 | [Random word from file](https://github.com/chavarera/python-mini-projects/tree/master/projects/Random_word_from_list) | [Ravi Chavare](https://github.com/chavarera)
 13 | [Battery notification](https://github.com/chavarera/python-mini-projects/tree/master/projects/battery%20notification) | [Mitesh](https://github.com/Mitesh2499)
 14 | [Calculate age](https://github.com/chavarera/python-mini-projects/tree/master/projects/Calculate%20age) | [Gaodong](https://github.com/xlgd)
 15 | [Text file analysis](https://github.com/chavarera/python-mini-projects/tree/master/projects/Textfile%20analysis) | [m044de](https://github.com/m044de/)
@@ -157,7 +157,7 @@ SR No   | Project | Author
 70 | [News Website Scraper](https://github.com/chavarera/python-mini-projects/tree/master/projects/News%20website%20scraper)| [pratik-choudhari](https://github.com/pratik-choudhari)
 71 | [Rock Paper Scissors Game](https://github.com/chavarera/python-mini-projects/tree/master/projects/RockPaperScissors_Game)| [Tushar Nankani](https://github.com/tusharnankani)
 72 | [Zip File Extractor](https://github.com/chavarera/python-mini-projects/tree/master/projects/Extract_zip_files)| [Aditya Jetely](https://github.com/AdityaJ7)
-73 | [Random Password Generator](https://github.com/chavarera/python-mini-projects/blob/master/projects/Random%20password%20generator/random_password_gen.py)| [Tushar Nankani](https://github.com/tusharnankani)
+73 | [Random Password Generator](https://github.com/chavarera/python-mini-projects/blob/master/projects/Random%20password%20generator)| [Tushar Nankani](https://github.com/tusharnankani)
 74 | [Script to perform Geocoding](https://github.com/chavarera/python-mini-projects/tree/master/projects/Geocoding)| [Aditya Jetely](https://github.com/AdityaJ7)
 75 | [Python Carbon Clips](https://github.com/chavarera/python-mini-projects/tree/master/projects/py-carbon-clips)| [Ravishankar Chavare](https://github.com/chavarera)
 76 | [QR Code Generator](https://github.com/chavarera/python-mini-projects/tree/master/projects/qr%20code%20generator)| [Shiv Thakur](https://github.com/ShivSt)
