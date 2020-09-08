@@ -17,7 +17,7 @@ print("Guess a number (between 1 and 9):")
   
 # While loop to count the number 
 # of chances 
-while chances < 5: 
+while True:
       
     # Enter a number between 1 to 9  
     guess = int(input()) 
@@ -31,7 +31,8 @@ while chances < 5:
         # number by randint function then   
         # break from loop using loop  
         # control statement "break" 
-        print("Congratulation YOU WON!!!") 
+        print(f'CONGRATULATIONS! YOU HAVE GUESSED THE NUMBER {number} IN {chances} ATTEMPTS!')
+        #Printing final statement using the f-strings method;
         break
           
     # Check if the user entered   
@@ -49,8 +50,3 @@ while chances < 5:
     # Increase the value of chance by 1 
     chances += 1
           
-          
-# Check whether the user   
-# guessed the correct number  
-if not chances < 5: 
-    print("YOU LOSE!!! The number is", number)
