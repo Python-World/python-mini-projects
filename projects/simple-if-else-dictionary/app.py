@@ -1,5 +1,6 @@
+#Simple if else Dictionary.
 import json
-from difflib import get_close_matches
+from difflib import get_close_matches	#if you enter this library will check it.
 data = json.load(open("data.json"))
 
 def translate(word):
