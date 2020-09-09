@@ -1,7 +1,6 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-36-orange.svg?style=flat-square)](#contributors-)
-
 ![Issues](https://img.shields.io/github/issues/chavarera/python-mini-projects)
 ![Pull Requests](https://img.shields.io/github/issues-pr/chavarera/python-mini-projects?)
 ![Forks](https://img.shields.io/github/forks/chavarera/python-mini-projects)
@@ -14,6 +13,13 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
 # Mini-Projects-Python
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-36-orange.svg?style=flat-square)](#contributors-)
+![Issues](https://img.shields.io/github/issues/chavarera/python-mini-projects)
+![Pull Requests](https://img.shields.io/github/issues-pr/chavarera/python-mini-projects?)
+![Forks](https://img.shields.io/github/forks/chavarera/python-mini-projects)
+![Stars](https://img.shields.io/github/stars/chavarera/python-mini-projects)
+![License](https://img.shields.io/github/license/chavarera/python-mini-projects)
 
 A collection of simple python mini projects to enhance your Python skills.
 
