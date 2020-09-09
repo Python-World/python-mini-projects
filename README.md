@@ -1,12 +1,4 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-36-orange.svg?style=flat-square)](#contributors-)
-![Issues](https://img.shields.io/github/issues/chavarera/python-mini-projects)
-![Pull Requests](https://img.shields.io/github/issues-pr/chavarera/python-mini-projects?)
-![Forks](https://img.shields.io/github/forks/chavarera/python-mini-projects)
-![Stars](https://img.shields.io/github/stars/chavarera/python-mini-projects)
-![License](https://img.shields.io/github/license/chavarera/python-mini-projects)
-
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
