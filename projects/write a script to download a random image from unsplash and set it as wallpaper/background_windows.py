@@ -5,7 +5,7 @@ import argparse
 import sys
 
 url = "https://source.unsplash.com/random"
-filename = "random.jpg"
+file_name = "random.jpg"
 
 def is_64bit():
     return sys.maxsize > 2 ** 32
