@@ -1,13 +1,10 @@
 import tensorflow as tf
-import pickle
-#from model import Model
-#from utils import build_dict, build_dataset, batch_iter
-
-
-# with open("args.pickle", "rb") as f:
-#    args = pickle.load(f)
-
+from model import Model
+from utils import build_dict, build_dataset, batch_iter, get_text_list
+valid_article_path = '.'
+valid_title_path = '.'
 tf.reset_default_graph()
+default_path = '.'
 
 
 class args:
@@ -74,6 +71,6 @@ with tf.Session() as sess:
                     if word not in summary:
                         summary.append(word)
                 summary_array.append(" ".join(summary))
-                #print(" ".join(summary), file=f)
+                # print(" ".join(summary), file=f)
 
     print('Summaries have been generated')
