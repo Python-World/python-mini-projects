@@ -1,6 +1,6 @@
 import tensorflow as tf
 from tensorflow.contrib import rnn
-#from utils import get_init_embedding
+from utils import get_init_embedding
 
 
 class Model(object):

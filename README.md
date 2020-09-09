@@ -1,17 +1,12 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-32-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-36-orange.svg?style=flat-square)](#contributors-)
 
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-[![GitHub forks](https://img.shields.io/github/forks/chavarera/python-mini-projects.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/chavarera/python-mini-projects/network/)
-[![GitHub stars](https://img.shields.io/github/stars/chavarera/python-mini-projects.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/chavarera/python-mini-projects/stargazers/)
-
-
-[![GitHub issues](https://img.shields.io/github/issues/chavarera/python-mini-projects.svg)](https://github.com/chavarera/python-mini-projects/issues)
-[![GitHub issues closed](https://img.shields.io/github/issues-closed/chavarera/python-mini-projects.svg)](https://github.com/chavarera/python-mini-projects/issues?q=is%3Aissue+is%3Aclosed)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/chavarera/python-mini-projects.svg)](https://github.com/chavarera/python-mini-projects/pulls)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr-closed/chavarera/python-mini-projects.svg)](https://github.com/chavarera/python-mini-projects/pulls?q=is%3Apr+is%3Aclosed)
-
+![Issues](https://img.shields.io/github/issues/chavarera/python-mini-projects)
+![Pull Requests](https://img.shields.io/github/issues-pr/chavarera/python-mini-projects?)
+![Forks](https://img.shields.io/github/forks/chavarera/python-mini-projects)
+![Stars](https://img.shields.io/github/stars/chavarera/python-mini-projects)
+![License](https://img.shields.io/github/license/chavarera/python-mini-projects)
 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
@@ -20,31 +15,70 @@
 
 # Mini-Projects-Python
 
-A collection of simple python mini projects to enhance your python skills
+A collection of simple python mini projects to enhance your Python skills.
 
-If you want to learn about python visit [Here](https://github.com/chavarera/PythonScript)
+If you want to learn about python, visit [here.](https://github.com/chavarera/PythonScript)
 
-If you are new to Github and open source then visit [Here](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
+If you are new to Github and open source then, visit [here.](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 
 ## Steps To Follow
 
-- Select an issue and ask to be assigned to it.
-- Check existing scripts [project here](https://github.com/AdityaJ7/python-mini-projects/tree/master/projects)
-- Star the repository.
-- Create a fork of the project(repository).
-- Create clone of forked project on your local machine.
-- Checkout to development branch(Name your branch according to the issue name).
-- Create a folder in projects directory according to issue name.
-- Write your code.
-- Commit the changes.
-- Push the code.
-- Create a pull request.
+- Select an issue and ask to be *assigned* to it.
+- Check existing scripts [project here.](https://github.com/AdityaJ7/python-mini-projects/tree/master/projects)
+- **Star** the repository.
+- On the [GitHub page for this repository](https://github.com/chavarera/python-mini-projects), click on the Button "**Fork**".
+   ![fork image](https://help.github.com/assets/images/help/repository/fork_button.jpg)
+- Create clone ***your forked repository*** on your local machine.
+   ![code ui](https://docs.github.com/assets/images/help/repository/code-button.png)
+
+    For example, run this command inside your terminal:
+
+    ```bash
+    git clone https://github.com/<your-github-username>/python-mini-projects.git
+    ```
+
+    **Replace \<your-github-username\>!**
+
+    Learn more about [forking](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) and [cloning a repo](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+- Before you make any changes, [keep your fork in sync](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/) to avoid merge conflicts:
+
+    ```bash
+    git remote add upstream https://github.com/chavarera/python-mini-projects.git
+    git fetch upstream
+    git pull upstream master
+    git push
+    ```
+    - If you run into a **merge conflict**, you have to resolve the conflict. There are a lot of guides online, or you can try this one by [opensource.com](https://opensource.com/article/20/4/git-merge-conflict).
+- Checkout to development branch (*name your branch according to the issue name*).
+    ```basg
+    git checkout -b <branch-name>
+    ```
+- Create a folder in [projects directory](https://github.com/chavarera/python-mini-projects/tree/master/projects) according to issue name.
+- Write your code and add to the respective folder in the projects directory, locally.
+- Don't forget to add a `README.md` in your folder, according to the [README_TEMPLATE.](https://github.com/chavarera/python-mini-projects/blob/master/README_TEMPLATE.md)
+- Add the changes with `git add`, `git commit` ([write a good commit message](https://chris.beams.io/posts/git-commit/), if possible):
+
+    ```bash
+    git add -A
+    git commit -m "<your message>"
+    ```
+- Push the code *to your repository*.
+    ```bash
+    git push origin <branch-name>
+    ```
+- Go to the GitHub page of _your fork_, and **make a pull request**:
+
+    ![pull request image](https://help.github.com/assets/images/help/pull_requests/choose-base-and-compare-branches.png)
+
+    Read more about pull requests on the [GitHub help pages](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+- Now wait, until one of us *reviews your Pull Request*! If there are any conflicts, you will get a notification. 
 
 ## README Template for scripts
+
 [README Template](https://github.com/chavarera/python-mini-projects/blob/master/README_TEMPLATE.md)
 
-
 ## Connect On Social media
+
 [Join WhatsApp group](https://chat.whatsapp.com/Ghp25kidWLaGrAVA0G0GAa)
 
 ## Contributors ✨
@@ -53,7 +87,7 @@ SR No   | Project | Author
 --- | --- | ---
 1 | [Hello World](https://github.com/chavarera/python-mini-projects/tree/master/projects/Hello) | [Ravi Chavare](https://github.com/chavarera)
 2 | [JSON to CSV](https://github.com/chavarera/python-mini-projects/tree/master/projects/Convert_JSON_to_CSV)| [Murilo Pagliuso](https://github.com/DarkCeptor44)
-3 | [Random Password Generator](https://github.com/chavarera/python-mini-projects/tree/master/projects/Random%20password%20generator) | [Mitesh](https://github.com/Mitesh2499)
+3 | [Random Password Generator](https://github.com/chavarera/python-mini-projects/tree/master/projects/Random%20password%20generator/random_password_gen.py) | [Mitesh](https://github.com/Mitesh2499)
 4 | [Instagram Profile Info](https://github.com/chavarera/python-mini-projects/tree/master/projects/InstagramProfile) | [Ravi Chavare](https://github.com/chavarera)
 5 | [Search string in Files](https://github.com/chavarera/python-mini-projects/tree/master/projects/string%20search%20from%20multiple%20files) | [Mitesh](https://github.com/Mitesh2499)
 6 | [Fetch links from Webpage](https://github.com/chavarera/python-mini-projects/tree/master/projects/All%20Links%20from%20given%20Webpage) | [Mitesh](https://github.com/Mitesh2499) & [Michael Mba](https://github.com/mikeysan)
@@ -62,7 +96,7 @@ SR No   | Project | Author
 9 | [WishList App Using Django](https://github.com/chavarera/python-mini-projects/tree/master/projects/WishList) | [Ravi Chavare](https://github.com/chavarera)
 10 | [Split Folders into Subfolders](https://github.com/chavarera/python-mini-projects/tree/master/projects/split%20folder%20into%20subfolders) | [Ravi Chavare](https://github.com/chavarera)
 11 | [Download bulk images](https://github.com/chavarera/python-mini-projects/tree/master/projects/download%20images%20from%20website) | [Mitesh](https://github.com/Mitesh2499)
-12 | [Random word from file](https://github.com/chavarera/python-mini-projects/tree/master/projects/Random_word_from_list) | 
+12 | [Random word from file](https://github.com/chavarera/python-mini-projects/tree/master/projects/Random_word_from_list) | [Ravi Chavare](https://github.com/chavarera)
 13 | [Battery notification](https://github.com/chavarera/python-mini-projects/tree/master/projects/battery%20notification) | [Mitesh](https://github.com/Mitesh2499)
 14 | [Calculate age](https://github.com/chavarera/python-mini-projects/tree/master/projects/Calculate%20age) | [Gaodong](https://github.com/xlgd)
 15 | [Text file analysis](https://github.com/chavarera/python-mini-projects/tree/master/projects/Textfile%20analysis) | [m044de](https://github.com/m044de/)
@@ -123,9 +157,16 @@ SR No   | Project | Author
 70 | [News Website Scraper](https://github.com/chavarera/python-mini-projects/tree/master/projects/News%20website%20scraper)| [pratik-choudhari](https://github.com/pratik-choudhari)
 71 | [Rock Paper Scissors Game](https://github.com/chavarera/python-mini-projects/tree/master/projects/RockPaperScissors_Game)| [Tushar Nankani](https://github.com/tusharnankani)
 72 | [Zip File Extractor](https://github.com/chavarera/python-mini-projects/tree/master/projects/Extract_zip_files)| [Aditya Jetely](https://github.com/AdityaJ7)
-73 | [Random Password Generator](https://github.com/chavarera/python-mini-projects/blob/master/projects/Random%20password%20generator/random_password_gen.py)| [Tushar Nankani](https://github.com/tusharnankani)
+73 | [Random Password Generator](https://github.com/chavarera/python-mini-projects/blob/master/projects/Random%20password%20generator)| [Tushar Nankani](https://github.com/tusharnankani)
 74 | [Script to perform Geocoding](https://github.com/chavarera/python-mini-projects/tree/master/projects/Geocoding)| [Aditya Jetely](https://github.com/AdityaJ7)
 75 | [Python Carbon Clips](https://github.com/chavarera/python-mini-projects/tree/master/projects/py-carbon-clips)| [Ravishankar Chavare](https://github.com/chavarera)
 76 | [QR Code Generator](https://github.com/chavarera/python-mini-projects/tree/master/projects/qr%20code%20generator)| [Shiv Thakur](https://github.com/ShivSt)
 77 | [Recursive Password Generator](https://github.com/chavarera/python-mini-projects/tree/master/projects/recursive%20password%20generator)| [Erfan Saberi](https://github.com/erfansaberi)
 78 | [Tic Tac Toe](https://github.com/chavarera/python-mini-projects/tree/master/projects/tic%20tac%20toe%20(xo))| [Erfan Saberi](https://github.com/erfansaberi)
+79 | [Tic Tac Toe with AI](https://github.com/chavarera/python-mini-projects/tree/master/projects/TIC-TAC-TOE-with-AI)| [Tushar Nankani](https://github.com/tusharnankani)
+80 | [Cartoonify an Image](https://github.com/chavarera/python-mini-projects/tree/master/projects/EasyCartoonify)| [Bartu Yaman](https://github.com/brtymn)
+81 | [Quote Scrapper](https://github.com/chavarera/python-mini-projects/tree/master/projects/Scrape%20quotes)| [Anandha Krishnan Aji](https://github.com/anandhakrishnanaji)
+82 | [Time To Load Website](https://github.com/chavarera/python-mini-projects/tree/master/projects/Time%20to%20load%20Website)| [Aditya Jetely](https://github.com/AdityaJ7)
+83 | [Customer Loan Repayment Prediction](https://github.com/chavarera/python-mini-projects/tree/master/Notebooks/Customer_loan_repayment_problem)| [ART](https://github.com/Tomyzon1728)
+84 | [Generate Wordcloud from Wikipedia Article](https://github.com/chavarera/python-mini-projects/tree/master/projects/Wikipedia%20Search%20Wordcloud)| [Naman Shah](https://github.com/namanshah01)
+85 | [Number Guessing Game](https://github.com/chavarera/python-mini-projects/tree/master/projects/Number%20guessing%20game)| [Javokhirbek](https://github.com/leader2one)
