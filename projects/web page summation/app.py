@@ -68,7 +68,7 @@ def writeCsv(data, LANGUAGE, SENTENCES_COUNT):
         length = len(data)
         position = data[0].index('website')
         for i in range(1, length):
-            if i is 1:
+            if i == 1:
                 _data = data[0]
                 _data.append("summary")
                 newFileWriter.writerow(_data)
