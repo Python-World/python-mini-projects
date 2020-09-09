@@ -2,11 +2,12 @@ import re
 import collections
 import pickle
 import numpy as np
-from newspaper import Article
 from nltk.tokenize import word_tokenize
-from gensim.models.keyedvectors import KeyedVectors
-from gensim.test.utils import get_tmpfile
-from gensim.scripts.glove2word2vec import glove2word2vec
+default_path = '.'
+train_article_path = '.'
+train_title_path = '.'
+valid_article_path = '.'
+
 
 def clean_str(sentence):
     sentence = re.sub("[#.]+", "#", sentence)
@@ -55,7 +56,8 @@ def build_dict(step, toy=False):
     return word_dict, reversed_dict, article_max_len, summary_max_len
 
 
-def build_dataset(step, word_dict, article_max_len, summary_max_len, toy=False):
+def build_dataset(
+        step, word_dict, article_max_len, summary_max_len, toy=False):
     if step == "train":
         article_list = get_text_list(train_article_path, toy)
         title_list = get_text_list(train_title_path, toy)
@@ -91,11 +93,11 @@ def batch_iter(inputs, outputs, batch_size, num_epochs):
 
 
 def get_init_embedding(reversed_dict, embedding_size):
-    #glove_file = default_path + "glove/glove.6B.300d.txt"
-    #word2vec_file = get_tmpfile(default_path + "word2vec_format.vec")
-    #glove2word2vec(glove_file, word2vec_file)
+    # glove_file = default_path + "glove/glove.6B.300d.txt"
+    # word2vec_file = get_tmpfile(default_path + "word2vec_format.vec")
+    # glove2word2vec(glove_file, word2vec_file)
     print("Loading Glove vectors...")
-    #word_vectors = KeyedVectors.load_word2vec_format(word2vec_file)
+    # word_vectors = KeyedVectors.load_word2vec_format(word2vec_file)
 
     with open(default_path + "glove/model_glove_300.pkl", 'rb') as handle:
         word_vectors = pickle.load(handle)

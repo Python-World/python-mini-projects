@@ -1,31 +1,10 @@
 import os
-import pickle
-import argparse
 import tensorflow as tf
 import time
+from model import Model
+from utils import build_dict, build_dataset, batch_iter
 start = time.perf_counter()
-#from model import Model
-#from utils import build_dict, build_dataset, batch_iter
-
-# Uncomment next 2 lines to suppress error and Tensorflow info verbosity. Or change logging levels
-# tf.logging.set_verbosity(tf.logging.FATAL)
-# os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-
-# def add_arguments(parser):
-#    parser.add_argument("--num_hidden", type=int, default=150, help="Network size.")
-#    parser.add_argument("--num_layers", type=int, default=2, help="Network depth.")
-#    parser.add_argument("--beam_width", type=int, default=10, help="Beam width for beam search decoder.")
-#    parser.add_argument("--glove", action="store_true", help="Use glove as initial word embedding.")
-#    parser.add_argument("--embedding_size", type=int, default=300, help="Word embedding size.")
-#
-#    parser.add_argument("--learning_rate", type=float, default=1e-3, help="Learning rate.")
-#    parser.add_argument("--batch_size", type=int, default=64, help="Batch size.")
-#    parser.add_argument("--num_epochs", type=int, default=10, help="Number of epochs.")
-#    parser.add_argument("--keep_prob", type=float, default=0.8, help="Dropout keep prob.")
-#
-#    parser.add_argument("--toy", action="store_true", help="Use only 50K samples of data")
-#
-#    parser.add_argument("--with_model", action="store_true", help="Continue from previously saved model")
+default_path = '.'
 
 
 class args:
@@ -48,12 +27,6 @@ args.toy = False  # "store_true"
 args.with_model = "store_true"
 
 
-#parser = argparse.ArgumentParser()
-# add_arguments(parser)
-#args = parser.parse_args()
-# with open("args.pickle", "wb") as f:
-#    pickle.dump(args, f)
-
 if not os.path.exists(default_path + "saved_model"):
     os.mkdir(default_path + "saved_model")
 else:
@@ -61,7 +34,9 @@ else:
     old_model_checkpoint_path = open(
         default_path + 'saved_model/checkpoint', 'r')
     old_model_checkpoint_path = "".join(
-        [default_path + "saved_model/", old_model_checkpoint_path.read().splitlines()[0].split('"')[1]])
+        [
+            default_path + "saved_model/",
+            old_model_checkpoint_path.read().splitlines()[0].split('"')[1]])
 
 
 print("Building dictionary...")
@@ -98,9 +73,13 @@ with tf.Session() as sess:
             map(lambda x: list(x) + [word_dict["</s>"]], batch_y))
 
         batch_decoder_input = list(
-            map(lambda d: d + (summary_max_len - len(d)) * [word_dict["<padding>"]], batch_decoder_input))
+            map(
+                lambda d: d + (summary_max_len - len(d)) * [word_dict["<padding>"]],
+                batch_decoder_input))
         batch_decoder_output = list(
-            map(lambda d: d + (summary_max_len - len(d)) * [word_dict["<padding>"]], batch_decoder_output))
+            map(
+                lambda d: d + (summary_max_len - len(d)) * [word_dict["<padding>"]],
+                batch_decoder_output))
 
         train_feed_dict = {
             model.batch_size: len(batch_x),
@@ -112,7 +91,8 @@ with tf.Session() as sess:
         }
 
         _, step, loss = sess.run(
-            [model.update, model.global_step, model.loss], feed_dict=train_feed_dict)
+            [model.update,
+             model.global_step, model.loss], feed_dict=train_feed_dict)
 
         if step % 1000 == 0:
             print("step {0}: loss = {1}".format(step, loss))
