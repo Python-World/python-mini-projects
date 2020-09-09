@@ -32,7 +32,7 @@ def setup(pathtofile,version):
 
 if __name__ == "__main__":
     try:
-        download(url, filename)
+        download(url, file_name)
         setup(file_name)
     except Exception as e:
         print(f"Error {e}")
