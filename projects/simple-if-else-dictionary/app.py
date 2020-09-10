@@ -11,7 +11,7 @@ def translate(word):
         return "Please!! Enter word . . . "
     elif len(get_close_matches(word, data.keys())) > 0:
         yn = input("Did you mean %s instead?\nEnter Y if yes, or N if no : " % get_close_matches(word, data.keys())[0])
-        if (yn == "Y") or (yn == "y"):
+        if (yn.lower()== "y"):
             return data[get_close_matches(word, data.keys())[0]]
         elif (yn == "N") or (yn == "n"):
             return "Sorry!! The word doesn't exist. Please cross check it.\n"
