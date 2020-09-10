@@ -69,10 +69,10 @@ if __name__ == "__main__":
     if movieDetails is None:
         print('No movie of this name found !!!!!')
         quit()
-    print('{movie} ({year})'.format(movie=movieDetails['name'],year=movieDetails['year']))
+    print('\n{movie} ({year})'.format(movie=movieDetails['name'],year=movieDetails['year']))
     print('Rating:',movieDetails['rating'])
     print('Runtime:',movieDetails['runtime'])
-    print('Release Date',movieDetails['release_date'])
+    print('Release Date:',movieDetails['release_date'])
     print('Genres:',', '.join(movieDetails['genres']))
     print('Director:',', '.join(movieDetails['directors']))
     print('Writer:',', '.join(movieDetails['writers']))
