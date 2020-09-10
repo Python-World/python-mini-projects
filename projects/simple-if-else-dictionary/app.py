@@ -6,7 +6,8 @@ data = json.load(open("data.json"))
 def translate(word):
     word = word.lower()
     if word in data:
-        return data[word]
+         result = data[0]
+        return result
     elif len(word) == 0:
         return "Please!! Enter word . . . "
     elif len(get_close_matches(word, data.keys())) > 0:
