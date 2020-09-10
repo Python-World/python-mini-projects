@@ -2,9 +2,16 @@
 
 
 import PyPDF2
+import os
+import tempfile
 
+if(os.path.isdir("temp") == False):
+    os.mkdir("temp")
+    
+    
+print(tempfile.gettempdir())    
+print(os.getcwd())
 
-BASEDIR = "C:\Documents\pdf_to_text\output.txt" # This is the sample base directory where all your text files will be stored if you do not give a specific path
 txtpath = ""
 pdfpath = ""
 
@@ -13,9 +20,13 @@ pdfpath = ""
 pdfpath = input("Enter the name of your pdf file - please use backslash when typing in directory path: ")   #Provide the path for your pdf here
 txtpath = input("Enter the name of your txt file - please use backslash when typing in directory path: ")   #Provide the path for the output text file  
 
+BASEDIR = os.path.realpath("temp") # This is the sample base directory where all your text files will be stored if you do not give a specific path
+print(BASEDIR)
+
+
 if(len(txtpath) == 0):
-    txtpath = BASEDIR
-pdfobj = open(pdfpath, 'rb') 
+    txtpath = os.path.join(BASEDIR,os.path.basename(os.path.normpath(pdfpath)).replace(".pdf", "")+".txt")
+pdfobj = open(pdfpath, 'rb')
 
 pdfread = PyPDF2.PdfFileReader(pdfobj)
 

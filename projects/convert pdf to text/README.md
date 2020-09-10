@@ -7,10 +7,8 @@ This script takes in a .pdf file and outputs a .txt file
 
 
 ### Steps
-Just follow along the comments provided in the code and add the proper input pdf and output txt files carefully.
-Then you are good to go.
-
+In this program you have to provide the path for the pdf file that you want to convert into text and you may also provide the path where you want your output text file to be stored.
+By default the output files created will be stored in temp folder in the same directory.
 
 ## *Author Name*
-<!--Remove the below lines and add yours -->
 pi1814
