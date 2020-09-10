@@ -3,14 +3,8 @@
 
 import PyPDF2
 import os
-import tempfile
 
-if(os.path.isdir("temp") == False):
-    os.mkdir("temp")
-    
-    
-print(tempfile.gettempdir())    
-print(os.getcwd())
+
 
 txtpath = ""
 pdfpath = ""
