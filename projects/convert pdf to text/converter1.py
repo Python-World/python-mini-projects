@@ -5,7 +5,9 @@ import PyPDF2
 import os
 
 
-
+if(os.path.isdir("temp") == False):
+    os.mkdir("temp")
+    
 txtpath = ""
 pdfpath = ""
 
