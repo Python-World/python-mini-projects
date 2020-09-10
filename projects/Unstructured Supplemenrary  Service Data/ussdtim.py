@@ -34,10 +34,10 @@ def open_acct( ):
 	s_name= input ("Enter your second name:")
 	sex = input("Enter sex [M/F]:")
 	BVN_checker( )
-	temp_storage.append(f_name)
-	temp_storage.append(s_name)
-	temp_storage.append(sex)
-	temp_storage.append(gen_bvn)
+	temp_storage.extend(f_name)
+	temp_storage.extend(s_name)
+	temp_storage.extend(sex)
+	temp_storage.extend(gen_bvn)
 	details= " ".join(temp_storage)
 	print(details)
 	print("1. Press # to go back to options menu\n2. Press * to exit")
@@ -52,12 +52,12 @@ def open_acct( ):
 def upgrade_migrate( ):
 		print("Welcome to our online Upgrade/Migration services.\n 1. Ugrade\n 2. Migrate")
 		print("press # is go back to the Main Menu.")
-		prompt = int(input("Enter preferred Choice:"))
-		if prompt==1:
+		prompt = input("Enter preferred Choice:"))
+		if prompt=="1":
 			time.sleep(5)
 			print("Upgrading...")
 			exit( )
-		elif prompt == 2:
+		elif prompt == "2":
 			time.sleep(5)
 			print("Migrating...")
 			exit( )
