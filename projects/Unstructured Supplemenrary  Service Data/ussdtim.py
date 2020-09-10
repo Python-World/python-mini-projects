@@ -79,7 +79,7 @@ def balance ( ):
 	   	time.sleep(5)
 	   	balance( )
 	else:
-	   		    if pin.isdigit( )==True:
+	   		    if pin.isdigit( ):
 	   		        time.sleep(5)
 	   		        print("Loading...")
 	   		        exit( )
@@ -110,7 +110,7 @@ def transf( ):
 	        time.sleep(5)
 	        print("Not an option")
 	        sys.exit( )
-	    elif trnsf.isdigit( )==True and len(trnsf)>2:
+	    elif trnsf.isdigit( ) and len(trnsf)>2:
 	        time.sleep( 5)
 	        print("wrong password.")
 	        sys.exit( )
