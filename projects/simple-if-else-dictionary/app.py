@@ -1,5 +1,5 @@
 #Simple if else Dictionary.
-import json
+from json import load
 from difflib import get_close_matches	#if you enter this library will check it.
 data = json.load(open("data.json"))
 
