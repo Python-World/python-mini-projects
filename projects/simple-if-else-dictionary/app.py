@@ -24,7 +24,7 @@ def translate(word):
 
 
 if __name__ == "__main__":
-    word = input("Enter word to know meaning!!: ")    
+    word = input("Enter word to know meaning!!: ")
     output = translate(word)
     if isinstance(output, list):
         for item in output:
