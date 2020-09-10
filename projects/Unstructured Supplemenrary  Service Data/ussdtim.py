@@ -52,7 +52,7 @@ def open_acct( ):
 def upgrade_migrate( ):
 		print("Welcome to our online Upgrade/Migration services.\n 1. Ugrade\n 2. Migrate")
 		print("press # is go back to the Main Menu.")
-		prompt = input("Enter preferred Choice:"))
+		prompt = input("Enter preferred Choice:")
 		if prompt=="1":
 			time.sleep(5)
 			print("Upgrading...")
