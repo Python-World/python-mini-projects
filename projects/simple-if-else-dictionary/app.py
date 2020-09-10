@@ -23,7 +23,7 @@ def translate(word):
 print("Enter word to know meaning!!")
 word = input("Enter Word : ")
 output = translate(word)
-if type(output) == list:
+if isinstance(output,list)
     for item in output:
         print(item)
 else:
