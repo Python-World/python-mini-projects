@@ -1,4 +1,4 @@
-# Quote Scraper
+# Movie Information Scraper
 This script obtains movie details by scraping IMDB website.
 
 ### Prerequisites
