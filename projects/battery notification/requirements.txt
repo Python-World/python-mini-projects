@@ -1,3 +1,0 @@
-psutil==5.7.2
-pynotifier==0.1
-win10toast==0.9
