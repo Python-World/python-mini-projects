@@ -6,7 +6,7 @@
 
 # Mini-Projects-Python
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-38-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-39-cyan.svg?style=flat-square)](#contributors-)
 ![Issues](https://img.shields.io/github/issues/chavarera/python-mini-projects)
 ![Pull Requests](https://img.shields.io/github/issues-pr/chavarera/python-mini-projects?)
 ![Forks](https://img.shields.io/github/forks/chavarera/python-mini-projects)
@@ -169,3 +169,5 @@ SR No   | Project | Author
 84 | [Generate Wordcloud from Wikipedia Article](https://github.com/chavarera/python-mini-projects/tree/master/projects/Wikipedia_search_wordcloud)| [Naman Shah](https://github.com/namanshah01)
 85 | [Number Guessing Game](https://github.com/chavarera/python-mini-projects/tree/master/projects/Number_guessing_game)| [Javokhirbek](https://github.com/leader2one)
 86 | [Convert JPEG to PNG](https://github.com/chavarera/python-mini-projects/tree/master/projects/Convert_JPEG_to_PNG)| [AnuragGupta](https://github.com/AnuragGupta806)
+87 | [Movie Information Scrapper](https://github.com/chavarera/python-mini-projects/tree/master/projects/Movie%20Information%20Scraper)| [Anandha Krishnan Aji](https://github.com/anandhakrishnanaji)
+88 | [Fetch HTTP Status Code](https://github.com/chavarera/python-mini-projects/tree/master/projects/Fetch%20HTTP%20status%20code)| [AkshataJ96](https://github.com/AkshataJ96)
