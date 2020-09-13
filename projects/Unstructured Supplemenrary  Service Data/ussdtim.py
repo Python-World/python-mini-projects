@@ -22,7 +22,7 @@ def BVN_checker( ):
     global gen_bvn
     bvn = [str(i) for i in range (5)]
     gen_bvn= "".join(bvn)
-    print (gen_bvn)
+    
        				
 def open_acct( ):
 	global gen_bvn
@@ -34,12 +34,16 @@ def open_acct( ):
 	s_name= input ("Enter your second name:")
 	sex = input("Enter sex [M/F]:")
 	BVN_checker( )
-	temp_storage.extend(f_name)
-	temp_storage.extend(s_name)
-	temp_storage.extend(sex)
-	temp_storage.extend(gen_bvn)
+	temp_storage.append(f_name)
+	temp_storage.append(s_name)
+	temp_storage.append(sex)
+	temp_storage.append(gen_bvn)
 	details= " ".join(temp_storage)
-	print(details)
+	split_details = details.split(" ")
+	#print(split_details)
+	print(split_details[0]+" "+split_details[1])
+	print(split_details[2])
+	print("Your bvn is :"+split_details[3])
 	print("1. Press # to go back to options menu\n2. Press * to exit")
 	bck=input(":")
 	if bck=='#':
@@ -138,26 +142,17 @@ def funds( ):
 # This is the function for options.
 def options_menu( ) :
 	print("1. Open Account\n2. Upgrade/Migrate\n3. Balance\n4. Transfer\n5. Funds")
+	select_options ={
+	  '1':open_acct,
+	  '2':upgrade_migrate,
+	  '3': balance,
+	  '4':transf,
+	  '5':funds}
 	choice=input("Enter an option:")
-	if choice == "1":
-		time.sleep(10)
-		open_acct( )
-	elif choice == "2":
-		time.sleep(10)
-		upgrade_migrate( )
-	elif choice =="3":
-		time.sleep(10)
-		balance( )
-	elif choice =="4":
-		time.sleep(10)
-		transf( )
-	elif choice =="5":
-		time.sleep(10)
-		funds( )
+	if select_options.get(choice):
+	   select_options[choice]()
 	else:
-		time.sleep(5)
-		print("Not an option.")
-		sys.exit( )
+		sys.exit()
 		
 # This is the function which prompts the user as to whether the user wishes to continue or stop transaction.
 def exit( ):
