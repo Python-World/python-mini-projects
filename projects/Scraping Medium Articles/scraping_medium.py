@@ -11,7 +11,7 @@ os.chdir('\\'.join(__file__.split('/')[:-1]))
 def get_page():
 	url = input('Enter url of a medium article: ')
 	# handling possible error
-	if (url[:18] != 'https://medium.com') and (url[:17] != 'http://medium.com'):
+	if not re.match(r'https?://medium.com/',url):
 		print('Please enter a valid website, or make sure it is a medium article')
 		sys.exit(1)
 	res = requests.get(url)
