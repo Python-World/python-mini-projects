@@ -1,6 +1,6 @@
 url: https://medium.com/4thought-studios/the-pros-and-cons-of-open-source-software-d498304f2a95
 
-Title:   THE PROS AND CONS OF OPEN SOURCE SOFTWARE
+Title: THE PROS AND CONS OF OPEN SOURCE SOFTWARE
 by Khalil Khalaf
 
 INTRODUCTION

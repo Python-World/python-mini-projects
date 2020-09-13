@@ -9,6 +9,7 @@ os.chdir('\\'.join(__file__.split('/')[:-1]))
 
 # function to get the html of the page
 def get_page():
+	global url
 	url = input('Enter url of a medium article: ')
 	# handling possible error
 	if not re.match(r'https?://medium.com/',url):
@@ -17,7 +18,7 @@ def get_page():
 	res = requests.get(url)
 	res.raise_for_status()
 	soup = BeautifulSoup(res.text, 'html.parser')
-	return url, soup
+	return soup
 
 # function to remove all the html tags and replace some with specific strings
 def purify(text):
@@ -29,10 +30,12 @@ def purify(text):
     return text
 
 # function to compile all of the scraped text in one string
-def collect_text(url, soup):
+def collect_text(soup):
 	fin = f'url: {url}\n\n'
 	main = (soup.head.title.text).split('|')
-	fin += f'Title:   {main[0].strip().upper()}\n{main[1].strip()}'
+	global title
+	title = main[0].strip()
+	fin += f'Title: {title.upper()}\n{main[1].strip()}'
 
 	header = soup.find_all('h1')
 	j = 1
@@ -55,12 +58,14 @@ def collect_text(url, soup):
 
 # function to save file in the current directory
 def save_file(fin):
-	with open('scraped_article.txt', 'w', encoding='utf8') as outfile:
+	if not os.path.exists('./scraped_articles'):
+		os.mkdir('./scraped_articles')
+	fname = './scraped_articles/' + '_'.join(title.split()) + '.txt'
+	with open(fname, 'w', encoding='utf8') as outfile:
 		outfile.write(fin)
-	print('File saved in current directory as scraped_article.txt')
+	print(f'File saved in directory {fname}')
 
 # driver code
 if __name__ == '__main__':
-	url, soup = get_page()
-	fin = collect_text(url, soup)
+	fin = collect_text(get_page())
 	save_file(fin)

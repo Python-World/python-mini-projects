@@ -1,0 +1,58 @@
+url: https://medium.com/code-for-cause/one-month-into-the-mlh-fellowship-448249f61590
+
+Title: ONE MONTH INTO THE MLH FELLOWSHIP
+by Kunal Kushwaha
+
+INTRODUCTION
+
+One month into the MLH FellowshipKunal KushwahaFollowJul 5 · 8 min read
+
+“In real open source, you have the right to control your own destiny.”
+— Linus Torvalds
+What is the MLH Fellowship?
+The MLH Fellowship is an internship alternative for software engineers, with a focus on Open Source projects. Instead of working on a project for just one company, students contribute to Open Source projects that are used by companies around the world. At the beginning of the program, fellows are placed into small groups called “pods” that collectively contribute to the assigned projects as a team under the educational mentorship of a professional software engineer.
+Open source is a great way to get real-world software development experience from the comfort of your home. The open source community is very helpful and encourages new developers to take part in their organizations. One gains exposure, can test their skills, gain knowledge and bond with the community in order to produce quality code that helps people around the world.
+The Process
+I found out about the program via the MLH mailing list. Being an Open Source enthusiast, I was impressed by the structure of the program. Having attended past MLH events, I knew I had to sign up for this. The initial phase was the shortlisting of applications followed by a technical interview. Apart from work, the fellowship program also provides opportunities to build a network and have fun while doing so!
+Result of my application
+Students get to work on the latest Open Source technologies and are matched with projects according to their skills and interest, providing students with a learning opportunity while contributing to real-world projects. But, it’s not just about coding. Soft-skills and team-building exercises are conducted by MLH regularly, in addition to technical hands-on workshops! It’s a remote opprtunity but provides a global platform for students to showcase their skills.
+Students are also provided with a monthly stipend to help cover the basic living expenses during their participation in the program.
+Source: https://github.blog/2020-06-24-welcome-to-the-inaugural-class-of-mlh-fellows/
+
+WEEK 1
+Alright, so the first week. This week was spent getting acquainted with the Fellowship system as well as getting to know the team members. I got introduced to some amazing community members during this time. Being an open-source enthusiast, I believe that diversity in the workplace and participation from people hailing from different cultures is necessary as well as instrumental for the growth of the IT sector. It exposes one to the multitude of values and principles that people from varying ethnicities hold. Meeting people from around the world teaches people to respect opposing perspectives and opinions, and ingrains in them respect for their peers.
+We followed an exercise in which each fellow had to have a 1-on-1 get to know meeting with each of their Pod members which I believe this was a great way to get to know each other. We also got introduced to our mentor Jani, who has been a great motivation throughout the program and is helping each and every one of us achieve more, both in terms of technical as well as soft skills. During one of our first stand-ups, we decided on the name of our Pod together as a Team. I remember Jessie (my Podmate) suggested Reactive Sharks and I suggested Hackathon Sea-Son (as the theme was marine), and that’s how we ended up with Reactive Sea-Son (the best pod).
+Reactive Sea-Son Logo
+The first week ended with an Orientation Hackathon where we were divided into groups of 3–4. I got to see so many amazing projects presented by my fellow fellows. Our team Quarantime (pun intended) built a social media platform using MERNG stack, for students to use during the quarantine.
+
+These are the projects that I really thought went out of the box!
+MLH-Fellowship/0.4.2-cssifyTired of using Bootstrap/Bulma, but don't want to scaffold a whole bunch of CSS on your own? CSSify to the rescue …github.com
+MLH-Fellowship/0.4.1-Execute.ly-serverServer: Edit and execute handwritten or any code in an image right in your browser. …github.com
+
+WEEK 2
+This week started with the announcement of hackathon results and team Execute.ly from our Pod bagged the first prize! We all were really proud of our team, also because everyone in the winning team’s Pod was going to get prizes xD. I also spent some time this week to design our Pod’s logo.
+We were excited for week 2 as this was the week during which our mentor was going to assign us projects. I found out that I will be contributing to Jest this summer. Jest is a JavaScript testing framework maintained by Facebook. It felt amazing that the code that I am going to write is going to be used by people around the world. Plus getting involved in the community of experienced developers is itself a huge learning opportunity.
+After having a much project kickoff call with the Jest maintainers, the rest of the week was spent into learning more about the projects. I believe that writing blogs is a great way to show what you have learned to the community and help other newcomers in the projects as well. Keeping that in mind I wrote a blog on the architecture of Jest, provided below.
+Jest ArchitectureWhy is Testing important?medium.com
+
+WEEK 3
+Week 3 started on a Monday with our daily standup. This was the week of coding and exploring more about the projects assigned to us. We also got introduced to weekly retrospectives and show and tells. Weekly retrospectives are a way to communicate with your team and let them know about your progress, shoutouts, and any blockers they might be facing. It’s divided into sub-points like:
+Shoutouts (Optional Thank You’s / Recognition) — If anyone went above and beyond, let them know!Red (Stop / need help) — List out areas that have been challenging. This could include projects, tasks, workload, or challenges with Podmates. What didn’t work well this week? What can be done differently next week?Yellow (Use caution) — Provide context on areas of improvement. This could include projects, tasks, workload, or challenges with Podmates. What can be improved upon for next week? What resources and tools could you use to reach success?Green (All Good!) — Highlight What some of your successes were. What has gone well this week? Give examples of your weekly wins! This could include projects, tasks, or successes in teamwork.
+Pod Retrospective
+This is the week we started conducting show and tells. I had never been a part of such activity before where a person publicly presents what they have learned to a group of people and then they all have discussions over it. It seemed like a great learning opportunity for everyone and I highly recommend it. I volunteered for our first show and tell to give a demo on Docker, Kubernetes, and Red Hat’s Java K8s client. And I must say, it went amazing! Everyone, including me, learned a lot. I started with an introduction to the topics following a hands-on demo. Whatever discussion we have as a team, one of the best parts is the guidance and perspective we receive from our mentor, Jani, on the topics of discussion to relate it to the real-world. Shout to everyone on our team for being an amazing audience and for their active participation ☀️
+Kubernetes Made EasyWhat is Kubernetes?medium.com
+This was also the week when we got some PRs flowing to Jest. Shout out to Saurav, who is an amazing teammate and it has been an amazing experience contributing to Jest with him. I also got to attend various workshops this week conducted by MLH. My favourite one this week was an Introduction to Network Security by Kyle 👨‍💻
+
+WEEK 4
+E-Liang’s show and tell
+Week 4, better known as the week of PRs. The highlight of this week was the show and tell by E-Liang and the launch of Foam by Jani. For our second show and tell this week, we had E-Liang as a volunteer. This was hands-down my favorite personal project by a person. We got to know about Gent, which is a lightweight, reusable business logic layer that makes it easy to build GraphQL servers in Node.js and TypeScript, which is heavily inspired by Ent, a Facebook Open Source project.
+taneliang/gentGent is a lightweight, reusable business logic layer that makes it easy to build GraphQL servers in Node.js and…github.com
+I also got to attend a lot of sessions this week such as the React-Native session by our mentor Jani, webinar on working remotely by Joe Nash, and a discussion about “Designing Your Life” by John Britton who shared his inspiring journey with the Fellows and other community members. I also had a one-on-one mentorship session with Jani which was really educational. I got several life lessons and pointers on how to be a better developer and get the most out of my learning experience.
+By far the most impressive thing this week was the release of Foam, a personal knowledge management and sharing system, by Jani. The project blew up in a matter of days and now has more than 4.4k stars on GitHub!! That’s a big number. Check it out:
+foambubble/foam👋 Hello friend! Looks like you're reading this page on GitHub. Please go to the 👉 rendered Foam Workspace for an…github.com
+So far the journey has been amazing, unlike any other program that I’ve been a part of. It’s a perfect balance between education and contributions + having fun while doing so.
+The end of the week was followed by a delightful session of pictionary with the MLH fellows. 🖼
+
+CONTACT:
+Twitter: https://twitter.com/kush_kunal
+Thanks for reading!Gonna clap this one out like we do in standups 👏
