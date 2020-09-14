@@ -2,28 +2,37 @@ import requests
 from bs4 import BeautifulSoup
 
 # Defining variables and url
-title = str(input("Enter the title of movie/series: ")).lower()
-release = str(input("Enter the year of release: ")).lower()
+title = str(input("Enter the title of movie/series: "))
+release = str(input("Enter the year of release: "))
 query = "+".join(title.split())
-URL = f"https://www.imdb.com/search/title/?title={query}"
+#RL = f"https://www.imdb.com/search/title/?title={query}"
 
-s = requests.session()  # Setting up session
+request_link = 'http://www.omdbapi.com/?i=tt3896198&apikey=2c84f11f'
 
-try:
-    response = s.get(URL)
-    soup = BeautifulSoup(response.content, features="lxml")
-    containers = soup.find_all("div", class_="lister-item-content")
+#api_key = 2c84f11f
 
-    for result in containers:
-        name = result.h3.a.text.lower()
-        year = result.h3.find(
-            "span", class_="lister-item-year text-muted unbold"
-        ).text.lower()
+request = request_link + '&t=' + query
+result = requests.get(request)
 
-        if title in name and release in year:
-            rating = result.find("div",
-                                 class_="inline-block ratings-imdb-rating")[
-                                 "data-value"]
-            print(f"Rating of {name}:", rating)
-except Exception:
-    print("Try again with valid combination of tile and release year")
+print(result.text)
+
+# s = requests.session()  # Setting up session
+
+# try:
+#     response = s.get(URL)
+#     soup = BeautifulSoup(response.content, features="lxml")
+#     containers = soup.find_all("div", class_="lister-item-content")
+
+#     for result in containers:
+#         name = result.h3.a.text.lower()
+#         year = result.h3.find(
+#             "span", class_="lister-item-year text-muted unbold"
+#         ).text.lower()
+
+#         if title in name and release in year:
+#             rating = result.find("div",
+#                                  class_="inline-block ratings-imdb-rating")[
+#                                  "data-value"]
+#             print(f"Rating of {name}:", rating)
+# except Exception:
+#     print("Try again with valid combination of tile and release year")
