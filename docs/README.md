@@ -93,3 +93,6 @@ SR No   | Project | Author
 86 | [Convert JPEG to PNG](https://github.com/chavarera/python-mini-projects/tree/master/projects/Convert_JPEG_to_PNG)| [AnuragGupta](https://github.com/AnuragGupta806)
 87 | [Movie Information Scrapper](https://github.com/chavarera/python-mini-projects/tree/master/projects/Movie%20Information%20Scraper)| [Anandha Krishnan Aji](https://github.com/anandhakrishnanaji)
 88 | [Fetch HTTP Status Code](https://github.com/chavarera/python-mini-projects/tree/master/projects/Fetch%20HTTP%20status%20code)| [AkshataJ96](https://github.com/AkshataJ96)
+89 | [Check Leap Year](https://github.com/chavarera/python-mini-projects/tree/master/projects/Leap_Year_Checker)| [Hariom Vyas](https://github.com/Hariom1509)
+90 | [Scrape Medium Articles](https://github.com/chavarera/python-mini-projects/tree/master/projects/Scraping%20Medium%20Articles)| [Naman Shah](https://github.com/namanshah01)
+91 | [HackerNews Scrapper](https://github.com/chavarera/python-mini-projects/tree/master/projects/Scrape_Hacker_News)| [Javokhirbek](https://github.com/leader2one)
