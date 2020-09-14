@@ -1,0 +1,65 @@
+url: https://medium.com/coding-blocks/one-stop-guide-to-google-summer-of-code-a9e803beeda7
+
+Title: ONE STOP GUIDE TO GOOGLE SUMMER OF CODE
+by Harshit Dwivedi
+
+INTRODUCTION
+
+One stop guide to Google Summer of CodeHarshit DwivediFollowJul 18, 2018 · 9 min read
+Getting bombarded with tons of messages and requests on the same topic over and over again, I was about to post a “If I had a penny for …” joke on my social media handles.
+But instead, why not write a blog instead containing all the ifs, buts, whys and hows on Google Summer of Code.
+So if you are a student who is wondering about getting into Google Summer of Code or someone who has been pestered with questions regarding GSoC, hang on tight, while this is going to be a long one, I can assure you that this is going to helpful.
+Let’s first get the basics out of the way :
+
+WHAT IS GOOGLE SUMMER OF CODE?
+Simply put, it’s a 16 week long program by Google aimed at promoting Open Source Software development among college and university students.
+You work with one of the many Open Source Organizations on a language/framework of your own choice.
+In return you get : 
+1. An excellent experience of working on a real world project
+2. A chance to get mentored by some of the best software developers from tech giants like Facebook and Google
+3. The Google Summer of Code Tag, that will benefit you immensely with all your job hunts and not to mention a Golden referral to apply for any role at Google!
+4. Of course the money and the bragging rights! 😎 💰
+
+WHAT GOOGLE SUMMER OF CODE IS NOT?
+An Internship!
+Google Summer of Code isn’t an internship and it definitely isn’t you interning at Google. 
+It’s merely Google providing you and the Open Source Organizations a platform to work together.A direct entry into Google
+While it’s true that you get a referral to apply at any opening in Google, GSoC does not give you a direct pass into Google.
+You still have to go through all the interview rounds, it just gives you an extra edge over the competition.A trend that you **have to** be a part of
+Please, don’t treat GSoC as an IIT JEE entrance exam that you have to crack in order to be successful.
+I’ve seen folks achieve wonderful things without even doing GSoC and vice versa, so preparing for and applying into GSoC just because every other Tom, Dick and Harry is doing so it ridiculous.
+Students, especially Indian students need to understand the essence and the deeper meaning behind the program and only go for it if it’s something you truly resonate with and are willing to continue long after the program ends and you are not getting paid for it.
+
+WHEN DOES GOOGLE SUMMER OF CODE HAPPEN?
+The application process officially starts sometime around March, but the selected organizations are announced sometime in February first week.
+So students can start looking into the selected organizations and shortlist projects which interest them.
+
+HOW DO I GET INTO GOOGLE SUMMER OF CODE?
+Getting into GSoC is not a one step process; rather it’s a multi-step process ranging from February - April and you need to perfect each and every step to maximize your chances.
+I’ll outline the major steps below :
+1. Start early!
+Since GSoC isn’t a one step process as mentioned beforehand, you need to get started as early as possible which means shortlist the organization(s) and project(s) which interest you and start contributing to them as soon as they are announced by google.
+However, some students also start way early on in November/December. Instead of waiting for new organizations to be announced, they shortlist few organizations which have been selected continuously for the past few years.
+While this is risky, if done properly and carefully, it does give you an edge over others, since the number of contributions and interactions you’ve had with the organization factors in a lot while applying for GSoC under that organization.
+P.S. While you have to work with one, to maximize your chances, you can apply for 3 organizations/projects, so select them carefully.
+2. Contribute
+This is probably the most important phase of GSoC. 
+Once you’ve shortlisted, you have to focus on contributing as much as possible to the organization(s) you’ve selected.
+Pro Tip : Don’t select more than 3 organizations, it’ll only diminish your chances since you won’t be able to focus properly on any one of those.
+What does a contribution mean? 
+Anything from fixing/reporting an issue in the project or implementing a new feature to writing documentation for setting up and using the project counts as a contribution.
+Granted each of them has a different weight attached with them, for example fixing an issue/adding a new feature is generally contains more weightage than reporting an issue or writing documentation.
+But as someone newly exploring to a project, starting off with filing issues and writing documentation is a good idea.
+3. A good proposal will help you hit it home
+A proposal is a document which you submit to the organization(s) you’ve selected in the above step which outlines a detailed breakdown on how you plan on enhancing/building the project in the 16 week coding period of Google Summer of Code.
+Your proposal is going to be the secret key towards ensuring your selection so ensure that you are putting in extra efforts towards making it as detailed and informative as proposal.
+P.S. Please do not float the same proposal across multiple projects/organizations, each project should have a separate proposal of its own.
+I won’t be outlining the best practices on writing a good proposal as I believe the following blog does a fantastic job at it, so I encourage you to go through it before starting off with your proposal.
+Also, here’s my proposal, in case you want to refer to it and get a general sense of how a proposal should be made. ;)
+https://drive.google.com/file/d/0B6OtIpAL6oa6U3JURDA2cjVZVlZ5UUVqcXRBTGlrY0hmUkVV/view?usp=sharing
+4. Repeat
+After you’re done with submitting your proposal, don’t sit idle.
+You get a window of 1 month from the day when you submit the proposal to the day when the selected students are announced.
+Make the best of this opportunity to contribute even more to maximize the chances.
+P.S. Interacting with the organization members publicly and giving them your feedback on upcoming features and releases is also a potential contribution that can be done.
+You can generally find the contact link for an Organization at it’s page in the GSoC website.

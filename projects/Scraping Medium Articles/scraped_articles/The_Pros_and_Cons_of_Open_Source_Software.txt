@@ -1,0 +1,42 @@
+url: https://medium.com/4thought-studios/the-pros-and-cons-of-open-source-software-d498304f2a95
+
+Title: THE PROS AND CONS OF OPEN SOURCE SOFTWARE
+by Khalil Khalaf
+
+INTRODUCTION
+
+The Pros and Cons of Open Source Software
+Is open source software right for your business?
+Khalil KhalafFollowJul 11, 2017 · 6 min read
+
+The term “open source” refers to products designed to be publicly accessible for people to use, modify and share. Open source software is software that anyone can access, inspect and enhance the source code that most users don’t ever see in normal circumstances. A source code is a list of text commands that is written by computer programmers, to be compiled or assembled into an executable computer program.
+You might have heard of open source software and may have been encouraged to give it a try. After all, why pay for Autocad when you can use Qcad to create blueprints for your building, computer chips and car parts? Why pay for Photoshop when you can use Gimp to edit and enhance your images? Why pay for Microsoft Office while you can use LibreOffice to write, calculate and do excellent presentations?
+There are many legitimate advantages to using open source software. However, there are downsides to using them, especially from the standpoint of day to day business life and development. Before committing to open source software, you should consider the following advantages and disadvantages.
+
+ADVANTAGES:
+
+Free and/or Cheaper than Commercial Products.
+Open source software comes with a great advantage since it can be installed for free. Furthermore, it can be used and deployed again and again on multiple machines without the need of tracking the license compliance and terms of use. For example, according to Kate Rockwood, “…Instead of sinking 375 days — and $500,000 — into developing a proprietary code, Pendo went in the completely opposite direction: It down­loaded an open-source software engine coded entirely by volunteer[s].”
+Open source software help companies save the time and money by providing ready to use software as a whole. This software could be plugins (features to be added to existing software), Front ends and interfaces that are easy to integrate, or Back ends and easy to use engines. This might sound unbelievable, but open source programs are developed with the intention to be available to anyone, even those who can’t afford commercial software. Furthermore, many of these programs are created to work with almost any type of platform, which helps extend your hardware life and avoids the need to constantly replace them.
+In the Software Development Life Cycle, there are three stages that are often underestimated by project managers: Testing, Debugging and Integration. If you are a software development company, you likely know now — after disappointing your clients — that these three stages consume almost the same time as time dedicated to other stages of the software project. Open source software is good at cutting down on the development and reduces the pain and time of development planning and stages.
+Highly Reliable.
+Open source software is usually developed by a group of talented and skillful experts. Sometimes, they are developed by tens or hundreds of volunteers that simply love what they do for the community. Hence why most of the open source software are high-quality programs. Also, since anyone can access the code and fix a bug, you will notice continuous improvement and new versions or features added to the software every now and then. This improvement and the code itself will always exist even if it was originally developed by a current dissolved company.
+Also, you should know that any open source software can be customized and tweaked by you, which can help your company match the software with your business’s needs. You literally can do whatever you want with it and you aren’t locked into packages that are only compatible with each other. This can be especially helpful if you are a software development company. For example, if a client asked for a software with 10 features, you can download an open source with 5 features already done, and add in the missing 5 features. Or maybe an open source program with 10 features that do not match your client’s requirement but then you modify them for the perfect match. Or even an open source software with 15 features and simply remove or hide the additional 5 features. The point is, with this level of customization you can guarantee that the software could be reliable since it can be tweaked specifically by you.
+
+DISADVANTAGES:
+
+Not as User-Friendly as Commercial Software
+ 
+This cannot be generalized for all open source software. For example LibreOffice, Mozilla Firefox and Android OS are amazingly easy to use. However, while there are several open source software that solve large problems super fast, complicated computation or big data, but sometimes not much attention is given to its GUI (Graphical User Interface). This can make the software annoying to work with especially for nontechnical users. Nontechnical companies may need to dedicate some time to train their team and get them up to speed for every new release of these open source programs. As for technical companies, especially software development companies, they may need to build a proper GUI and integrate it with the back end which may require as much time and money as rewriting the whole software.
+Lack of extensive tech support
+User communities are out there and can be very responsive, but you really can’t count on the community one hundred percent of the time since it is not their job. No one is getting paid for fixing your bugs, provide you or your team the proper training, or respond to your questions and requirements. If your client or employee is suffering from a bug, you are literally on your own. The best thing to do might be to just wait for somebody in the community to face the same issue and hopefully fix it. The other option would be to hire an expert dedicated to maintaining and improving the software.
+Most of the times, you will also need to get your team up to speed. This is because of the constant development and in parallel between several community developers of open source software. Due to this, there is often confusion among the team since they are uncertain which version does what and if its compatible with other software and platforms. Hence where additional cost comes with every open source software.
+
+FINAL THOUGHTS:
+As a software developer myself, I provided the community with all the software that I wrote for personal projects. I have used open source software for personal needs and within software development jobs. I recommend using open source software since it saved me and my employer a lot of time and money, and made my clients happier. Also, looking at other developer’s codes and algorithms improved my skills in reusing codes that were written by someone else, and my experiences when reviewing others’ algorithms and logic.
+As a result of all the benefits, I always contribute in online communities helping other developers and users. I consider doing that as giving back to the community. I would not have been a developer without the help of other developers who did to me in the past exactly what I am doing to others now. There is absolutely no passion for me to abandon a project and never reply to users, and I can say I never had problems in using an open source software; specifically to mention ones that got abounded. We developers love improving and fixing things. We simply love what we do.
+
+
+FURTHER READING:
+Using Open-Source Code Can Save You Half a Million Dollars — but Do It CarefullyNine thousand hours. That’s how much time financial tech firm Pendo Systems estimates it would take to write the code…www.inc.com
+
