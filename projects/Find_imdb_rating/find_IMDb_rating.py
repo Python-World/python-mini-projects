@@ -1,21 +1,50 @@
+from bs4 import BeautifulSoup
 import requests
 import json
 
-# Defining variables and url
-title = str(input("Enter the title of movie/series: "))
-year = str(input("Enter the year of release: "))
-query = "+".join(title.split())
+# Setting up session
+s = requests.session()  
 
-request_link = 'http://www.omdbapi.com/?i=tt3896198&apikey=2c84f11f'
+#File to write movies into 
+file1 = open ("ratings.csv", "w")
 
-#final request link using OMDb API
-request = request_link + '&t=' + query + '&y=' + year
+with open("movies.txt", "r") as file2:
+    for line in file2:
+        title = line.lower()
+        query = "+".join(title.split())
+        URL = "https://www.imdb.com/search/title/?title=" + query
+        try: 
+            response = s.get(URL)
 
-#requesting data from OMBd
-response = requests.get(request)
+            content = response.content
 
-#converting to json (dictionary)
-response = response.json()
+            soup = BeautifulSoup(response.content)
+            containers = soup.find_all("div", class_="lister-item-content")
+            for result in containers:
+                name1 = result.h3.a.text
+                name = result.h3.a.text.lower()
+                # print(name)
+                # year = result.h3.find(
+                #     "span", class_="lister-item-year text-muted unbold"
+                # ).text.lower()
 
-#printing imdb rating
-print(response['imdbRating'])
+                if title in name:
+                    rating = result.find("div",class_="inline-block ratings-imdb-rating")["data-value"]
+                    print(f"Rating of {name1}:", rating)
+                    genre = result.p.find("span", class_="genre")
+                    file1.write(name1)
+                    file1.write(',')
+                    file1.write(rating)
+                    file1.write(',')
+                    file1.write(genre)
+                    file1.write('\n')
+                    
+                    # for x in genre:
+                    #     print(x)
+
+
+        except Exception:
+            print("Try again with valid combination of tile and release year")
+
+file1.close()
+    
