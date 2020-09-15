@@ -20,7 +20,10 @@ These libraries can be installed easily by using the following command: pip inst
 
 ### Screenshot/GIF showing the sample use of the script
 <!--Remove the below lines and add yours -->
-Add a jpeg/png/gif file here.
+![Screenshot 2020-09-15 at 6 28 24 PM](https://user-images.githubusercontent.com/44445191/93214767-32022800-f783-11ea-893d-7f45240b6dc5.png)
+
+![Screenshot 2020-09-15 at 6 20 55 PM](https://user-images.githubusercontent.com/44445191/93214776-375f7280-f783-11ea-90a3-dcd29a84d7fc.png)
+
 
 ## *Author Name*
 <!--Remove the below lines and add yours -->
