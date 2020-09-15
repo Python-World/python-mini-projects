@@ -16,7 +16,8 @@ ratings = []
 genres = []
 
 # Define path where your films are present 
-path = "/Users/utkarsh/Desktop/films"
+# For eg: "/Users/utkarsh/Desktop/films"
+path = # Write the path here 
 
 # Films with extensions
 filmswe = os.listdir(path)
