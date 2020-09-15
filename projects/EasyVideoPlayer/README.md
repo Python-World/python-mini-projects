@@ -1,11 +1,11 @@
 # EasyVideoPlayer
+  EasyVideoPlayer script is a video player based on the terminal. It can find the video in a pc, change its working directory and play the video file. 
 
-This script plays the images of a video with OpenCV and the audio of a video with ffpyplayer. There is no need to change the code to play different videos, the script finds the video you want in your pc and changes its working directory automatically.
+### Prerequisites
+  cv2, os, pathlib and ffpyplayer.player libraries are needed to run this script, all of which can be installed using "pip3 install 'library name'".
 
-## Things To Improve
+### How to run the script
+  'cd' to the directory that contains the script and type "python3 EasyVideoPlayer.py". When you are done with the video, use "keyboard interrupt" (Ctrl + C) to exit the player.
 
-- You need keyboard interrupt from the terminal to close the script right now. This can be improved.
-- There is no pause button right now.
-- If the video is somehow paused when the right click is pressed from the button, the audio and video becomes out of sync.
-
-
+## *Author Name*
+  Bartu Yaman
