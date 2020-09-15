@@ -76,4 +76,4 @@ for line in films:
 df = pd.DataFrame({'Film Name':names,'Rating':ratings,'Genre':genres}) 
 
 #making csv using pandas
-df.to_csv('products.csv', index=False, encoding='utf-8')
+df.to_csv('film_ratings.csv', index=False, encoding='utf-8')
