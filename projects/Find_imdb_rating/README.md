@@ -8,15 +8,15 @@ Output: -> A new csv file is made - 'film_ratings.csv' which contains the rating
 
 ### Prerequisites
 <!--Remove the below lines and add yours -->
-This program uses and external dependency of 'BeautifulSoup' (for web scraping), 'requests' (for fetching content of the webpage), 'pandas' (to make csv), 'os' (to get data from directory). 
+This program uses and external dependency of 'BeautifulSoup' (for web scraping), 'requests' (for fetching content of the webpage), 'pandas' (to make the csv file), 'os' (to get data from directory). <br>
 These libraries can be installed easily by using the following command: pip install -r requirements.txt
 
 ### How to run the script
 <!--Remove the below lines and add yours -->
--> Install the requirements. 
--> Inside the find_IMDb_rating.py, update the directory path. 
--> Type the following command: python find_IMDb_rating.py 
--> A csv file with rating will be created in the same directory as the python file. 
+-> Install the requirements. <br>
+-> Inside the find_IMDb_rating.py, update the directory path. <br>
+-> Type the following command: python find_IMDb_rating.py <br>
+-> A csv file with rating will be created in the same directory as the python file. <br>
 
 ### Screenshot/GIF showing the sample use of the script
 <!--Remove the below lines and add yours -->
