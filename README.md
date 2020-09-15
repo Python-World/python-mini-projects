@@ -6,7 +6,7 @@
 
 # Mini-Projects-Python
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-40-blue.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-41-blue.svg?style=flat-square)](#contributors-)
 ![Issues](https://img.shields.io/github/issues/chavarera/python-mini-projects)
 ![Pull Requests](https://img.shields.io/github/issues-pr/chavarera/python-mini-projects?)
 ![Forks](https://img.shields.io/github/forks/chavarera/python-mini-projects)
@@ -174,3 +174,4 @@ SR No   | Project | Author
 89 | [Check Leap Year](https://github.com/chavarera/python-mini-projects/tree/master/projects/Leap_Year_Checker)| [Hariom Vyas](https://github.com/Hariom1509)
 90 | [Scrape Medium Articles](https://github.com/chavarera/python-mini-projects/tree/master/projects/Scraping%20Medium%20Articles)| [Naman Shah](https://github.com/namanshah01)
 91 | [HackerNews Scrapper](https://github.com/chavarera/python-mini-projects/tree/master/projects/Scrape_Hacker_News)| [Javokhirbek](https://github.com/leader2one)
+92 | [Reduce Image Size](https://github.com/chavarera/python-mini-projects/tree/master/projects/Reduce_image_file_size)| [Vipul Verma](https://github.com/VIPverma01)
