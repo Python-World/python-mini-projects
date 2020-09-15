@@ -2,17 +2,29 @@ from bs4 import BeautifulSoup
 import requests
 import json
 import pandas as pd
+import os
 
 # Setting up session
 s = requests.session()  
 
-#File to write movies into 
+# List contaiting all the films for which data has to be scraped from IMDB
+films = []
 
-films = ['Star Wars: Episode V - The Empire Strikes Back', 'The wolf of wall street', 'Shutter Island']
-
+# Lists contaiting web scraped data
 names = []
 ratings = []
 genres = []
+
+# Define path where your films are present 
+path = "/Users/utkarsh/Desktop/films"
+
+# Films with extensions
+filmswe = os.listdir(path)
+
+for film in filmswe:
+    # Append into my films list (without extensions)
+    films.append(os.path.splitext(film)[0])
+    # print(os.path.splitext(film)[0])
 
 for line in films:
     # x = line.split(", ")
@@ -46,7 +58,6 @@ for line in films:
             if title in name:
                 #scraping rating
                 rating = result.find("div",class_="inline-block ratings-imdb-rating")["data-value"]
-                # print(f"Rating of {name1}:", rating)
                 #scraping genre
                 genre = result.p.find("span", class_="genre")
                 genre = genre.contents[0]
