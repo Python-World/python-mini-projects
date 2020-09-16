@@ -97,3 +97,4 @@ SR No   | Project | Author
 90 | [Scrape Medium Articles](https://github.com/chavarera/python-mini-projects/tree/master/projects/Scraping%20Medium%20Articles)| [Naman Shah](https://github.com/namanshah01)
 91 | [HackerNews Scrapper](https://github.com/chavarera/python-mini-projects/tree/master/projects/Scrape_Hacker_News)| [Javokhirbek](https://github.com/leader2one)
 92 | [Reduce Image Size](https://github.com/chavarera/python-mini-projects/tree/master/projects/Reduce_image_file_size)| [Vipul Verma](https://github.com/VIPverma01)
+93 | [Easy Video Player](https://github.com/chavarera/python-mini-projects/tree/master/projects/EasyVideoPlayer)| [Bartu Yaman](https://github.com/brtymn)
