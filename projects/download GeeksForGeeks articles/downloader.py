@@ -1,5 +1,6 @@
 # !/usr/bin/env python
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 import json
 import requests
 
@@ -8,7 +9,7 @@ import requests
 # URL = "https://www.geeksforgeeks.org/what-can-i-do-with-python/"
 
 
-def download_article(URL):
+def get_driver():
     # chrome options settings
     chrome_options = webdriver.ChromeOptions()
     settings = {
@@ -23,16 +24,16 @@ def download_article(URL):
     }
     chrome_options.add_experimental_option("prefs", prefs)
     chrome_options.add_argument("--kiosk-printing")
-    chrome_options.binary_location = (
-        r"C:\Program Files (x86)/"
-        + r"BraveSoftware\Brave-Browser\Application\brave.exe"
-    )
-    CHROMEDRIVER_PATH = r"chromedriver.exe"
 
     # launch browser with predefined settings
     browser = webdriver.Chrome(
-        executable_path=CHROMEDRIVER_PATH, options=chrome_options
+        executable_path=ChromeDriverManager().install(), options=chrome_options
     )
+    return browser
+
+
+def download_article(URL):
+    browser = get_driver()
     browser.get(URL)
 
     # launch print and save as pdf
@@ -42,8 +43,12 @@ def download_article(URL):
 
 if __name__ == "__main__":
     URL = input("provide article URL: ")
+    # check if the url is valid/reachable
     if requests.get(URL).status_code == 200:
-        download_article(URL)
-        print("Your article is successfully downloaded")
+        try:
+            download_article(URL)
+            print("Your article is successfully downloaded")
+        except Exception as e:
+            print(e)
     else:
         print("Enter a valid  working URL")

@@ -1,11 +1,12 @@
 # Download GeeksForGeeks Articles as pdf
 <!--Remove the below lines and add yours -->
-This script take the link to a GeeksForGeeks article as input and store the complete article as a pdf.
+This script take a link of GeeksForGeeks article as input and download the complete article as a pdf at default download location.
 
 ### Prerequisites
 <!--Remove the below lines and add yours -->
 * selenium
 * requests
+* webdriver-manager
 * Run `pip install -r requirements.txt` to install required external modules.
 
 ### How to run the script
