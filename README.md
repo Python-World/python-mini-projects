@@ -176,3 +176,4 @@ SR No   | Project | Author
 91 | [HackerNews Scrapper](https://github.com/chavarera/python-mini-projects/tree/master/projects/Scrape_Hacker_News)| [Javokhirbek](https://github.com/leader2one)
 92 | [Reduce Image Size](https://github.com/chavarera/python-mini-projects/tree/master/projects/Reduce_image_file_size)| [Vipul Verma](https://github.com/VIPverma01)
 93 | [Easy Video Player](https://github.com/chavarera/python-mini-projects/tree/master/projects/EasyVideoPlayer)| [Bartu Yaman](https://github.com/brtymn)
+94 | [GeeksforGeeks Article downloader](https://github.com/chavarera/python-mini-projects/tree/master/projects/download%20GeeksForGeeks%20articles)| [Shiv Thakur](https://github.com/ShivSt)
