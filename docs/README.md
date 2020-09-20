@@ -99,3 +99,5 @@ SR No   | Project | Author
 92 | [Reduce Image Size](https://github.com/chavarera/python-mini-projects/tree/master/projects/Reduce_image_file_size)| [Vipul Verma](https://github.com/VIPverma01)
 93 | [Easy Video Player](https://github.com/chavarera/python-mini-projects/tree/master/projects/EasyVideoPlayer)| [Bartu Yaman](https://github.com/brtymn)
 94 | [GeeksforGeeks Article downloader](https://github.com/chavarera/python-mini-projects/tree/master/projects/download%20GeeksForGeeks%20articles)| [Shiv Thakur](https://github.com/ShivSt)
+95 | [PDF to Text](https://github.com/chavarera/python-mini-projects/tree/master/projects/convert%20pdf%20to%20text)| [pi1814](https://github.com/pi1814)
+96 | [Unstructured Supplemenrary Service Data](https://github.com/chavarera/python-mini-projects/tree/master/projects/Unstructured%20Supplemenrary%20%20Service%20Data)| [ART](https://github.com/Tomyzon1728)
