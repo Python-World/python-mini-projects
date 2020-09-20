@@ -6,7 +6,7 @@
 
 # Mini-Projects-Python
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-41-blue.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-43-blue.svg?style=flat-square)](#contributors-)
 ![Issues](https://img.shields.io/github/issues/chavarera/python-mini-projects)
 ![Pull Requests](https://img.shields.io/github/issues-pr/chavarera/python-mini-projects?)
 ![Forks](https://img.shields.io/github/forks/chavarera/python-mini-projects)
@@ -177,3 +177,5 @@ SR No   | Project | Author
 92 | [Reduce Image Size](https://github.com/chavarera/python-mini-projects/tree/master/projects/Reduce_image_file_size)| [Vipul Verma](https://github.com/VIPverma01)
 93 | [Easy Video Player](https://github.com/chavarera/python-mini-projects/tree/master/projects/EasyVideoPlayer)| [Bartu Yaman](https://github.com/brtymn)
 94 | [GeeksforGeeks Article downloader](https://github.com/chavarera/python-mini-projects/tree/master/projects/download%20GeeksForGeeks%20articles)| [Shiv Thakur](https://github.com/ShivSt)
+95 | [PDF to Text](https://github.com/chavarera/python-mini-projects/tree/master/projects/convert%20pdf%20to%20text)| [pi1814](https://github.com/pi1814)
+96 | [Unstructured Supplemenrary Service Data](https://github.com/chavarera/python-mini-projects/tree/master/projects/Unstructured%20Supplemenrary%20%20Service%20Data)| [ART](https://github.com/Tomyzon1728)
