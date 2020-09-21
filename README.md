@@ -6,7 +6,7 @@
 
 # Mini-Projects-Python
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-41-blue.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-44-blue.svg?style=flat-square)](#contributors-)
 ![Issues](https://img.shields.io/github/issues/chavarera/python-mini-projects)
 ![Pull Requests](https://img.shields.io/github/issues-pr/chavarera/python-mini-projects?)
 ![Forks](https://img.shields.io/github/forks/chavarera/python-mini-projects)
@@ -46,11 +46,15 @@ If you are new to Github and open source then, visit [here.](https://towardsdata
     git pull upstream master
     git push
     ```
-    - If you run into a **merge conflict**, you have to resolve the conflict. There are a lot of guides online, or you can try this one by [opensource.com](https://opensource.com/article/20/4/git-merge-conflict).
+
+- If you run into a **merge conflict**, you have to resolve the conflict. There are a lot of guides online, or you can try this one by [opensource.com](https://opensource.com/article/20/4/git-merge-conflict).
+
 - Checkout to development branch (*name your branch according to the issue name*).
+
     ```basg
     git checkout -b <branch-name>
     ```
+
 - Create a folder in [projects directory](https://github.com/chavarera/python-mini-projects/tree/master/projects) according to issue name.
 - Write your code and add to the respective folder in the projects directory, locally.
 - Don't forget to add a `README.md` in your folder, according to the [README_TEMPLATE.](https://github.com/chavarera/python-mini-projects/blob/master/README_TEMPLATE.md)
@@ -60,16 +64,19 @@ If you are new to Github and open source then, visit [here.](https://towardsdata
     git add -A
     git commit -m "<your message>"
     ```
+
 - Push the code *to your repository*.
+
     ```bash
     git push origin <branch-name>
     ```
+
 - Go to the GitHub page of _your fork_, and **make a pull request**:
 
     ![pull request image](https://help.github.com/assets/images/help/pull_requests/choose-base-and-compare-branches.png)
 
     Read more about pull requests on the [GitHub help pages](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
-- Now wait, until one of us *reviews your Pull Request*! If there are any conflicts, you will get a notification. 
+- Now wait, until one of us *reviews your Pull Request*! If there are any conflicts, you will get a notification.
 
 ## README Template for scripts
 
@@ -150,7 +157,7 @@ SR No   | Project | Author
 65 | [Test Internet Connection](https://github.com/chavarera/python-mini-projects/tree/master/projects/Internet_connection_check) | [Jacob Ogle](https://github.com/Jakeogle94)
 66 | [XKCD Comics Downloader](https://github.com/chavarera/python-mini-projects/tree/master/projects/XKCD_downloader)| [Aditya Jetely](https://github.com/AdityaJ7)
 67 | [Website Blocker And Unblocker](https://github.com/chavarera/python-mini-projects/tree/master/projects/Website_blocker)| [Phillibob55](https://github.com/Phillibob55)
-68 | [Fetch Domain Dns Record ](https://github.com/chavarera/python-mini-projects/tree/master/projects/Dns_record)| [Aditya Jetely](https://github.com/AdityaJ7)
+68 | [Fetch Domain Dns Record](https://github.com/chavarera/python-mini-projects/tree/master/projects/Dns_record)| [Aditya Jetely](https://github.com/AdityaJ7)
 69 | [Python-Auto-Draw](https://github.com/chavarera/python-mini-projects/tree/master/projects/Python_auto_draw)| [Tushar Nankani](https://github.com/tusharnankani)
 70 | [News Website Scraper](https://github.com/chavarera/python-mini-projects/tree/master/projects/News_website_scraper)| [pratik-choudhari](https://github.com/pratik-choudhari)
 71 | [Rock Paper Scissors Game](https://github.com/chavarera/python-mini-projects/tree/master/projects/RockPaperScissors_Game)| [Tushar Nankani](https://github.com/tusharnankani)
@@ -175,3 +182,9 @@ SR No   | Project | Author
 90 | [Scrape Medium Articles](https://github.com/chavarera/python-mini-projects/tree/master/projects/Scraping%20Medium%20Articles)| [Naman Shah](https://github.com/namanshah01)
 91 | [HackerNews Scrapper](https://github.com/chavarera/python-mini-projects/tree/master/projects/Scrape_Hacker_News)| [Javokhirbek](https://github.com/leader2one)
 92 | [Reduce Image Size](https://github.com/chavarera/python-mini-projects/tree/master/projects/Reduce_image_file_size)| [Vipul Verma](https://github.com/VIPverma01)
+93 | [Easy Video Player](https://github.com/chavarera/python-mini-projects/tree/master/projects/EasyVideoPlayer)| [Bartu Yaman](https://github.com/brtymn)
+94 | [GeeksforGeeks Article downloader](https://github.com/chavarera/python-mini-projects/tree/master/projects/download%20GeeksForGeeks%20articles)| [Shiv Thakur](https://github.com/ShivSt)
+95 | [PDF to Text](https://github.com/chavarera/python-mini-projects/tree/master/projects/convert%20pdf%20to%20text)| [pi1814](https://github.com/pi1814)
+96 | [Unstructured Supplemenrary Service Data](https://github.com/chavarera/python-mini-projects/tree/master/projects/Unstructured%20Supplemenrary%20%20Service%20Data)| [ART](https://github.com/Tomyzon1728)
+97 | [Duplicate Files remover](https://github.com/chavarera/python-mini-projects/tree/master/projects/Duplicate%20files%20remover)| [Anandha Krishnan Aji](https://github.com/anandhakrishnanaji)
+98 | [PNG to ICO converter](https://github.com/chavarera/python-mini-projects/tree/master/projects/convert_png_images_to_ico_format)| [weicheansoo](https://github.com/weicheansoo)
