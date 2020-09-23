@@ -1,10 +1,13 @@
 import random
-from words import word_list
-
+import json
 
 #function to randomly get one word from words.py and convert the word to uppercase
 def get_word():
-    word = random.choice(word_list)
+    with open('words.json') as json_file:
+        data = json.load(json_file)
+    
+    wordArray = data["word_list"]
+    word = random.choice(wordArray)
     return word.upper()
 
 #function to play the game
