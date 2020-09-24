@@ -1,14 +1,15 @@
 import random
-import json
+from json import load
 
 #function to randomly get one word from words.py and convert the word to uppercase
 def get_word():
     with open('words.json') as json_file:
-        data = json.load(json_file)
+        data = load(json_file)
     
     wordArray = data["word_list"]
     word = random.choice(wordArray)
-    return word.upper()
+    word = word.upper()
+    return word
 
 #function to play the game
 def play(word):
@@ -32,7 +33,7 @@ def play(word):
     while not guessed and tries > 0:
 
         #Display message and ask for user input and convert it into uppercase
-        guess = input("Please guess a letter: ").upper()
+        guess = input("Please guess a letter or the word: ").upper()
 
         #check the length of the user input and is it alpha or not
         if len(guess) == 1 and guess.isalpha():
