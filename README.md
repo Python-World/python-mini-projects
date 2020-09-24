@@ -6,7 +6,7 @@
 
 # Mini-Projects-Python
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-45-blue.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-46-blue.svg?style=flat-square)](#contributors-)
 ![Issues](https://img.shields.io/github/issues/chavarera/python-mini-projects)
 ![Pull Requests](https://img.shields.io/github/issues-pr/chavarera/python-mini-projects?)
 ![Forks](https://img.shields.io/github/forks/chavarera/python-mini-projects)
@@ -189,3 +189,4 @@ SR No   | Project | Author
 97 | [Duplicate Files remover](https://github.com/chavarera/python-mini-projects/tree/master/projects/Duplicate%20files%20remover)| [Anandha Krishnan Aji](https://github.com/anandhakrishnanaji)
 98 | [PNG to ICO converter](https://github.com/chavarera/python-mini-projects/tree/master/projects/convert_png_images_to_ico_format)| [weicheansoo](https://github.com/weicheansoo)
 99 | [Find IMDB Ratings](https://github.com/chavarera/python-mini-projects/tree/master/projects/Find_imdb_rating)| [Utkarsh Bajaj](https://github.com/utkarshbajaj)
+100 | [Terminal Based Hangman Game](https://github.com/chavarera/python-mini-projects/tree/master/projects/Terminal_Based_Hangman_Game)| [neohboonyee99](https://github.com/neohboonyee99)
