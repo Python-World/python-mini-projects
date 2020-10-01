@@ -31,7 +31,7 @@ def send_mail():
     Created by Guido van Rossum and first released in 1991,
     Python's design philosophy emphasizes code readability\n
     with its notable use of significant whitespace"""
-    message = f"Subject : {subject} \n\n {body}"
+    message = f"Subject: {subject}\n\n{body}"
 
     with open("emails.csv", newline="") as csvfile:
         spamreader = csv.reader(csvfile, delimiter=" ", quotechar="|")
