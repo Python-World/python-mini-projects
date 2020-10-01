@@ -10,8 +10,8 @@ import ssl
 from bs4 import BeautifulSoup
 
 
-credential_path = os.getcwd() + "/credentials.txt"
-csv_path = os.getcwd() + "/mails.csv"
+credential_path = "credentials.txt"
+csv_path = "mails.csv"
 
 host = "imap.gmail.com"
 port = 993
