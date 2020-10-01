@@ -4,6 +4,7 @@ import csv
 import email
 from email import policy
 import imaplib
+import logging
 import os
 import ssl
 
@@ -12,6 +13,8 @@ from bs4 import BeautifulSoup
 
 credential_path = "credentials.txt"
 csv_path = "mails.csv"
+
+logger = logging.getLogger('imap_poller')
 
 host = "imap.gmail.com"
 port = 993
@@ -66,8 +69,8 @@ def write_to_csv(mail, writer):
                             "utf-8"
                         )
                         email_text = get_text(email_body)
-                    except Exception:
-                        pass
+                    except Exception as exc:
+                        logger.warning('Caught exception: %r', exc)
                     if (
                         content_type == "text/plain"
                         and "attachment" not in content_disposition
@@ -93,6 +96,8 @@ def write_to_csv(mail, writer):
 def main():
     mail, messages = connect_to_mailbox()
 
+    logging.basicConfig(level=logging.WARNING)
+
     total_no_of_mails = int(messages[0])
     # no. of latest mails to fetch
     # set it equal to total_no_of_emails to fetch all mail in the inbox
@@ -103,8 +108,8 @@ def main():
         writer.writerow(["Date", "From", "Subject", "Text mail"])
         try:
             write_to_csv(mail, writer)
-        except Exception as e:
-            print(e)
+        except Exception as exc:
+            logger.warning('Caught exception: %r', exc)
 
 
 if __name__ == "__main__":
