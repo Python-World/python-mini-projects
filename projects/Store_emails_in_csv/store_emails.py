@@ -1,12 +1,14 @@
 #!/usr/bin/env python
 
-import imaplib
+import csv
 import email
 from email import policy
-import csv
-import ssl
+import imaplib
 import os
+import ssl
+
 from bs4 import BeautifulSoup
+
 
 credential_path = os.getcwd() + "/credentials.txt"
 csv_path = os.getcwd() + "/mails.csv"
@@ -88,8 +90,7 @@ def write_to_csv(mail, writer):
             writer.writerow(row)
 
 
-if __name__ == "__main__":
-
+def main():
     mail, messages = connect_to_mailbox()
 
     total_no_of_mails = int(messages[0])
@@ -104,3 +105,7 @@ if __name__ == "__main__":
             write_to_csv(mail, writer)
         except Exception as e:
             print(e)
+
+
+if __name__ == "__main__":
+    main()
