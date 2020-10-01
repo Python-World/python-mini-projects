@@ -16,7 +16,7 @@ An encrypted file("encrypted.bin") will be generated after the program is run
 
 ### Screenshot/GIF showing the sample use of the script
 <!--Remove the below lines and add yours -->
-![output](https://github.com/Python-World/python-mini-projects/tree/master/projects/Create_script_to_encode_and_decode_text/output.png)
+![ ](https://github.com/Python-World/python-mini-projects/blob/master/projects/Create_script_to_encode_and_decode_text/output.png)
 
 ## *Author Name*
 <!--Remove the below lines and add yours -->
