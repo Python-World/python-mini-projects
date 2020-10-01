@@ -14,7 +14,7 @@ The output file will be overwritten each time you run the tool.
 ## Prerequisites
 
 This project uses the third-party library
-[requests]
+[requests](https://requests.readthedocs.io/)
 as well as the `csv` module from the Python standard library.
 
 
