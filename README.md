@@ -132,7 +132,7 @@ SR No   | Project | Author
 40 | [Scrape Youtube video comment](https://github.com/chavarera/python-mini-projects/tree/master/projects/Web_scraping_a_youtube_comment) | [Saicharan67](https://github.com/Saicharan67)
 41 | [Website Summerization](https://github.com/chavarera/python-mini-projects/tree/master/projects/Web_page_summation) | [Believe Ohiozua](https://github.com/believeohiozua)
 42 | [Text To speech(mp3)](https://github.com/chavarera/python-mini-projects/tree/master/projects/Text_to_speech) | [Sergej Dikun](https://github.com/Serhazor)
-43 | [Image format conversio)](https://github.com/chavarera/python-mini-projects/tree/master/projects/convert_Imgs) | [Ramon Ferreira](https://github.com/ramonfsk)
+43 | [Image format conversion](https://github.com/chavarera/python-mini-projects/tree/master/projects/convert_Imgs) | [Ramon Ferreira](https://github.com/ramonfsk)
 44 | [Save random article from wikipedia](https://github.com/chavarera/python-mini-projects/tree/master/projects/Random_Wikipedia_Article) | [Rakshit Puri](https://github.com/skate1512)
 45 | [Check website connectivity](https://github.com/chavarera/python-mini-projects/tree/master/projects/Check_website_connectivity) | [Shiv Thakur](https://github.com/ShivSt)
 46 | [Fetch city weather information](https://github.com/chavarera/python-mini-projects/tree/master/projects/Fetch_current_weather) | [Kushal Agrawal](https://github.com/kushal98)
