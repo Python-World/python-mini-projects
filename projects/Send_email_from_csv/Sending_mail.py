@@ -1,4 +1,5 @@
 import csv
+from email.message import EmailMessage
 import smtplib
 
 
@@ -31,12 +32,15 @@ def send_mail():
     Created by Guido van Rossum and first released in 1991,
     Python's design philosophy emphasizes code readability\n
     with its notable use of significant whitespace"""
-    message = f"Subject: {subject}\n\n{body}"
+
+    message = EmailMessage()
+    message.set_content(body)
+    message['Subject'] = subject
 
     with open("emails.csv", newline="") as csvfile:
         spamreader = csv.reader(csvfile, delimiter=" ", quotechar="|")
         for email in spamreader:
-            s.sendmail(email_address, email[0], message)
+            s.send_message(email_address, email[0], message)
             print("Send To " + email[0])
 
     # terminating the session
