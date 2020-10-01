@@ -2,7 +2,7 @@
 This script obtains movie details by scraping IMDB website.
 
 ### Prerequisites
-* bs4
+* beautifulsoup4
 * requests
 * Run `pip install -r requirements.txt` to install required external modules.
 
