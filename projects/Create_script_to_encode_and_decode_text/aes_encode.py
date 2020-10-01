@@ -1,5 +1,5 @@
-from Cryptodome.Cipher import AES
-from Cryptodome import Random
+from Crypto.Cipher import AES
+from Crypto import Random
 from binascii import b2a_hex
 import sys
 
