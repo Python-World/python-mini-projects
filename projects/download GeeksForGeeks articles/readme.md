@@ -16,7 +16,7 @@ This script take a link of GeeksForGeeks article as input and download the compl
 
 ### Screenshot/GIF showing the sample use of the script
 <!--Remove the below lines and add yours -->
-![Screenshot of the Output](Screenshot.jpg)
+![Screenshot of the Output](https://github.com/Python-World/python-mini-projects/blob/master/projects/download%20GeeksForGeeks%20articles/screenshot.jpg)
 
 ## *Author Name*
 <!--Remove the below lines and add yours -->
