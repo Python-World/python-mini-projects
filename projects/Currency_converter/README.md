@@ -13,7 +13,7 @@ A small python program that converts currency with live info
 
 ### Screenshot/GIF showing the sample use of the script
 <!--Remove the below lines and add yours -->
-![output](https://github.com/Python-World/python-mini-projects/tree/master/projects/Currency_converter/output.png)
+![ ](https://github.com/Python-World/python-mini-projects/blob/master/projects/Currency_converter/output.png)
 
 ## *Author Name*
 <!--Remove the below lines and add yours -->
