@@ -1,12 +1,12 @@
-import smtplib
 import csv
+import smtplib
 
 
 def get_credentials(filepath):
     with open("credentials.txt", "r") as f:
-        Email_Address = f.readline()
-        Email_Pass = f.readline()
-    return (Email_Address, Email_Pass)
+        email_address = f.readline()
+        email_pass = f.readline()
+    return (email_address, email_pass)
 
 
 def login(email_address, email_pass, s):
@@ -19,15 +19,13 @@ def login(email_address, email_pass, s):
     print("login")
 
 
-
-def Send_mail():
+def send_mail():
     s = smtplib.SMTP("smtp.gmail.com", 587)
-    Email_Address, Email_Pass = get_credentials("./credentials.txt")
-    login(Email_Address, Email_Pass, s)
-    
+    email_address, email_pass = get_credentials("./credentials.txt")
+    login(email_address, email_pass, s)
 
     # message to be sent
-    subject = "Welcome to python"
+    subject = "Welcome to Python"
     body = """Python is an interpreted, high-level,
     general-purpose programming language.\n
     Created by Guido van Rossum and first released in 1991,
@@ -38,7 +36,7 @@ def Send_mail():
     with open("emails.csv", newline="") as csvfile:
         spamreader = csv.reader(csvfile, delimiter=" ", quotechar="|")
         for email in spamreader:
-            s.sendmail(Email_Address, email[0], message)
+            s.sendmail(email_address, email[0], message)
             print("Send To " + email[0])
 
     # terminating the session
@@ -47,4 +45,4 @@ def Send_mail():
 
 
 if __name__ == "__main__":
-    Send_mail()
+    send_mail()
