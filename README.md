@@ -19,7 +19,7 @@ If you want to learn about python, visit [here.](https://github.com/chavarera/Py
 
 If you are new to Github and open source then, visit [here.](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 
-## Steps To Follow
+## Follow these awesome steps
 
 - Select an issue and ask to be *assigned* to it.
 - Check existing scripts [project here.](https://github.com/AdityaJ7/python-mini-projects/tree/master/projects)
@@ -82,11 +82,11 @@ If you are new to Github and open source then, visit [here.](https://towardsdata
 
 [README Template](https://github.com/chavarera/python-mini-projects/blob/master/README_TEMPLATE.md)
 
-## Connect On Social media
+## Do Connect with us On our Social media platform
 
 [Join WhatsApp group](https://chat.whatsapp.com/Ghp25kidWLaGrAVA0G0GAa)
 
-## Contributors ✨
+## Our Contributors ✨
 
 SR No   | Project | Author  
 --- | --- | ---
