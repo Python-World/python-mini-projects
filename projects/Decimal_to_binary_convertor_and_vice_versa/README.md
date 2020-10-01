@@ -12,7 +12,7 @@ A small python program that converts binary and decimal
 
 ### Screenshot/GIF showing the sample use of the script
 <!--Remove the below lines and add yours -->
-![output](https://github.com/Python-World/python-mini-projects/tree/master/projects/Decimal_to_binary_convertor_and_vice_versa/output.png)
+![output](https://github.com/Python-World/python-mini-projects/blob/master/projects/Decimal_to_binary_convertor_and_vice_versa/output.png)
 
 ## *Author Name*
 <!--Remove the below lines and add yours -->
