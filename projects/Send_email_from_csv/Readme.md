@@ -7,7 +7,7 @@ which sends the same message to a list of recipients.
 ## Dependencies
 
 This project only requires the Python standard library
-(more specifically, the `csv` and `smtplib` modules).
+(more specifically, the `csv`, `email`, and `smtplib` modules).
 
 
 ## Running the script
