@@ -5,7 +5,8 @@ This python script gives you a notification about your battery percentage of the
 ## Pre-requisites:
 
 You will need to install python on your machine. You can download python from the python.org and install it.
-And a few other python package that you need to install are as : 
+And a few other python package that you need to install are as:
+ 
     1. psutil
         > pip install psutil
 
