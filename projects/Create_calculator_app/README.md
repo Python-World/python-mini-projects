@@ -1,5 +1,19 @@
-## create calculator app
+# Script Title
+<!--Remove the below lines and add yours -->
+A small python program that creates a calculator app
 
-### usage
+### Prerequisites
+<!--Remove the below lines and add yours -->
+Python 3
 
-python calculator.py
+### How to run the script
+<!--Remove the below lines and add yours -->
+> python calculator.py
+
+### Screenshot/GIF showing the sample use of the script
+<!--Remove the below lines and add yours -->
+![output](https://github.com/Python-World/python-mini-projects/tree/master/projects/Create_calculator_app/output.png)
+
+## *Author Name*
+<!--Remove the below lines and add yours -->
+[Fin McCallum](https://github.com/FinMc)
