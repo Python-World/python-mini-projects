@@ -12,7 +12,7 @@ Python 3
 
 ### Screenshot/GIF showing the sample use of the script
 <!--Remove the below lines and add yours -->
-![output](https://github.com/Python-World/python-mini-projects/tree/master/projects/Create_calculator_app/output.png)
+![ ](https://github.com/Python-World/python-mini-projects/blob/master/projects/Create_calculator_app/output.png)
 
 ## *Author Name*
 <!--Remove the below lines and add yours -->
