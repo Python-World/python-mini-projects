@@ -7,7 +7,7 @@ To execute this script python must be installed the host system.
 
 ### How to run the script
 just type this in the terminal:-
-`python split_files.py <csv/text_file> <split/line_number`
+`python split_files.py <csv/text_file> <split/line_number>`
 
 ## *Author Name*
 Kanishk Gupta
