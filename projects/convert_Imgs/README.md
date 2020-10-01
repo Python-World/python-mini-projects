@@ -40,4 +40,3 @@ $ pip install -r requirements.txt
 ## *Author Name*
 <!--Remove the below lines and add yours -->
 Xordux
-Your name goes here.
