@@ -1,9 +1,10 @@
 ##  split a video file by given time period
 
-This script will split the video into two files
+This script will split the video into two files when valid time periods are given.
+
 
 ### Requirements
-
+Install python in the host system
 Install [ffmpeg-python](https://github.com/kkroening/ffmpeg-python)
 
 ```
