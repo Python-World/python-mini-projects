@@ -1,18 +1,18 @@
 DESCRIPTION: 
 
 
-A PYTHON BASED 2 PLAYER TIC TAC TOE GAME. IT TAKES INPUT FOR THE RESPECTIVE X AND Y CO-ORDINATES. THE TWO PLAYERS ARE NAMED AS X AND 0 AND WILL INPUT THEIR DESIRED COORDINATES ALTERNATIVELY.
+A python based 2 player Tic Tac Toe game. It takes input for the respective x and y coordinates of the two players.. The two players are named as X and O and will enter their desired coordinates alternatively to win the game.
 
 
 PREREQUISITES:
 
-USE ANY ONLINE PYTHON COMPILER OR DOWNLOAD PYTHON FROM https://www.python.org/
+Use any python online compiler of download python IDE from https://www.python.org/
 
 
 
 HOW TO RUN:
 
-JUST RUN tic_tac_toe.py
+Just run tic_tac_toe.py
 
 
 SCREENSHOTS/DEMO:
@@ -48,4 +48,5 @@ enter x and y: 13
  
 
 AUTHOR:
+
 Akashdt
