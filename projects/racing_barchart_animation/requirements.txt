@@ -1,8 +1,6 @@
-Package           Version
------------------ ---------
-jupyterlab        2.2.2
-matplotlib        3.3.0
-notebook          6.1.1
-numpy             1.19.1
-pandas            1.1.0
-requests          2.24.0
+jupyterlab==2.2.2
+matplotlib==3.3.0
+notebook==6.1.1
+numpy==1.19.1
+pandas==1.1.0
+requests==2.24.0
