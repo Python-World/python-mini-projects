@@ -1,4 +1,4 @@
-ExifRead==2.3.1
+ExifRead==2.3.0
 Flask-SQLAlchemy==2.4.4
 Flask==1.1.2
 HTMLParser==0.0.2
