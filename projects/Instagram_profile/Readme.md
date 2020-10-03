@@ -9,3 +9,8 @@ pip install -r requirements.txt
 ```
 python InstgramProfile.py <username>
 ```
+
+### Sample run 
+
+
+<img src="output.png"/>
