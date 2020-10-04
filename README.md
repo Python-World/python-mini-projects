@@ -6,7 +6,7 @@
 
 # Python-Mini-Projects
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-46-blue.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-68-blue.svg?style=flat-square)](#contributors-)
 ![Issues](https://img.shields.io/github/issues/chavarera/python-mini-projects)
 ![Pull Requests](https://img.shields.io/github/issues-pr/chavarera/python-mini-projects?)
 ![Forks](https://img.shields.io/github/forks/chavarera/python-mini-projects)
