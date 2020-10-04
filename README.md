@@ -4,7 +4,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
-# Mini-Projects-Python
+# Python-Mini-Projects
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-46-blue.svg?style=flat-square)](#contributors-)
 ![Issues](https://img.shields.io/github/issues/chavarera/python-mini-projects)
