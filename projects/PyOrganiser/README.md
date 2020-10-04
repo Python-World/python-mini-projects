@@ -2,7 +2,7 @@
 
     - Add plans to your day
     - Organise your day
-    - Keep track abouts all meetsings and todos
+    - Keep track abouts all meetings and todos
     
 # Installing
 
