@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>653</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Organizer</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../Downloads/file.png</normaloff>../Downloads/file.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListView" name="todoView">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>631</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::SingleSelection</enum>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>356</y>
+      <width>184</width>
+      <height>45</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="todoEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>400</y>
+      <width>521</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addButton">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>400</y>
+      <width>101</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add Todo</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="completeButton">
+    <property name="geometry">
+     <rect>
+      <x>439</x>
+      <y>440</y>
+      <width>91</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Complete</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="inCompleteButton">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>440</y>
+      <width>91</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Incomplete</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>440</y>
+      <width>321</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>10</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>Day Scheduler</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="deleteButton">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>440</y>
+      <width>101</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Delete</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>10</y>
+      <width>110</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="dateTime">
+     <datetime>
+      <hour>0</hour>
+      <minute>0</minute>
+      <second>0</second>
+      <year>2020</year>
+      <month>5</month>
+      <day>18</day>
+     </datetime>
+    </property>
+    <property name="displayFormat">
+     <string>dd/MM/yyyy</string>
+    </property>
+    <property name="calendarPopup">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
