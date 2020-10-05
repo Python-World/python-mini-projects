@@ -10,7 +10,7 @@ from time import sleep #time library for sleepcommand
 
 from random import randint #library to provide random integer values between range
 
-from selenium import webdriver #the library for accesing chrome by our code
+from selenium import webdriver as wb #the library for accesing chrome by our code
 
 
 #window to accept inputs username, password, and hashtags
