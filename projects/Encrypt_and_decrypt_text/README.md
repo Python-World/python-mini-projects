@@ -24,4 +24,4 @@ when the program has finished running.
 
 ### Author Name
 
-[Fin McCallum](https://github.com/FinMc)
+[Gaodong](https://github.com/xlgd)
