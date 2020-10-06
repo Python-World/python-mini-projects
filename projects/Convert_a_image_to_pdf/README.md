@@ -7,7 +7,7 @@ The Python script enables the user to convert Images into PDF files. However, yo
 <!--Remove the below lines and add yours -->
 **img2pdf module**
 
-The `img2pdf` is an inbuilt Python module which enables you to convert a JPG image into a PDF.
+The `img2pdf` is an external Python module which enables you to convert a JPG image into a PDF.
 
     pip install img2pdf
 
@@ -19,14 +19,11 @@ The `img2pdf` is an inbuilt Python module which enables you to convert a JPG ima
 -   Run converter_terminal.py script
 -   Output PDF file will be generated in this folder
 
-### Using GUI
-
-Just run the converter_GUI.py script and pick any JPG image from any location and then press 'Convert JPG to PDF'
 
 ### Screenshot/GIF showing the sample use of the script
 <!--Remove the below lines and add yours -->
 
-![JPG to PDF Converter](https://drive.google.com/file/d/1_86AVHC3DkrOCcVsEbTXWejsXtnJOVqq/view?usp=sharing)
+[JPG to PDF Converter](https://drive.google.com/file/d/1_86AVHC3DkrOCcVsEbTXWejsXtnJOVqq/view?usp=sharing)
 
 ## *Author Name*
 <!--Remove the below lines and add yours -->
