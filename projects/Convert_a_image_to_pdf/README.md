@@ -1,27 +1,32 @@
-### usage
-(This script only handles jpg type images.)
-
-
     
 # Convert an Image to PDF
 <!--Remove the below lines and add yours -->
 The Python script enables the user to convert Images into PDF files. However, you must note that the script can only work well for JPG file formats. You can use the converter for revamping JPG images into PDF format.
 
-### Prerequisites
+### Requirements
 <!--Remove the below lines and add yours -->
-single image(.jpg):
-    python convert_image_to_pdf.py image_name(eg: test.jpg)
+**img2pdf module**
 
-multiple images:
-    python convert_image_to_pdf.py image_dir(eg: test)
+The `img2pdf` is an inbuilt Python module which enables you to convert a JPG image into a PDF.
+
+    pip install img2pdf
+
 ### How to run the script
 <!--Remove the below lines and add yours -->
-Steps on how to run the script along with suitable examples.
+### Using Terminal
+
+-   Add the image in the JPG format with name as 'input' in this folder.
+-   Run converter_terminal.py script
+-   Output PDF file will be generated in this folder
+
+### Using GUI
+
+Just run the converter_GUI.py script and pick any JPG image from any location and then press 'Convert JPG to PDF'
 
 ### Screenshot/GIF showing the sample use of the script
 <!--Remove the below lines and add yours -->
-Add a jpeg/png/gif file here.
+![JPG to PDF Converter](https://mail.google.com/mail/u/0?ui=2&ik=a50fac4cd5&attid=0.1&permmsgid=msg-f:1679689205514634701&th=174f746edbc205cd&view=att&disp=safe&realattid=f_kfw3vazn0)
 
 ## *Author Name*
 <!--Remove the below lines and add yours -->
-Your name goes here.
+Devansh Agarwal
