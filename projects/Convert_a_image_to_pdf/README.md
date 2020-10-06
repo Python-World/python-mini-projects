@@ -25,7 +25,8 @@ Just run the converter_GUI.py script and pick any JPG image from any location an
 
 ### Screenshot/GIF showing the sample use of the script
 <!--Remove the below lines and add yours -->
-![JPG to PDF Converter](https://mail.google.com/mail/u/0?ui=2&ik=a50fac4cd5&attid=0.1&permmsgid=msg-f:1679689205514634701&th=174f746edbc205cd&view=att&disp=safe&realattid=f_kfw3vazn0)
+
+![JPG to PDF Converter](https://drive.google.com/file/d/1_86AVHC3DkrOCcVsEbTXWejsXtnJOVqq/view?usp=sharing)
 
 ## *Author Name*
 <!--Remove the below lines and add yours -->
