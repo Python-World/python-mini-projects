@@ -1,0 +1,2 @@
+python == 2.7   (above 2.5 will work)
+turtle
