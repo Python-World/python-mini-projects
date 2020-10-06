@@ -30,7 +30,6 @@ This Python script converts the Speech input into Text using NLP(Natural Langaug
 -   Run converter_terminal.py script
 -   Output Text will be displayed
 
-Just run the converter_GUI.py script and pick any JPG image from any location and then press 'Convert JPG to PDF'
 
 ## *Author Name*
 <!--Remove the below lines and add yours -->
