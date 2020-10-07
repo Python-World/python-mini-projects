@@ -22,6 +22,7 @@ You only need Python to run this script. You can visit [here](https://www.python
 <!--Remove the below lines and add yours -->
 Running the script is really simple! Just open a terminal in the folder where your script is located and run the following command :
 
+    `pip install -r requirements.txt`
     `python store_emails.py`
 
 
