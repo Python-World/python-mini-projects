@@ -1,9 +1,15 @@
 ## Geocoding Script
 
-### This script takes an address and return its latitude and longitude.This process is called geocoding
+This script takes an address and return its latitude and longitude.This process is called geocoding.
 
-#### I have used the locationiq website's geocoding api inorder to solve this problem.
+## Prerequisites
 
-#### To be able to use this script you have to create a *free account* at https://locationiq.com/ and obtain your *private token*.
+I have used the locationiq website's geocoding api inorder to solve this problem. To be able to use this script you have to create a _free account_ at https://locationiq.com/ and obtain your _private token_.
 
-#### Remember, *don't share* your private token with anyone.
+## How to run the script
+
+Run "python geocoding.py"
+
+## Author Name
+
+Aditya Jetely.
