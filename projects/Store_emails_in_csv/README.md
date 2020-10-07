@@ -1,6 +1,7 @@
 # Store mails in your inbox in csv format
 <!--Remove the below lines and add yours -->
 1)This script takes your email and password as input.
+
 2)Return a csv containing following attributes:
 -Date
 -From(Sender)
