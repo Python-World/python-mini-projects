@@ -2,7 +2,7 @@
 This script scrapes quotes from [Quotes to Scrape](http://quotes.toscrape.com)
 
 ### Prerequisites
-* bs4
+* beautifulsoup4
 * requests
  Run `pip install -r requirements.txt` to install required external modules.
 

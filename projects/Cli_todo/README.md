@@ -8,7 +8,8 @@ Install Click: `pip install click`
 
 ## How to use
 ### Running
-`python todo.py [command]`
+either run it from your code editor or Ide or type `python todo.py [command]` in your command line.
+(insted of [command] add desired command u want)
 
 ### Commands
 |Command | Description|

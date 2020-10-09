@@ -1,7 +1,7 @@
 import tweepy
 import csv
-import pandas as pd
-####input your credentials here
+
+# input your credentials here
 consumer_key = ''
 consumer_secret = ''
 access_token = ''

@@ -101,3 +101,7 @@ SR No   | Project | Author
 94 | [GeeksforGeeks Article downloader](https://github.com/chavarera/python-mini-projects/tree/master/projects/download%20GeeksForGeeks%20articles)| [Shiv Thakur](https://github.com/ShivSt)
 95 | [PDF to Text](https://github.com/chavarera/python-mini-projects/tree/master/projects/convert%20pdf%20to%20text)| [pi1814](https://github.com/pi1814)
 96 | [Unstructured Supplemenrary Service Data](https://github.com/chavarera/python-mini-projects/tree/master/projects/Unstructured%20Supplemenrary%20%20Service%20Data)| [ART](https://github.com/Tomyzon1728)
+97 | [Duplicate Files remover](https://github.com/chavarera/python-mini-projects/tree/master/projects/Duplicate%20files%20remover)| [Anandha Krishnan Aji](https://github.com/anandhakrishnanaji)
+98 | [PNG to ICO converter](https://github.com/chavarera/python-mini-projects/tree/master/projects/convert_png_images_to_ico_format)| [weicheansoo](https://github.com/weicheansoo)
+99 | [Find IMDB Ratings](https://github.com/chavarera/python-mini-projects/tree/master/projects/Find_imdb_rating)| [Utkarsh Bajaj](https://github.com/utkarshbajaj)
+100 | [Terminal Based Hangman Game](https://github.com/chavarera/python-mini-projects/tree/master/projects/Terminal_Based_Hangman_Game)| [neohboonyee99](https://github.com/neohboonyee99)

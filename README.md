@@ -4,9 +4,9 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
-# Mini-Projects-Python
+# Python-Mini-Projects
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-43-blue.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-72-blue.svg?style=flat-square)](#contributors-)
 ![Issues](https://img.shields.io/github/issues/chavarera/python-mini-projects)
 ![Pull Requests](https://img.shields.io/github/issues-pr/chavarera/python-mini-projects?)
 ![Forks](https://img.shields.io/github/forks/chavarera/python-mini-projects)
@@ -46,11 +46,15 @@ If you are new to Github and open source then, visit [here.](https://towardsdata
     git pull upstream master
     git push
     ```
-    - If you run into a **merge conflict**, you have to resolve the conflict. There are a lot of guides online, or you can try this one by [opensource.com](https://opensource.com/article/20/4/git-merge-conflict).
+
+- If you run into a **merge conflict**, you have to resolve the conflict. There are a lot of guides online, or you can try this one by [opensource.com](https://opensource.com/article/20/4/git-merge-conflict).
+
 - Checkout to development branch (*name your branch according to the issue name*).
+
     ```basg
     git checkout -b <branch-name>
     ```
+
 - Create a folder in [projects directory](https://github.com/chavarera/python-mini-projects/tree/master/projects) according to issue name.
 - Write your code and add to the respective folder in the projects directory, locally.
 - Don't forget to add a `README.md` in your folder, according to the [README_TEMPLATE.](https://github.com/chavarera/python-mini-projects/blob/master/README_TEMPLATE.md)
@@ -60,16 +64,19 @@ If you are new to Github and open source then, visit [here.](https://towardsdata
     git add -A
     git commit -m "<your message>"
     ```
+
 - Push the code *to your repository*.
+
     ```bash
     git push origin <branch-name>
     ```
+
 - Go to the GitHub page of _your fork_, and **make a pull request**:
 
     ![pull request image](https://help.github.com/assets/images/help/pull_requests/choose-base-and-compare-branches.png)
 
     Read more about pull requests on the [GitHub help pages](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
-- Now wait, until one of us *reviews your Pull Request*! If there are any conflicts, you will get a notification. 
+- Now wait, until one of us *reviews your Pull Request*! If there are any conflicts, you will get a notification.
 
 ## README Template for scripts
 
@@ -108,7 +115,7 @@ SR No   | Project | Author
 23 | [Fetch Wifi Saved Password Windows](https://github.com/chavarera/python-mini-projects/tree/master/projects/Get_wifi_password) |  [Mitesh](https://github.com/Mitesh2499)
 24 | [Save Screenshot of given Website](https://github.com/chavarera/python-mini-projects/tree/master/projects/Snapshot_of_given_website) | [m044de](https://github.com/m044de/)
 25 | [Split files using no of lines](https://github.com/chavarera/python-mini-projects/tree/master/projects/Split_File) | [phileinSophos](https://github.com/phileinSophos/)
-26 | [Encode and decode text using key](https://github.com/chavarera/python-mini-projects/tree/master/projects/Create_script_to_encode_and_decode_text) | [Gaodong](https://github.com/xlgd)
+26 | [Encrypt and decrypt text](https://github.com/chavarera/python-mini-projects/tree/master/projects/Encrypt_and_decrypt_text) | [Gaodong](https://github.com/xlgd)
 27 | [Captures screenshot at regular interval of time](https://github.com/chavarera/python-mini-projects/tree/master/projects/capture_screenshot) | [d33pc](https://github.com/d33pc/)
 28 | [Create password hash](https://github.com/chavarera/python-mini-projects/tree/master/projects/Hashing_passwords) | [m044de](https://github.com/m044de/)
 29 | [Encrypt file and folders](https://github.com/chavarera/python-mini-projects/tree/master/projects/Create_a_script_to_encrypt_files_and_folder) | [Gaodong](https://github.com/xlgd)
@@ -125,7 +132,7 @@ SR No   | Project | Author
 40 | [Scrape Youtube video comment](https://github.com/chavarera/python-mini-projects/tree/master/projects/Web_scraping_a_youtube_comment) | [Saicharan67](https://github.com/Saicharan67)
 41 | [Website Summerization](https://github.com/chavarera/python-mini-projects/tree/master/projects/Web_page_summation) | [Believe Ohiozua](https://github.com/believeohiozua)
 42 | [Text To speech(mp3)](https://github.com/chavarera/python-mini-projects/tree/master/projects/Text_to_speech) | [Sergej Dikun](https://github.com/Serhazor)
-43 | [Image format conversio)](https://github.com/chavarera/python-mini-projects/tree/master/projects/convert_Imgs) | [Ramon Ferreira](https://github.com/ramonfsk)
+43 | [Image format conversion](https://github.com/chavarera/python-mini-projects/tree/master/projects/convert_Imgs) | [Ramon Ferreira](https://github.com/ramonfsk)
 44 | [Save random article from wikipedia](https://github.com/chavarera/python-mini-projects/tree/master/projects/Random_Wikipedia_Article) | [Rakshit Puri](https://github.com/skate1512)
 45 | [Check website connectivity](https://github.com/chavarera/python-mini-projects/tree/master/projects/Check_website_connectivity) | [Shiv Thakur](https://github.com/ShivSt)
 46 | [Fetch city weather information](https://github.com/chavarera/python-mini-projects/tree/master/projects/Fetch_current_weather) | [Kushal Agrawal](https://github.com/kushal98)
@@ -150,7 +157,7 @@ SR No   | Project | Author
 65 | [Test Internet Connection](https://github.com/chavarera/python-mini-projects/tree/master/projects/Internet_connection_check) | [Jacob Ogle](https://github.com/Jakeogle94)
 66 | [XKCD Comics Downloader](https://github.com/chavarera/python-mini-projects/tree/master/projects/XKCD_downloader)| [Aditya Jetely](https://github.com/AdityaJ7)
 67 | [Website Blocker And Unblocker](https://github.com/chavarera/python-mini-projects/tree/master/projects/Website_blocker)| [Phillibob55](https://github.com/Phillibob55)
-68 | [Fetch Domain Dns Record ](https://github.com/chavarera/python-mini-projects/tree/master/projects/Dns_record)| [Aditya Jetely](https://github.com/AdityaJ7)
+68 | [Fetch Domain Dns Record](https://github.com/chavarera/python-mini-projects/tree/master/projects/Dns_record)| [Aditya Jetely](https://github.com/AdityaJ7)
 69 | [Python-Auto-Draw](https://github.com/chavarera/python-mini-projects/tree/master/projects/Python_auto_draw)| [Tushar Nankani](https://github.com/tusharnankani)
 70 | [News Website Scraper](https://github.com/chavarera/python-mini-projects/tree/master/projects/News_website_scraper)| [pratik-choudhari](https://github.com/pratik-choudhari)
 71 | [Rock Paper Scissors Game](https://github.com/chavarera/python-mini-projects/tree/master/projects/RockPaperScissors_Game)| [Tushar Nankani](https://github.com/tusharnankani)
@@ -179,3 +186,7 @@ SR No   | Project | Author
 94 | [GeeksforGeeks Article downloader](https://github.com/chavarera/python-mini-projects/tree/master/projects/download%20GeeksForGeeks%20articles)| [Shiv Thakur](https://github.com/ShivSt)
 95 | [PDF to Text](https://github.com/chavarera/python-mini-projects/tree/master/projects/convert%20pdf%20to%20text)| [pi1814](https://github.com/pi1814)
 96 | [Unstructured Supplemenrary Service Data](https://github.com/chavarera/python-mini-projects/tree/master/projects/Unstructured%20Supplemenrary%20%20Service%20Data)| [ART](https://github.com/Tomyzon1728)
+97 | [Duplicate Files remover](https://github.com/chavarera/python-mini-projects/tree/master/projects/Duplicate%20files%20remover)| [Anandha Krishnan Aji](https://github.com/anandhakrishnanaji)
+98 | [PNG to ICO converter](https://github.com/chavarera/python-mini-projects/tree/master/projects/convert_png_images_to_ico_format)| [weicheansoo](https://github.com/weicheansoo)
+99 | [Find IMDB Ratings](https://github.com/chavarera/python-mini-projects/tree/master/projects/Find_imdb_rating)| [Utkarsh Bajaj](https://github.com/utkarshbajaj)
+100 | [Terminal Based Hangman Game](https://github.com/chavarera/python-mini-projects/tree/master/projects/Terminal_Based_Hangman_Game)| [neohboonyee99](https://github.com/neohboonyee99)
