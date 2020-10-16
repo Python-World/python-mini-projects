@@ -27,7 +27,7 @@ Display:none;
 /* ========================================================================== */
 /* Icon Only */
 .docsify-tabs__tab[data-tab="icon only"] {
-    letter-spacing: -100vw;
+    letter-spacing: -101vw;
     color: transparent;
 }
 .docsify-tabs__tab[data-tab="icon only"]:before {
