@@ -1,7 +1,5 @@
 import requests
 import os
-from multiprocessing import Pool, cpu_count
-from functools import partial
 from bs4 import BeautifulSoup, SoupStrainer
 # Makes Output Directory if it does not exist
 if not os.path.exists(os.path.join(os.getcwd(), 'HackerNews')):
@@ -96,6 +94,6 @@ while(True):
         for page_no in range(1, pages + 1):
             fetch(page_no, verbose)
         break
-    except ValueError as e:
+    except ValueError:
         print('\nInvalid input, probably not a positive integer\n')
         continue

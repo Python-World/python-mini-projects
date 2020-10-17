@@ -1,16 +1,12 @@
 #!/usr/bin/python
-from tempfile import NamedTemporaryFile
 from utils.summarize import summarize
 import csv
-import json
 import shutil
 import os
 import textwrap
 import logging
-import signal
 import argparse
 import sys
-import getopt
 
 
 def parse_args(argv):
@@ -127,7 +123,7 @@ def main(argv=sys.argv):
     if action == 'simple':
         # guide against errors
         try:
-            summary = summarize(url, LANGUAGE, SENTENCES_COUNT)
+            summarize(url, LANGUAGE, SENTENCES_COUNT)
         except:
             print(
                 '\n\n Invalid Entry!, please Ensure you enter a valid web link \n\n')

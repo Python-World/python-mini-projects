@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import filedialog, messagebox
+from tkinter import filedialog
 from PIL import Image
 root = tk.Tk()   # Tkinter window initialized
 root.title('Converter')     # Title of the window

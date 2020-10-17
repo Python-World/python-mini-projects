@@ -1,5 +1,5 @@
 import exifread
-import requests,json
+import requests
 from geopy.geocoders import Nominatim
 
 def format_lati_long(data):

@@ -1,7 +1,6 @@
 from requests import get
 import os
 import ctypes
-import argparse
 import sys
 
 url = "https://source.unsplash.com/random"

@@ -1,5 +1,5 @@
 #Program to fetch the http status code give the url/api
-from urllib.request import Request, urlopen
+from urllib.request import urlopen
 from urllib.error import URLError, HTTPError
 import emoji
 

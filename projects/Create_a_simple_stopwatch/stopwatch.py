@@ -1,6 +1,5 @@
 import tkinter as Tkinter
 from datetime import datetime
-import time
 counter = 0
 running = False
 

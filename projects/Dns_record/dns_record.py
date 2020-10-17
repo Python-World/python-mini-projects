@@ -1,6 +1,5 @@
 #Simple program to fetch dns record of a given website
 
-import json
 import dns.resolver
 
 #Dictionary to store the dns record of a website
