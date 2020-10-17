@@ -7,7 +7,7 @@ This project contains a simple Python script to do Object Detection(i.e To find 
 `pip install opencv`
 `pip install cvlib`
 `pip install matplotlib`
-
+(Requirements.txt file has been provided above)
 ## Two methods:
 
 To accomplish this task
