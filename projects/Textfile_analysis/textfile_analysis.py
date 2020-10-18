@@ -3,7 +3,6 @@ import os
 import sys
 import collections
 import string
-import re
 
 script_name = sys.argv[0]
 

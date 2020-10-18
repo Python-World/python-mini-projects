@@ -10,7 +10,7 @@ def watermark_photo(input_image_path, output_image_path, watermark_image_path):
     # add watermark to your image
     position = base_image.size
 
-    watermark_size = watermark.size
+    watermark.size
 
     newsize = int(position[0] * 8 / 100), int(position[0] * 8 / 100)
 

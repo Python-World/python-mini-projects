@@ -1,4 +1,3 @@
-import math
 
 one_digit_words = {
         '0': ["zero"],
@@ -80,5 +79,5 @@ if __name__ == "__main__":
                 break
             int(n)
             print(n, "-->", converter(n))
-        except ValueError as e:
+        except ValueError:
             print("Error: Invalid Number!")

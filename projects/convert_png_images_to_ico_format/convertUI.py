@@ -1,5 +1,4 @@
 import tkinter as tk
-from tkinter import filedialog, messagebox
 from PIL import Image
 
 # Initialize Tkinter window
@@ -15,7 +14,7 @@ width = 15
 def getPNG():
     '''Function to get png image location and open it with pillow'''
     global img
-    import_file_path = filedialog.askopenfilename(filetypes=[("PNG File",'.png')])
+    import_file_path = tk.filedialog.askopenfilename(filetypes=[("PNG File",'.png')])
     img = Image.open(import_file_path)
 
 def convertToICO():
@@ -24,7 +23,7 @@ def convertToICO():
     if img is None:
         tk.messagebox.showerror("Error", "No File selected")
     else:
-        export_file_path = filedialog.asksaveasfilename(defaultextension='.ico')
+        export_file_path = tk.filedialog.asksaveasfilename(defaultextension='.ico')
         img.save(export_file_path)
         tk.messagebox.showinfo("Success", "File converted and saved")
 
