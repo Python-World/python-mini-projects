@@ -16,3 +16,5 @@ Latest version of python installed.
 open the terminal
 
 Type game.py to run the file
+
+![img](https://user-images.githubusercontent.com/58515646/96859988-d280f180-147f-11eb-8e22-324fb31f5a1a.png)
