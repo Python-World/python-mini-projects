@@ -17,13 +17,20 @@ for extracting text from HTML messages.
 You will need to have a file `credentials.txt`
 with your IMAP server account name and password on separate lines.
 
-This generates `mails.csv` in the current directory.
+Gmail - and many other IMAP providers -
+requires you to create a separate "application password"
+to allow this code to run, so probably do that first.
+Then put that password in `credentials.txt`.
+
+Then simply run
 
 ```
 python store_emails.py
 ```
 
-The generate CSV file contains the following fields for each message:
+This generates `mails.csv` in the current directory.
+
+The generated CSV file contains the following fields for each message:
 
 * Date
 * From (Sender)
@@ -47,6 +54,8 @@ arrived since the previous poll.
 
 It might be useful to be able to specify which messages to fetch,
 instead of have it fetch everything every time.
+
+The exception handling is not a good example of how to do this properly.
 
 
 ## Author Name
