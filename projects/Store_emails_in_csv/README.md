@@ -8,7 +8,7 @@ The messages are written to a simple four-column CSV file.
 
 ## Dependencies
 
-This depends on the BeautifulSoup library
+This depends on the BeautifulSoup library and `lxml`
 for extracting text from HTML messages.
 
 

@@ -41,7 +41,7 @@ def get_text(email_body):
     return soup.get_text(separator="\n", strip=True)
 
 
-def write_to_csv(mail, writer):
+def write_to_csv(mail, writer, N, total_no_of_mails):
 
     for i in range(total_no_of_mails, total_no_of_mails - N, -1):
         res, data = mail.fetch(str(i), "(RFC822)")
@@ -65,10 +65,9 @@ def write_to_csv(mail, writer):
                     content_disposition = str(part.get("Content-Disposition"))
                     try:
                         # get the email email_body
-                        email_body = part.get_payload(decode=True).decode(
-                            "utf-8"
-                        )
-                        email_text = get_text(email_body)
+                        email_body = part.get_payload(decode=True)
+                        if email_body:
+                            email_text = get_text(email_body.decode('utf-8'))
                     except Exception as exc:
                         logger.warning('Caught exception: %r', exc)
                     if (
@@ -85,13 +84,16 @@ def write_to_csv(mail, writer):
                 # extract content type of email
                 content_type = msg.get_content_type()
                 # get the email email_body
-                email_body = msg.get_payload(decode=True).decode("utf-8")
-                email_text = get_text(email_body)
+                email_body = msg.get_payload(decode=True)
+                if email_body:
+                    email_text = get_text(email_body.decode('utf-8'))
 
-            # Write data in the csv file
-            row = [email_date, email_from, email_subject, email_text]
-            writer.writerow(row)
-
+            if email_text is not None:
+                # Write data in the csv file
+                row = [email_date, email_from, email_subject, email_text]
+                writer.writerow(row)
+            else:
+                logger.warning('%s:%i: No message extracted', "INBOX", i)
 
 def main():
     mail, messages = connect_to_mailbox()
@@ -107,7 +109,7 @@ def main():
         writer = csv.writer(fw)
         writer.writerow(["Date", "From", "Subject", "Text mail"])
         try:
-            write_to_csv(mail, writer)
+            write_to_csv(mail, writer, N, total_no_of_mails)
         except Exception as exc:
             logger.warning('Caught exception: %r', exc)
 

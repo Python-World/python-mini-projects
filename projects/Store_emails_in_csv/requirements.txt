@@ -1,1 +1,2 @@
 beautifulsoup4
+lxml
