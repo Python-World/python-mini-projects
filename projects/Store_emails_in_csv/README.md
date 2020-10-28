@@ -1,31 +1,63 @@
-# Store mails in your inbox in csv format
-<!--Remove the below lines and add yours -->
-1)This script takes your email and password as input.
+# Store emails in CSV
 
-2)Return a csv containing following attributes:
+This project contains a simple script to extract email messages
+from an IMAP server.
 
--Date
-
--From(Sender)
-
--Subject
-
--Mail Text
+The messages are written to a simple four-column CSV file.
 
 
-## Prerequisites
-<!--Remove the below lines and add yours -->
-You only need Python to run this script. You can visit [here](https://www.python.org/downloads/) to download Python.
+## Dependencies
+
+This depends on the BeautifulSoup library and `lxml`
+for extracting text from HTML messages.
 
 
-## How to run the script
-<!--Remove the below lines and add yours -->
-Running the script is really simple! Just open a terminal in the folder where your script is located and run the following command :
+## Running the script
 
-    `pip install -r requirements.txt`
-    `python store_emails.py`
+You will need to have a file `credentials.txt`
+with your IMAP server account name and password on separate lines.
+
+Gmail - and many other IMAP providers -
+requires you to create a separate "application password"
+to allow this code to run, so probably do that first.
+Then put that password in `credentials.txt`.
+
+Then simply run
+
+```
+python store_emails.py
+```
+
+This generates `mails.csv` in the current directory.
+
+The generated CSV file contains the following fields for each message:
+
+* Date
+* From (Sender)
+* Subject
+* Message text
 
 
-## *Author Name*
-<!--Remove the below lines and add yours -->
-gpriya32(Priyanka)
+## Development ideas
+
+This hardcodes the IMAP server for Gmail.com and the `"INBOX"` folder.
+Perhaps this should be configured outside of the code
+for easier customization.
+
+This brutally marks all messages as read.
+Perhaps make it `PEEK` so as to not change the message flags.
+
+This will read everything in the `INBOX` folder.
+It could be useful to make it remember which messages it has already seen,
+and update a CSV file only with information from messages which have
+arrived since the previous poll.
+
+It might be useful to be able to specify which messages to fetch,
+instead of have it fetch everything every time.
+
+The exception handling is not a good example of how to do this properly.
+
+
+## Author Name
+
+Aditya Jetely (@AdityaJ7)
