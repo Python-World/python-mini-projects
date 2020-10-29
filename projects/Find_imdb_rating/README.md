@@ -30,4 +30,4 @@ CSV File:
 
 ## *Author Name*
 <!--Remove the below lines and add yours -->
-<a href = "https://github.com/utkarshbajaj"> Utkarsh Bajaj </a>
+[Utkarsh Bajaj](https://github.com/utkarshbajaj)

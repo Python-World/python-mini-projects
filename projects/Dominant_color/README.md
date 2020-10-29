@@ -18,4 +18,4 @@
 ![Screenshot](shot.png)
 
 ## *Author Name*
-Himanshu Hansaria
+[Mitesh](https://github.com/Mitesh2499)

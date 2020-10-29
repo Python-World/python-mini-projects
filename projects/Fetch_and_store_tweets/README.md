@@ -87,4 +87,4 @@ After creating the App click on **Keys and tokens** option you will observe Cons
 
 ## Author Name
 
-[AnilKumarTeegala](https://github.com/AnilKumarTeegala)
+[Kushal Agrawal](https://github.com/kushal98)

@@ -16,4 +16,4 @@ A small python program that converts binary and decimal
 
 ## *Author Name*
 <!--Remove the below lines and add yours -->
-[Fin McCallum](https://github.com/FinMc)
+[Alan Anaya](https://github.com/alananayaa/)

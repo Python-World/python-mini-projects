@@ -60,4 +60,4 @@ The exception handling is not a good example of how to do this properly.
 
 ## Author Name
 
-Aditya Jetely (@AdityaJ7)
+[Shiv Thakur](https://github.com/ShivSt)

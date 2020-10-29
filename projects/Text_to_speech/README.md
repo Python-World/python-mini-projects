@@ -14,4 +14,4 @@ done by typing 'python txtToSpeech.py' into your Terminal.
 
 
 ## *Author Name*
-Simon Hanrath
+[Sergej Dikun](https://github.com/Serhazor)

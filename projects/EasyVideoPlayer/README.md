@@ -8,4 +8,4 @@
   'cd' to the directory that contains the script and type "python3 EasyVideoPlayer.py". When you are done with the video, use "keyboard interrupt" (Ctrl + C) to exit the player.
 
 ## *Author Name*
-  Bartu Yaman
+[Bartu Yaman](https://github.com/brtymn)

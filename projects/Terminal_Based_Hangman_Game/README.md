@@ -9,4 +9,4 @@ None
 - Start to guess the word.
 
 ## Author Name
-Neoh Boon Yee
+[Neoh Boon Yee](https://github.com/neohboonyee99)
