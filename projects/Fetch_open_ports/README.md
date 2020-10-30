@@ -27,4 +27,4 @@ No need for additional installations.
 
 ## *Author Name*
 <!--Remove the below lines and add yours -->
-Aleksej Komnenovic
+[Kushal Agrawal](https://github.com/kushal98)

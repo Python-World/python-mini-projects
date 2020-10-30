@@ -14,4 +14,4 @@ Execute `python3 quote_scraper.py`
 ![Screenshot of the CSV file](Screenshot.png)
 
 ## Author Name
-Anandha Krishnan Aji
+[Anandha Krishnan Aji](https://github.com/anandhakrishnanaji)

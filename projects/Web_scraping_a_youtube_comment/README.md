@@ -15,4 +15,4 @@
 ![](demo.gif)
 
 ## *Author Name*
-- Azhad Ghufran
+[Saicharan67](https://github.com/Saicharan67)

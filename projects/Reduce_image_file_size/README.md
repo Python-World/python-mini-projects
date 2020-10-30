@@ -12,4 +12,4 @@ openCV library
 - resized output image will be generated in this folder.
 
 ## *Author Name*
-### *Vipul Verma*
+[Vipul Verma](https://github.com/VIPverma01)

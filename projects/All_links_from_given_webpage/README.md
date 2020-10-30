@@ -21,4 +21,4 @@ After that the extracted links will be saved as an array in `myLinks.txt`.
 
 
 ## *Author Name*
-Kai Reichart
+[Mitesh](https://github.com/Mitesh2499) & [Michael Mba](https://github.com/mikeysan)

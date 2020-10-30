@@ -25,5 +25,5 @@ Use 'r' for restart and 's' for shutdown: r
 
 ## *Author Name*
 <!--Remove the below lines and add yours -->
-Hannah Machado 
+[Phillibob55](https://github.com/Phillibob55)
 

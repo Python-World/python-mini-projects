@@ -14,4 +14,4 @@ To unblock the websites, run the `website_unblocker.py` script.
 
 ## *Author Name*
 
-[Kai Reichart](https://github.com/KaiReichart)
+[Phillibob55](https://github.com/Phillibob55)

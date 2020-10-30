@@ -14,4 +14,4 @@ Execute `python3 movieInfoScraper.py` and type in the movie name when prompted.
 ![Screenshot of the Output](Screenshot.png)
 
 ## Author Name
-Anandha Krishnan Aji
+[Anandha Krishnan Aji](https://github.com/anandhakrishnanaji)

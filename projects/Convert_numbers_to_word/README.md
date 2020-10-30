@@ -16,4 +16,4 @@ Execute `python3 converter.py`
 
 ## *Author Name*
 <!--Remove the below lines and add yours -->
-Niraj Shrestha
+[Niraj Shrestha](https://github.com/CrestNiraj12)

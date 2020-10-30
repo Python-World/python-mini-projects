@@ -29,4 +29,4 @@ $ python calculate.py
 
 ## *Author Name*
 <!--Remove the below lines and add yours -->
-random1001guy
+[Gaodong](https://github.com/xlgd)

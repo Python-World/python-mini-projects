@@ -12,4 +12,4 @@ It can be executed by running "python merge_pdfs.py"
 
 ## Author Name
 
-ShivSt
+[ShivSt](https://github.com/ShivSt)

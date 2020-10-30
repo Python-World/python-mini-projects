@@ -12,4 +12,4 @@ In order to run this script you must have Python3 installed, not Python2. The co
 ![GIF showing how to run](https://i.imgur.com/2y7HdGV.gif)
 
 ## *Author Name*
-README: [Alex Munoz](https://github.com/AlexMunoz905)
+[Mitesh](https://github.com/Mitesh2499)

@@ -39,6 +39,6 @@ The positions of this 3 x 3 board is same as the **keypad on the right side of y
   
   
 # *Author*:
-  - Tushar Nankani (tusharnankani, tusharnankani3@gmail.com)
-    - [Github](https://www.github.com/tusharnankani)
-	  - [LinkedIn](https://www.linkedin.com/in/tusharnankani)
+- [Tushar Nankani](https://github.com/tusharnankani)  (tusharnankani, tusharnankani3@gmail.com)
+- [Github](https://www.github.com/tusharnankani)
+- [LinkedIn](https://www.linkedin.com/in/tusharnankani)

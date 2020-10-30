@@ -8,4 +8,4 @@ In command go to the file directory, and "run python main.py" in commandline
 
 
 ## *Author Name*
-Developed by Javokhir
+[Javokhirbek](https://github.com/leader2one)

@@ -16,4 +16,4 @@ Execute `python3 generator.py`
 
 ## *Author Name*
 <!--Remove the below lines and add yours -->
-Erfan Saberi
+[Erfan Saberi](https://github.com/erfansaberi)

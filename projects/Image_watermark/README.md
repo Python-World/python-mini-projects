@@ -1,4 +1,3 @@
-
 # Image-Watermark
 
 ## Description
@@ -15,9 +14,9 @@ Use the Script [watermark.py](https://github.com/Python-World/python-mini-projec
 
 `python3 watermark.py [image_path]`
 
-Replace the `[image_path]` with the image you want to add watermark to. 
+Replace the `[image_path]` with the image you want to add watermark to.
 
 The output will be the image with desired watermark.
 
 ## Author
-Devansh Agarwal
+[Mitesh](https://github.com/Mitesh2499)
