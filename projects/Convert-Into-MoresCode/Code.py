@@ -2,6 +2,8 @@ import sys
 import pygame
 import time
 
+#These are the dots and dashes or dits and dahs correspond to the alphabet
+
 CODE = {'A': '.-',     'B': '-...',   'C': '-.-.', 
         'D': '-..',    'E': '.',      'F': '..-.',
         'G': '--.',    'H': '....',   'I': '..',
@@ -21,8 +23,9 @@ CODE = {'A': '.-',     'B': '-...',   'C': '-.-.',
 ONE_UNIT = 0.5
 THREE_UNITS = 3 * ONE_UNIT
 SEVEN_UNITS = 7 * ONE_UNIT
-PATH = 'morse_sound_files/'
+PATH = 'morse_sound_files/' #The path of the audio file
 
+#The method Verifies that there shouldn't be any special characters
 def verify(string):
 	keys = CODE.keys()
 	for char in string:
@@ -51,11 +54,12 @@ def main():
 			fi.append(temp)
 
 
-	actualCode,noneList=zip(*fi)
+	actualCode,noneList=zip(*fi) #unzipped the list here into two list to get the final Mores Code at the end 
 	
 	print("Your Moores Code:",''.join(actualCode))
 	print ('\n\nGoodbye!')
 	
- 	
+
+    	
 if __name__ == "__main__":
 	main()
