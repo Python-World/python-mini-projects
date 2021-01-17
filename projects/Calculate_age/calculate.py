@@ -1,51 +1,36 @@
-# -*- coding: utf-8 -*-
-import time
-from calendar import isleap
+import datetime
+from datetime import date 
 
-# judge the leap year
-def judge_leap_year(year):
-    if isleap(year):
-        return True
-    else:
-        return False
+# returns age
+def calculate_age(born): 
+	today = date.today() 
+	try: 
+		birthday = born.replace(year = today.year) 
 
+	# raised when birth date is February 29 and the current year is not a leap year 
+	except ValueError: 
+		birthday = born.replace(year = today.year, month = born.month + 1, day = 1) 
 
-# returns the number of days in each month
-def month_days(month, leap_year):
-    if month == 1 or month == 3 or month == 5 or month == 7:
-        return 31
-    elif month == 8 or month == 10 or month == 12:
-        return 31
-    elif month == 4 or month == 6 or month == 9 or month == 11:
-        return 30
-    elif month == 2 and leap_year:
-        return 29
-    elif month == 2 and (not leap_year):
-        return 28
-
+	if birthday > today: 
+		return today.year - born.year - 1
+	else: 
+		return today.year - born.year
 
 name = input("input your name: ")
-age = input("input your age: ")
-localtime = time.localtime(time.time())
+#enter in format YYYY-MM-DD
+#example 1997-02-03
+dob = input("input your date of birth: ")
+y = int(dob[:4])
+m = int(dob[5:7])
+d = int(dob[8:])
+res = calculate_age(date(y,m,d))
+mon = res*12+(12-m)
+birth_date = datetime.date(y,m,d)
+today_date = date.today()
+day = (today_date-birth_date).days
+hrs = day*24
+min = hrs*60
+print("%s's age is %d years or " % (name, res), end="")
+print("%d months or %d days or " % (mon,day), end ="")
+print("%d hours or %d minutes" % (hrs,min))
 
-year = int(age)
-month = year * 12 + localtime.tm_mon
-day = 0
-
-begin_year = int(localtime.tm_year) - year
-end_year = begin_year + year
-
-# calculate the days
-for y in range(begin_year, end_year):
-    if (judge_leap_year(y)):
-        day = day + 366
-    else:
-        day = day + 365
-
-leap_year = judge_leap_year(localtime.tm_year)
-for m in range(1, localtime.tm_mon):
-    day = day + month_days(m, leap_year)
-
-day = day + localtime.tm_mday
-print("%s's age is %d years or " % (name, year), end="")
-print("%d months or %d days" % (month, day))

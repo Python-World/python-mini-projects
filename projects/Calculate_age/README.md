@@ -4,6 +4,8 @@ This script prints your age in three different ways :
 1. Years
 2. Months
 3. Days
+4. Hours
+5. Minutes
 
 
 ## Prerequisites
@@ -23,10 +25,11 @@ Running the script is really simple! Just open a terminal in the folder where yo
 ```
 $ python calculate.py 
     input your name: XYZ
-    input your age: 33 
-    XYZ's age is 33 years or 406 months or 12328 days
+    input your age: 20
+    XYZ's age is 20 years or 247 months or 7547 days or 181128 hours or 10867680 minutes
 ```
 
 ## *Author Name*
 <!--Remove the below lines and add yours -->
-[Gaodong](https://github.com/xlgd)
+[Divyansh](https://github.com/DivyanshMandhan)
+
