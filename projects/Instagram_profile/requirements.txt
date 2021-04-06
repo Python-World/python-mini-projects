@@ -12,7 +12,7 @@ html5lib==1.0.1
 idna==2.8
 ipaddr==2.2.0
 lockfile==0.12.2
-lxml==4.6.2
+lxml==4.6.3
 msgpack==0.6.2
 packaging==20.3
 pep517==0.8.2
