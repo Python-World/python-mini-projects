@@ -1,0 +1,46 @@
+import unittest
+
+
+# enhancement 1
+def get_file_and_destination():
+    input_file = input("What is the file name?")
+    mp4_converter = ".mp4"
+    input_file = input_file + mp4_converter
+
+    destination_file = input("Where you want to save it to?")
+    return input_file, destination_file
+
+
+# enhancement 2
+def get_user_input():
+    user_preference = input("Enter your frame preference in total: ")
+    if not user_preference.isnumeric():
+        print("Please enter an integer!")
+        new_value = get_user_input()
+        user_preference = new_value
+    return user_preference
+
+
+# test variables for enhancement 1
+first, second = get_file_and_destination()
+# test variable for enhancement 2
+input_number = get_user_input()
+
+
+class BasicTests(unittest.TestCase):
+
+    def test_get_string(self):
+        file_name = "video.mp4"
+        self.assertEqual(first, file_name)
+
+    def test_get_destination(self):
+        destination = "testing destination"
+        self.assertEqual(second, destination)
+
+    def test_input_number(self):
+        output_expected = input_number.isnumeric()
+        self.assertTrue(output_expected)
+
+
+if __name__ == "__main__":
+    unittest.main()
