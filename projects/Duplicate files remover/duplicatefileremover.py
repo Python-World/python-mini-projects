@@ -32,7 +32,7 @@ if __name__ == "__main__":
             os.remove(f)
         else:
             hashMap[key] = f
-    if len(deletedFiles) == 0:
+    if len(deletedFiles) != 0:
         print('Deleted Files')
         for i in deletedFiles:
             print(i)
