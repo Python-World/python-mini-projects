@@ -36,6 +36,5 @@ jobs:
         password: ${{ secrets.PYPI_API_TOKEN }}
 
   test:
-      - uses: actions/checkout@v2
       - name: Run a one-line script
       - run:  echo "${{github.actor}}"
