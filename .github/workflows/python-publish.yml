@@ -36,5 +36,5 @@ jobs:
         password: ${{ secrets.PYPI_API_TOKEN }}
 
   test:
-      - name: Run a one-line script
-      - run:  echo "${{github.actor}}"
+    - name: Run a one-line script
+    - run:  echo "${{github.actor}}"
