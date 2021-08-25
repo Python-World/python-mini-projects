@@ -47,4 +47,3 @@ c_ans={
     "what is symbol of function":["( )","{ }","[ ]","< >","( )"]
     }
     
-
