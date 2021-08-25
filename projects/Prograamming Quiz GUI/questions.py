@@ -18,8 +18,8 @@ python_ans={
     "What is symbol of dictionary":["( )","{ }","[ ]","None of the above","{ }"],
     "Who is founder of Python":["Steve Jobs","James Gosling","Guido von Rossum","Dennis Richie","Guido von Rossum"],
     "Python was launched in..":["1990","2003","1980","1996","1990"],
-    "What is python":["Scripting language","Programming language","Markup Language","Snake","Scripting language"],
-    "Latest Version of python is..":["3.6.4","3.6.5","3.6.9","3.7.0","3.6.4"],
+    "What is python":["Scripting language","Programming language","Markup Language","Snake","Programming language"],
+    "Latest Version of python is..":["3.8.4","3.9.5","3.8.9","3.9.0","3.9.0"],
     "Python is suitable for..":["GUI Application","Web application","Android","All of these","All of these"]}
 
 c_que={
@@ -36,14 +36,14 @@ c_que={
     }
 c_ans={
     "What is c":["Scripting language","Programming language","Markup Language","Snake","Programming language"],
-    "Who is father of c":["Steve Jobs","James Gosling","Guido von Rossum","Dennis Richie","Guido von Rossum"],
+    "Who is father of c":["Steve Jobs","James Gosling","Guido von Rossum","Dennis Richie","Dennis Richie"],
     "What is strength of C language":["data structure","Pointer","Speed","B and C both","B and C both"],
-    "C was launched in":["1970","1972","1980","1982","1970"],
+    "C was launched in":["1970","1972","1980","1982","1972"],
     "What is format specifier of char":["%ch","%c","%char","%chr","%c"],
-    "what is size of int in 64 bit os":["1 byte","8 bit","4 bit","32 bit","32 bit"],
-    "what is format specifier of double":["%d","%l","%lf","%Lf","%lf"],
+    "what is size of int in 64 bit os":["1 byte","8 bit","4 bit","32 bit","4 bit"],
+    "what is format specifier of double":["%d","%l","%lf","%Lf","%d"],
     "what is size of double":["1 byte","8 bit","8 byte","32 bit","8 byte"],
-    "output of for(;;)":["syntax erro","0 iteration","infinite iteration","runtime error","infinite iteration"],
+    "output of for(;;)":["syntax error","0 iteration","infinite iteration","runtime error","infinite iteration"],
     "what is symbol of function":["( )","{ }","[ ]","< >","( )"]
     }
     
