@@ -65,7 +65,6 @@ file_menu=Menu(main_menu,tearoff=0)
 course_menu=Menu(file_menu,tearoff=0)
 course_menu.add_radiobutton(label="Python",value="Python",variable=s,command=obj.course)
 course_menu.add_radiobutton(label="C",value="C",variable=s,command=obj.course)
-course_menu.add_radiobutton(label="Java",value="Java",variable=s,command=obj.course)
 
 file_menu.add_cascade(label="Course",menu=course_menu)
 file_menu.add_command(label="Exit",command=exit)
