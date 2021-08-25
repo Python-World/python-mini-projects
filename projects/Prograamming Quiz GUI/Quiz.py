@@ -22,9 +22,7 @@ class Project:
         elif s.get()=="C":
             self.que=c_que
             self.ans=c_ans
-        elif s.get()=="Java":
-            self.que=java_que
-            self.ans=java_ans
+
 
     def set_(self):
         if self.que==None:
