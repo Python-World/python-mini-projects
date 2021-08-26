@@ -14,7 +14,8 @@ The project is about developing a quiz of 10 question using python programming l
 ![script execution](Dashboard.jpg)
 
 <li> After successful submission a popup will display the result
-![script execution](popup.jpg)
+
+  ![script execution](popup.jpg)
   
 ### Quiz Enhancement
 
