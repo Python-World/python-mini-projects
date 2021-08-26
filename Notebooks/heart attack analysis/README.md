@@ -48,7 +48,7 @@ Output variable (based on sensory data): \
 # Algorithm
 <li>XGBoost</li>
   
-  
+  <br>
   
 **Model Accuracy:** 80.00
 
