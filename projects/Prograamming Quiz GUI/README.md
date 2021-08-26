@@ -26,11 +26,14 @@ The project is about developing a quiz of 10 questions using python programming 
 <br>
 <li> Changes in Quiz.py <br>
   1. Add th course to the course() function (Line 15)
-  <li> elif s.get()=="Java":
-            self.que=java_que
-            self.ans=java_ans</li>
+  <br> 
+  elif s.get()=="Java":
+            <br>
+            <lr> self.que=java_que
+            <lr> self.ans=java_ans
   <br>
   2. Add course to the file menu (Line 65) 
+  <br>
      course_menu.add_radiobutton(label="Java",value="Java",variable=s,command=obj.course)
 <br>
 <li> Save and run the script using the instructions given above
