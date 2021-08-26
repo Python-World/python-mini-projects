@@ -34,3 +34,7 @@ The project is about developing a quiz of 10 question using python programming l
      course_menu.add_radiobutton(label="Java",value="Java",variable=s,command=obj.course)
 <br>
 <li> Save and run the script using the instructions given above
+
+  
+  ## *Author Name*
+[Pulkit Dhingra](https://github.com/Pulkit12dhingra)
