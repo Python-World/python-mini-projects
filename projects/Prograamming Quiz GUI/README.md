@@ -1,5 +1,5 @@
 # Programming Quiz Project
-The project is about developing a quiz of 10 question using python programming language on a graphical user interphase.
+The project is about developing a quiz of 10 questions using python programming language on graphical user interphase.
 
 ### Prerequisites
 1. Tkinter
@@ -13,7 +13,7 @@ The project is about developing a quiz of 10 question using python programming l
   
 ![script execution](Dashboard.jpg)
 
-<li> After successful submission a popup will display the result
+<li> After successful submission, a popup will display the result
 
   ![script execution](popup.jpg)
   
