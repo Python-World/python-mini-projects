@@ -24,7 +24,7 @@ geopy==2.0.0
 googletrans==3.0.0
 idna==2.10
 img2pdf==0.4.0
-jupyterlab==2.2.2
+jupyterlab==2.2.10
 kiwisolver==1.2.0
 lxml==4.5.1
 matplotlib==3.3.0
