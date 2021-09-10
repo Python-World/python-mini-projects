@@ -19,3 +19,7 @@ pip install requirements.txt
 ```
 python ./main.py
 ```
+
+## Author Name
+
+[Alexander Monterrosa](https://github.com/Alex108-lab)
