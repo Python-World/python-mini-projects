@@ -52,7 +52,7 @@ sumy==0.8.1
 tensorflow==2.5.1
 tqdm==4.48.2
 tweepy==3.9.0
-urllib3==1.25.10
+urllib3==1.26.5
 utils==1.0.1
 webdriver-manager==3.2.2
 wget==3.2
