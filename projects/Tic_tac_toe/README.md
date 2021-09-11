@@ -3,10 +3,9 @@
 ## Description
 
 A python based 2-player Tic Tac Toe game.
-It takes input for the respective x and y coordinates of the two players.
+It takes input of the two players.
 The two players are named as X and O
-and will enter their desired coordinates alternatively to win the game.
-
+and will enter alternating moves in attempt to win the game.
 
 ## Prerequisites
 
@@ -22,5 +21,6 @@ python tic_tac_toe.py
 
 <!-- ## Screenshots/Demo -->
 
-## Author
-[Erfan Saberi](https://github.com/erfansaberi)
+## Authors
+- [Erfan Saberi](https://github.com/erfansaberi)
+- [Austin Jackson](https://github.com/vesche)
