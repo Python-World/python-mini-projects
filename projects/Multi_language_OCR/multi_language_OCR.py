@@ -59,4 +59,5 @@ print("OCR system Initialization complete!")
 while True:
     img = input("Please enter the path where the picture file is located:")
     results = ocr.ocr(img)
-    print(results)
+    for info in results:
+        print(info)
