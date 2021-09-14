@@ -14,7 +14,9 @@ pip install -r ./projects/Multi_language_OCR/requirements.txt
 ```
 ### How to run the script
 <!--Remove the below lines and add yours -->
-Execute `python3 multi_language_OCR.py`
+Execute `python3 multi_language_OCR.py`  
+
+If you need complete operation documents, you can refer to [AgentOCR advanced tutorial](https://github.com/AgentMaker/AgentOCR)
 
 ### Screenshot/GIF showing the sample use of the script
 <!--Remove the below lines and add yours -->
