@@ -21,13 +21,13 @@ If you are new to Github and open source then, visit [here.](https://towardsdata
 
 ## Steps To Follow
 
-- Select an issue and ask to be *assigned* to it.
-- Check existing scripts [project here.](https://github.com/AdityaJ7/python-mini-projects/tree/master/projects)
-- **Star** the repository.
-- On the [GitHub page for this repository](https://github.com/Python-World/python-mini-projects), click on the Button "**Fork**".
-   ![fork image](https://help.github.com/assets/images/help/repository/fork_button.jpg)
-- Create clone ***your forked repository*** on your local machine.
-   ![code ui](https://docs.github.com/assets/images/help/repository/code-button.png)
+- Select an issue and ask to be _assigned_ to it.
+- Check existing scripts in the [projects](/projects/) directory.
+- **Star** this repository.
+- On the [python-mini-projects](https://github.com/Python-World/python-mini-projects) repo page, click the **Fork** button.
+    <br><img src="https://help.github.com/assets/images/help/repository/fork_button.jpg" title="Fork image" width="400"/>
+- **Clone** your forked repository to your local machine. This button will show you the URL to run.
+    <br><img src="https://docs.github.com/assets/images/help/repository/code-button.png" title="Code button" width="400"/>
 
     For example, run this command inside your terminal:
 
@@ -46,6 +46,8 @@ If you are new to Github and open source then, visit [here.](https://towardsdata
     git pull upstream master
     git push
     ```
+    
+    Alternatively, GitHub also provides syncing now - click "Fetch upstream" at the top of your repo below "Code" button.
 
 - If you run into a **merge conflict**, you have to resolve the conflict. There are a lot of guides online, or you can try this one by [opensource.com](https://opensource.com/article/20/4/git-merge-conflict).
 
@@ -68,7 +70,7 @@ If you are new to Github and open source then, visit [here.](https://towardsdata
     git commit -m "<your message>"
     ```
 
-- Push the code *to your repository*.
+- Push the code _to your repository_.
 
     ```bash
     git push origin <branch-name>
