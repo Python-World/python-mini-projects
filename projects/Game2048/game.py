@@ -59,6 +59,7 @@ class Game2048:
     def __init__(self):
         self.root = Tk()
         self.root.title('2048')
+        self.root.resizable(0, 0)
         self.main_frame = Frame(self.root)
 
         # New a chess board
@@ -73,7 +74,7 @@ class Game2048:
             self.display, text='SCORE\n0', font=Font(size=28), foreground='#b9aa9e', background='#f9f8ee', justify=CENTER)
         # A label  which  display highest score
         self.hs_label = Label(
-            self.display, text='HIGH\n0', font=Font(size=28), foreground='#b9aa9e', background='#f9f8ee', justify=CENTER)
+            self.display, text='BEST\n0', font=Font(size=28), foreground='#b9aa9e', background='#f9f8ee', justify=CENTER)
         # A label which display the number of the 2048
         self.num_label = Label(self.display, text='2048\n0', font=Font(
             size=28), foreground='#b9aa9e', background='#f9f8ee', justify=CENTER)
@@ -124,7 +125,7 @@ class Game2048:
             for c in range(len(self.data[0])):
                 self.blocks[r][c].value(self.data[r][c])
         self.ts_label['text'] = 'SCORE\n{}'.format(self.total_score)
-        self.hs_label['text'] = 'HIGH\n{}'.format(self.highest_score)
+        self.hs_label['text'] = 'BEST\n{}'.format(self.highest_score)
         self.num_label['text'] = '2048\n{}'.format(self.num_2048)
 
     # Moving to the next state
@@ -135,13 +136,17 @@ class Game2048:
                 if self.data[r][c] == 0:
                     available_block.append((r, c))
         insert_pos = []
-        if len(available_block) > 2:
+        block_num = len(available_block)
+        if block_num > 1:
             a = random.randrange(0, len(available_block))
             insert_pos.append(available_block.pop(a))
             b = random.randrange(0, len(available_block))
             insert_pos.append(available_block.pop(b))
+            if block_num <= 10:
+                insert_pos.pop()
         else:
             insert_pos += available_block
+
         for pos in insert_pos:
             if random.random() < 0.75:
                 self.data[pos[0]][pos[1]] = 2
@@ -152,7 +157,9 @@ class Game2048:
 
     # Keyboard reaction
     def keyboard(self, event: Event):
+        moved = False
         if not self.check():
+            self.update()
             # if it can't move, will ask to start a new game
             opt = messagebox.askyesno("GAME OVER", "Start a new game?")
             if opt:
@@ -163,18 +170,19 @@ class Game2048:
                         self.data[r][c] = 0
         else:
             if event.keysym == 'Up' or event.keysym.lower() == 'w':
-                self.up()
+                moved = self.up()
             elif event.keysym == 'Down' or event.keysym.lower() == 's':
-                self.down()
+                moved = self.down()
             elif event.keysym == 'Left' or event.keysym.lower() == 'a':
-                self.left()
+                moved = self.left()
             elif event.keysym == 'Right' or event.keysym.lower() == 'd':
-                self.right()
+                moved = self.right()
             else:
                 return
 
-        self.next_state()
-        self.update()
+        if moved:
+            self.next_state()
+            self.update()
 
     # Checking can move or not
     def check(self):
@@ -204,32 +212,48 @@ class Game2048:
         return False
 
     def down(self):
+        moved = False
         val = [0] * len(self.data)
         for c in range(len(self.data[0])):
             for r in range(len(self.data)):
                 val[r] = self.data[r][c]
             res = self.move(val[::-1])[::-1]
             for r in range(len(self.data)):
+                if not moved and self.data[r][c] != res[r]:
+                    moved = True
                 self.data[r][c] = res[r]
+        return moved
 
     def up(self):
+        moved = False
         val = [0] * len(self.data)
         for c in range(len(self.data[0])):
             for r in range(len(self.data)):
                 val[r] = self.data[r][c]
             res = self.move(val)
             for r in range(len(self.data)):
+                if not moved and self.data[r][c] != res[r]:
+                    moved = True
                 self.data[r][c] = res[r]
+        return moved
 
     def left(self):
+        moved = False
         for r in range(len(self.data)):
             res = self.move(self.data[r])
+            if not moved and self.data[r] != res:
+                moved = True
             self.data[r][:] = res[:]
+        return moved
 
     def right(self):
+        moved = False
         for r in range(len(self.data)):
-            res = self.move(self.data[r][::-1])
-            self.data[r][:] = res[::-1]
+            res = self.move(self.data[r][::-1])[::-1]
+            if not moved and self.data[r] != res:
+                moved = True
+            self.data[r][:] = res
+        return moved
 
     # Move the block to aside, and fuse the same block
     def move(self, val):
