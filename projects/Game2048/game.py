@@ -168,6 +168,8 @@ class Game2048:
                 for r in range(len(self.data)):
                     for c in range(len(self.data[0])):
                         self.data[r][c] = 0
+                self.next_state()
+                self.update()
         else:
             if event.keysym == 'Up' or event.keysym.lower() == 'w':
                 moved = self.up()
