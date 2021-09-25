@@ -14,10 +14,10 @@
 </ul>
 
 <h3>To install external modules:</h3>
-<p>Run pip install tkinter</p>
+<p><li>Run pip install tkinter</li></p>
 
 <h3>To execute the project:</h3>
-<p>Run billing system.py</p>
+<p><li>Run billing system.py</li></p>
 
 <h3>Screenshot/GIF of this project.</h3>
 
