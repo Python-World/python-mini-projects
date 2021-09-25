@@ -1,5 +1,5 @@
 <h1>Billing system using Tkinter</h1>
-<p>This project can be used as any shop. User can store all the data and generate the bill.</p>
+<p>This project can be used for any shops. User can store all the data and generate the bill.</p>
 
 <h2>Tech stack:</h2>
 <ul>
@@ -20,3 +20,5 @@
 <p>Run billing system.py</p>
 
 <h3>Screenshot/GIF of this project.</h3>
+
+![Bill](https://user-images.githubusercontent.com/72568715/134779769-7695a727-adbb-43b7-9e60-1205dc982ae7.PNG)
