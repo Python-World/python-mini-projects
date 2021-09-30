@@ -35,9 +35,9 @@ while(comp_count+user_count<games):
 
 	print("Computer's Input: ", my_dict[comp_input])
 	if ( user_input=='R' and comp_input=='P' ) or ( user_input=='P' and comp_input=='S' ) or ( user_input=='S' and comp_input=='R' ):
-		comp_count+=1
+		comp_count=comp_count+1
 	elif ( user_input=='P' and comp_input=='R' ) or ( user_input=='S' and comp_input=='P' ) or ( user_input=='R' and comp_input=='S' ):
-		user_count+=1
+		user_count=user_count+1
 	else:
 		print("TIE")
 
