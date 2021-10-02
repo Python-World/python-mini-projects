@@ -12,8 +12,8 @@ if len(sys.argv) < 3:
 orignal = sys.argv[1]
 changed = sys.argv[2]
 
-orignal_contents = open(orignal, "r").readlines().close()
-changed_contents = open(changed, "r").readlines().close()
+orignal_contents = open(orignal, "r").readlines()
+changed_contents = open(changed, "r").readlines()
 
 color = "green"
 symbol = f"[bold {color}][+]"
