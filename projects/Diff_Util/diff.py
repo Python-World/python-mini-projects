@@ -4,14 +4,16 @@ import sys
 from rich import print
 
 if len(sys.argv) < 3:
-    print("Error")
+    print("Usage:")
+    print("\tMust provide two file names as command-line arguments.")
+    print("\tdiff.py <orignal_file> <changed_file>")
     exit(1)
 
 orignal = sys.argv[1]
 changed = sys.argv[2]
 
-orignal_contents = open(orignal, "r").readlines()
-changed_contents = open(changed, "r").readlines()
+orignal_contents = open(orignal, "r").readlines().close()
+changed_contents = open(changed, "r").readlines().close()
 
 color = "green"
 symbol = f"[bold {color}][+]"
