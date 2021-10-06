@@ -51,4 +51,4 @@ if __name__ == "__main__":
         except Exception as e:
             print(e)
     else:
-        print("Enter a valid  working URL")
+        print("Enter a valid working URL")
