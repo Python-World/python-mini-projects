@@ -10,6 +10,8 @@ On linux you can use
 ``` ./cat.py [path] ```
 Or
 ```python ./cat.py [path]```
+Example
+```.cat.py ./test_cat.txt```
 
 ## Author Name
 
