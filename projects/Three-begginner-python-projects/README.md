@@ -27,4 +27,4 @@ And you are ready to go...
 
 ### *Coder Name*
 
-[Kamal Koranga]((https://github.com/Kamalkoranga))
+[Kamal Koranga](https://github.com/Kamalkoranga)
