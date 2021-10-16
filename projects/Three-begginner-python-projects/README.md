@@ -25,6 +25,6 @@ For installation, just download python and vs code.
 
 And you are ready to go...
 
-### *Coder Name*
+## Coder Name
 
 [Kamal Koranga](https://github.com/Kamalkoranga)
