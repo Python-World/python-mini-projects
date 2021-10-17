@@ -1,16 +1,14 @@
-## Prerequisite 
+# Captcha Genrator 
+A simple image captcha genrator
 
-- Install Python Captcha Library
+### Prerequisites
+1. Install the dependencies by executing the following command 
+   ```pip install -r requirements.txt```
 
-  ``` pip intsall captcha ```
-
-- Download the fonts
-
-  [ChelseaMarketsr.ttf](https://drive.google.com/file/d/1t_2N35fDX3W3qyoV47eu1wLtf-leBZUo/view?usp=sharing) and  [DejaVuSanssr.ttf](https://drive.google.com/file/d/1fMBpuP4W5Fq--JrrxfZt5aEwjOxkRIfl/view?usp=sharing)
-
-- Update the path of font in code (if required)
-
+2. Update the path of font in code (if required)
     ```image = ImageCaptcha(fonts=['<path>/ChelseaMarketsr.ttf', '<path>/DejaVuSanssr.ttf'])```
 
+### Screenshot
+![image](https://user-images.githubusercontent.com/39544459/137623915-1e837ada-f199-4513-a15d-ecbb969fd53e.png)
 
-  
+## *Mayur Singal*  
