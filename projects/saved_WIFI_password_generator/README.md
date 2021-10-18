@@ -7,3 +7,4 @@ This script allows one to list out the passwords of all the WIFI networks to whi
 Run `python wifi-passwords.py` in the command line after setting the project directory.
 
 # Author name
+[Ayush Paine](https://github.com/ayushpaine)
