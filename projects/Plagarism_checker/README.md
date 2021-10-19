@@ -33,5 +33,5 @@ $ python plag.py
 
 <!--Remove the below lines and add yours -->
 
-Darahaas Yajamanyam
-darahaas15(https://github.com/darahaas15)
+Darahaas Yajamanyam <br />
+[darahaas15](https://github.com/darahaas15)
