@@ -1,0 +1,6 @@
+libraries used : tkinter
+		 messagebox
+	         pil
+ 		 time
+	 	 psutil
+		 socket
