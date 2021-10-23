@@ -3,30 +3,30 @@ from deep_translator import (GoogleTranslator, #importing the deep_translator Li
                              LingueeTranslator,
                              MyMemoryTranslator,)
 
-def wordTranslate_google(origin, word):         #Word Translator Using Google API
-    translated_word = GoogleTranslator(source = origin, target = 'english').translate(text = word)
+def wordTranslate_google(origin, word, target):         #Word Translator Using Google API
+    translated_word = GoogleTranslator(source = origin, target = target).translate(text = word)
     return translated_word
 
-def wordTranslate_myMemory(origin, word):       #Word Translator Using MyMemory
-    translated_word = MyMemoryTranslator(source =origin, target='english').translate(word)
+def wordTranslate_myMemory(origin, word, target):       #Word Translator Using MyMemory
+    translated_word = MyMemoryTranslator(source =origin, target= target).translate(word)
     return translated_word
 
-def wordTranslate_lingee(origin, word):         #Word Translator Using Lingee
-    translated_word = LingueeTranslator(source = origin, target = 'english').translate(word)
+def wordTranslate_lingee(origin, word, target):         #Word Translator Using Lingee
+    translated_word = LingueeTranslator(source = origin, target = target).translate(word)
     return translated_word
 
-def wordTranslate_pons(origin, word):           #Word Translator Using PONS
-    translated_word = PonsTranslator(source = origin, target = 'english').translate(word)
+def wordTranslate_pons(origin, word, target):           #Word Translator Using PONS
+    translated_word = PonsTranslator(source = origin, target = target).translate(word)
     return translated_word
 
 
-def wordTranslate(origin, word): # Word Translator Main Function
+def wordTranslate(origin, word, target): # Word Translator Main Function
     word = word.strip()
     translated_dict = {         #dictionary with the translated words using different API's
-        'google': wordTranslate_google(origin, word),
-        'myMemory': wordTranslate_myMemory(origin, word),
-        'lingee': wordTranslate_lingee(origin, word),
-        'pons': wordTranslate_pons(origin, word)
+        'google': wordTranslate_google(origin, word, target),
+        'myMemory': wordTranslate_myMemory(origin, word, target),
+        'lingee': wordTranslate_lingee(origin, word, target),
+        'pons': wordTranslate_pons(origin, word, target)
     }
 
     translated_word_count = {}  #Creating a blank dictionaries for storing the frequency

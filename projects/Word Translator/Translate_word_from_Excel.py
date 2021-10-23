@@ -14,9 +14,10 @@ selected = []
 
 head = input("Enter the head of the column which contains the words: ")
 origin = input("Enter the origin language of the words: ")
+target = input("Enter the target language of the words: ")
 
 for word in df[head]:
-    translated_word, translated_dict, max_count, translated_word_count = wordTranslate(origin, word)
+    translated_word, translated_dict, max_count, translated_word_count = wordTranslate(origin, word, target)
     test_list = []
     selected.append(translated_word)
     for key, value in translated_dict.items():
