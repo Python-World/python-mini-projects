@@ -1,8 +1,7 @@
-from numpy import source
 from WordTranslator import *
 import pandas as pd
 
-df = pd.read_excel('./Excel_Files/Input.xlsx')
+df = pd.read_excel("input.xlsx")
 
 google = []
 myMemory = []
