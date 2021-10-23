@@ -25,7 +25,7 @@ def wordTranslate(origin, word): # Word Translator Main Function
     translated_dict = {         #dictionary with the translated words using different API's
         'google': wordTranslate_google(origin, word),
         'myMemory': wordTranslate_myMemory(origin, word),
-        #'lingee': wordTranslate_lingee(origin, word),
+        'lingee': wordTranslate_lingee(origin, word),
         'pons': wordTranslate_pons(origin, word)
     }
 
