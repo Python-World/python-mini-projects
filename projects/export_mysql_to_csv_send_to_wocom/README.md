@@ -18,7 +18,7 @@ $ python export_mysql_data_to_csv.py
 
 ### Screenshot/GIF showing the sample use of the script
 
-![截屏2021-11-05 下午5.30.09](https://allstarblob.blob.core.chinacloudapi.cn/203301/%E6%88%AA%E5%B1%8F2021-11-05%20%E4%B8%8B%E5%8D%885.30.09.png)
+![pic](./pic.png)
 
 ### Author Name
 
