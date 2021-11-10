@@ -1,6 +1,6 @@
 # All Links from given Webpage
 
-This script retrieves all links from a given Webpage and saves them as a tct file
+This script retrieves all links from a given Webpage and saves them as a txt file
 
 ### Prerequisites
 Required Modules
