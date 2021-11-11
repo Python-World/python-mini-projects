@@ -3,6 +3,9 @@ from botocore.exceptions import NoCredentialsError
 
 ACCESS_KEY = 'XXXXXXXXXXXXXXXXX'
 SECRET_KEY = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+LOCAL_FILE = 'local_file_name'
+BUCKET_NAME = 'bucket_name'
+S3_FILE_NAME = 'file_name_on_s3'
 
 def upload_to_s3(local_file, bucket, s3_file):
     s3 = boto3.client('s3', aws_access_key_id=ACCESS_KEY,
@@ -19,4 +22,4 @@ def upload_to_s3(local_file, bucket, s3_file):
         return False
 
 
-result = upload_to_s3('local_file_name', 'bucket_name', 'file_name_on_s3')
+result = upload_to_s3(LOCAL_FILE, BUCKET_NAME, S3_FILE_NAME)
