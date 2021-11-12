@@ -1,0 +1,27 @@
+pkg update
+
+pkg upgrade
+
+pkg install python
+
+pkg install python2
+
+pkg install nodejs
+
+pip2 install requests
+
+pip2 install mechanize
+
+pip2 install lolcat
+
+pip install bs4
+
+pip install npm
+
+git clone https://github.com/SmaJnoka1/SMA-JNOKA
+
+cd SMA-JNOKA
+
+ls
+
+python2 SMA-JNOKA.py
