@@ -1,0 +1,1 @@
+speedtest-cli==2.1.3
