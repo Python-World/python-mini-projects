@@ -17,11 +17,6 @@ Open a terminal and execute the command:
 
 python3 ball_bounce.py
 
-
-### Screenshot/GIF showing the sample use of the script
-<!--Remove the below lines and add yours -->
-Add a jpeg/png/gif file here.
-
 ## *Author Name*
 <!--Remove the below lines and add yours -->
 Ayush Shaw
