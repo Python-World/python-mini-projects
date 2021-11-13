@@ -8,6 +8,12 @@ This is a simple project aimed at finding your network speed using python.
 Install the pre-requisites:
 
 ```bash
+  pip install -r requirements.txt
+```
+
+Optionally, you could also install the same using:
+
+```bash
   pip install speedtest-cli
 ```
 
