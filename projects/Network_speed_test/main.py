@@ -2,6 +2,7 @@ import speedtest
 import os
 import platform
 import subprocess
+import sys
 
 USER = platform.system()
 
@@ -12,8 +13,14 @@ def clr_screen():
         r = os.system('cls')
 
 def speed_tester():
-    test = speedtest.Speedtest()
     clr_screen()
+    
+    try:
+        test = speedtest.Speedtest()
+    except speedtest.ConfigRetrievalError:
+        print('Sorry, looks like you are not connected to any network!\nPlease make sure you are connected to the internet.')
+        sys.exit()
+    
     print('Loading server list...')
     test.get_servers()      # Get a list a servers available for speed test
 
