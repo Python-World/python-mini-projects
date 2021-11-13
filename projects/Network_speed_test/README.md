@@ -3,7 +3,7 @@
 
 This is a simple project aimed at finding your network speed using python.
 
-## Usage
+## Prerequisites
 
 Install the pre-requisites:
 
@@ -11,11 +11,11 @@ Install the pre-requisites:
   pip install speedtest-cli
 ```
 
-Run the program using:
+## How to run the script
 ```bash
   python main.py
 ```
-## Authors
+## Author
 
 [@ksaswin](https://github.com/ksaswin)
 
