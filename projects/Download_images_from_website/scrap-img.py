@@ -41,6 +41,8 @@ def download_img(img_link, index):
             f.write(img_data)
         
         f.close()
+    except IOError:
+        pass
     except Exception:
         pass
 
