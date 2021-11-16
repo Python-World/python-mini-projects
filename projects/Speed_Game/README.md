@@ -13,13 +13,13 @@ The speed game is a game that guesses the capital of various countries within a 
 ## **Getting Started 💻**
 
 There was a GUI difference between mac and window in the tkinter module, so the folder was divided.  
-You can choose what suits your OS.
 
+1. install packages.
 ```shell
-pip install pandas
-pip install openpyxl
-pip install pillow
+pip install -r requirements.txt
 ```
+2. go to directory what suits your OS.
+3. run main.py
 
 ## **How to Contribute 🌈**
 
