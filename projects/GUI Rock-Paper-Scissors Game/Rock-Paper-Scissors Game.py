@@ -1,17 +1,21 @@
+# Import Required Library
 from tkinter import *
 from tkinter import ttk
 from random import *
 
+# Create Object
 root = Tk()
 
+# Set geometry
 root.geometry("500x500")
 
 root.title("Rock-Paper-Scissors-Game")
 
+# List of players
 list = ["rock","paper","scissors"]
 
 choose_number = randint(0,2)
-print(choose_number)
+print(choose_number) # For testing if it works
 
 label = Label(root,text="Computer ",width = 20,height=4,font=("algerian",15))
 label.pack()
@@ -55,11 +59,12 @@ def spin():
 
 
 
-
+# Adding dropdown box for Rock,Paper,Scissors
 user_select = ttk.Combobox(root,value=["Rock","Paper","Scissors"])
 user_select.current(0)
 user_select.pack()
 
+# Add Labels,Button
 wl_label = Label(root,text="",font=("arial",10),width=50,height=4)
 wl_label.pack()
 
