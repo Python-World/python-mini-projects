@@ -5,7 +5,7 @@ battery = psutil.sensors_battery()
 plugged = battery.power_plugged
 percent = battery.percent
 
-if percent >= 30:
+if percent <= 30 and plugged!=True:
  
     # pip install py-notifier
     # pip install win10toast
@@ -15,5 +15,5 @@ if percent >= 30:
         title="Battery Low",
         description=str(percent) + "% Battery remain!!",
         duration=5,  # Duration in seconds
-        urgency=Notification.URGENCY_CRITICAL,
+        
     ).send()
