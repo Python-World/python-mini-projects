@@ -1,5 +1,5 @@
-pip install tkinter
-pip install pillow
-pip install time
-pip install psutil
-pip install socket
+tkinter
+pillow
+time
+psutil
+socket
