@@ -1,6 +1,5 @@
-libraries used : tkinter
-		 messagebox
-	         pil
- 		 time
-	 	 psutil
-		 socket
+pip install tkinter
+pip install pillow
+pip install time
+pip install psutil
+pip install socket
