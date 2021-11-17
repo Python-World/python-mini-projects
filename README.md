@@ -15,7 +15,7 @@
 
 A collection of simple python mini projects to enhance your Python skills.
 
-If you want to learn about python, visit [here.](https://github.com/Python-World/PythonScript)
+If you want to learn about python, visit [here.](https://github.com/Python-World/Py-Resources)
 
 If you are new to Github and open source then, visit [here.](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 
@@ -196,3 +196,4 @@ SR No   | Project | Author
 99 | [Find IMDB Ratings](https://github.com/Python-World/python-mini-projects/tree/master/projects/Find_imdb_rating)| [Utkarsh Bajaj](https://github.com/utkarshbajaj)
 100 | [Terminal Based Hangman Game](https://github.com/Python-World/python-mini-projects/tree/master/projects/Terminal_Based_Hangman_Game)| [neohboonyee99](https://github.com/neohboonyee99)
 101 | [Whatsapp Bot](https://github.com/Python-World/python-mini-projects/tree/master/projects/whatsapp_Bot)| [urmil89](https://github.com/urmil89)
+102 | [Zip Bruter](https://github.com/Python-World/python-mini-projects/tree/master/projects/Zip_Bruter) | [Erdoğan YOKSUL](https://www.github.com/eredotpkfr)

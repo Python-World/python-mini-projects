@@ -105,3 +105,4 @@ SR No   | Project | Author
 98 | [PNG to ICO converter](https://github.com/chavarera/python-mini-projects/tree/master/projects/convert_png_images_to_ico_format)| [weicheansoo](https://github.com/weicheansoo)
 99 | [Find IMDB Ratings](https://github.com/chavarera/python-mini-projects/tree/master/projects/Find_imdb_rating)| [Utkarsh Bajaj](https://github.com/utkarshbajaj)
 100 | [Terminal Based Hangman Game](https://github.com/chavarera/python-mini-projects/tree/master/projects/Terminal_Based_Hangman_Game)| [neohboonyee99](https://github.com/neohboonyee99)
+101 | [Diff Utility](https://github.com/Python-World/python-mini-projects/tree/master/projects/Diff_Util)| [KILLinefficiency](https://github.com/KILLinefficiency)
