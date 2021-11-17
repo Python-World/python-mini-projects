@@ -1,3 +1,2 @@
-urllib
 requests
 json
