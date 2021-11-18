@@ -1,0 +1,8 @@
+# Speaking Dictionary Requirements
+### prerequisites: pyttsx3, PyDictionary, speech_recognition, gTTS, pyaudio
+
+pyttsx3: pip install pyttsx3
+PyDictionary: pip install PyDictionary
+speech_recognition: pip install SpeechRecognition
+gTTS: pip install gtts
+pyaudio: pip install pyaudio

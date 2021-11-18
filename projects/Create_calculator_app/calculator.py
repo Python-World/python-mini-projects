@@ -125,6 +125,10 @@ def cal():
     button18 = Button(root, text='^', fg=text_fg, bg=cal_button_bg, padx=10, pady=3,
                       command=lambda: get_input(entry, '**'))
     button18.grid(row=5, column=2, pady=5)
+    def quit():
+        exit['command'] = root.quit()
+    exit = Button(root, text='Quit', fg='white', bg='black', command=quit, height=1, width=7)
+    exit.grid(row=6, column=1)
 
     root.mainloop()
 
