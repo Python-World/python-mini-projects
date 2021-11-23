@@ -89,7 +89,7 @@ If you are new to Github and open source then, visit [here.](https://towardsdata
 
 ## Connect On Social media
 
-[Join WhatsApp group](https://chat.whatsapp.com/Ghp25kidWLaGrAVA0G0GAa)
+[Join WhatsApp group](https://chat.whatsapp.com/GlLTqQSbocLC23ntKU15O9)
 
 ## Contributors ✨
 
