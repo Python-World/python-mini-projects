@@ -91,7 +91,6 @@ class CountryPage(tk.Frame):
         filename = random.choice(os.listdir("./images"))
         code = filename.split(".")[0]
 
-        # 엑셀에 없는 이미지일 경우 예외처리
         while code.upper() not in df.index:
             filename = random.choice(os.listdir("./images"))
             code = filename.split(".")[0]
