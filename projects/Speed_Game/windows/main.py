@@ -208,6 +208,45 @@ class CountryPage(tk.Frame):
         answer = df["country"][code.upper()]
 
         print(answer)
+        
+    def passBtn_click(self, tk, canv, check_img):
+        global pass_count, pass_window
+        global country_img, answer
+        pass_count = pass_count - 1
+        if (pass_count < 0):
+            print("Don't pass")
+            pass_count = 0
+            tk.messagebox.showerror('Pass', 'You Don\'t have pass ticket!')
+        else:
+            filename = random.choice(os.listdir("./images"))
+            code = filename.split(".")[0]
+
+            
+            while code.upper() not in df.index:
+                filename = random.choice(os.listdir("./images"))
+                code = filename.split(".")[0]
+
+            countryPath = "./images/" + filename
+            canv.after(1000, self.delete_img, canv, check_img)
+            self.img2 = ImageTk.PhotoImage(Image.open(countryPath)
+            .resize((180, 130), Image.ANTIALIAS))
+            country_img = canv.create_image(210, 130, anchor="nw", image=self.img2)
+            answer = df["country"][code.upper()]
+
+        self.delete_img(canv, pass_window)
+        BtnFont = tkFont.Font(family="Consolas", size=15)
+        pass_btn = tk.Button(
+            self, text="pass: " + str(pass_count) + "/3",
+            width=10, height=1, font=BtnFont, foreground="yellow",
+            background="black", relief="ridge",
+            activebackground="yellow", activeforeground="black",
+            command=lambda: self.passBtn_click(tk, canv, country_img))
+        pass_window = canv.create_window(
+            (600 // 2) + 80, (500 // 2) + 140, window=pass_btn)
+
+    def delete_img(self, canv, dele_img_name):
+        canv.delete(dele_img_name)
+
 
 
 if __name__ == "__main__":
