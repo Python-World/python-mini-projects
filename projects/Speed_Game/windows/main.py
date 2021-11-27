@@ -247,7 +247,18 @@ class CountryPage(tk.Frame):
     def delete_img(self, canv, dele_img_name):
         canv.delete(dele_img_name)
 
+class FinishPage(tk.Frame):
+    def __init__(self, master):
+        tk.Frame.__init__(self, master)
+        ImagePath = 'halloween.png'
+        canv = tk.Canvas(self, width=600, height=500, bg='white')
+        canv.pack(side='bottom')
+        self.img = ImageTk.PhotoImage(Image.open(ImagePath).resize((600, 500), Image.ANTIALIAS))
+        canv.create_image(0, 0, anchor="nw", image=self.img)
 
+        labelFont = tkFont.Font(family="Arial", size=40, weight="bold")
+        canv.create_text((600 // 2), (500 // 2) - 50, fill="white", text="total score : " + str(correct_count)+ "/15", font=labelFont)
+        canv.create_text((600 // 2), (500 // 2) + 50, fill="white", text="Good Job!", font=labelFont)
 
 if __name__ == "__main__":
     pygame.init()
