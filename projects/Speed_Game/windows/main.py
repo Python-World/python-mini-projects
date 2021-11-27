@@ -160,4 +160,73 @@ class CountryPage(tk.Frame):
         else:
             canv.after(1000, self.count, canv, timer_text)
 
-    
+    # click check button
+    def checkBtn_click(self, master, user_text, check_answer, canv, check_img):
+        global answer, country_img
+        global correct_count, problem_count
+        problem_count -= 1
+
+        user_text = user_text.upper().replace(" ", "")
+        check_answer = check_answer.replace(" ", "")
+
+        if (user_text == check_answer):
+            # correct
+            print('correct')
+            ImagePath = 'correct.png'
+            self.img3 = ImageTk.PhotoImage(
+                Image.open(ImagePath).resize((100, 100), Image.ANTIALIAS))
+            resultImage = canv.create_image(
+                450, 30, anchor="nw", image=self.img3)
+            correct_count += 1
+        else:
+            # wrong
+            print('wrong')
+            ImagePath = 'wrong.png'
+            self.img4 = ImageTk.PhotoImage(
+                Image.open(ImagePath).resize((100, 100), Image.ANTIALIAS))
+
+            resultImage = canv.create_image(
+                450, 30, anchor="nw", image=self.img4)
+
+        # resolve 15 problems
+        if problem_count <= 0:
+            master.switch_frame(FinishPage)
+        canv.after(1000, self.delete_img, canv, resultImage)
+        filename = random.choice(os.listdir("./images"))
+        code = filename.split(".")[0]
+
+        # no entry in excel, Exception
+        while code.upper() not in df.index:
+            filename = random.choice(os.listdir("./images"))
+            code = filename.split(".")[0]
+
+        countryPath = "./images/" + filename
+        canv.after(1000,self.delete_img, canv, check_img)
+        self.img2 = ImageTk.PhotoImage(Image.open(countryPath)
+        .resize((180, 130), Image.ANTIALIAS))
+        country_img = canv.create_image(210, 130, anchor="nw", image=self.img2)
+        answer = df["country"][code.upper()]
+
+        print(answer)
+
+
+if __name__ == "__main__":
+    pygame.init()
+    mySound = pygame.mixer.Sound("SpeedGameBgm.mp3")
+    mySound.play(-1)
+    pass_count = 3
+    problem_count = 15
+    correct_count = 0
+    answer = 0
+    country_img = 0
+    pass_window = 0
+
+    df = pd.read_excel(
+        "./CountryCodeData.xlsx", index_col=0, names=["code", "country"])
+    print(df["country"]["KR"])
+
+    app = SampleApp()
+    app.title("Speed Game")
+
+    app.geometry('600x500+100+100')
+    app.mainloop()
