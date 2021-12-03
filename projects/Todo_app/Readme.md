@@ -7,6 +7,6 @@
 # To run app
 - Create virtual Environment
 - Install requirements
-`pip install requirements.txt`
+`pip install -r requirements.txt`
 - run app
 `py app.py`
