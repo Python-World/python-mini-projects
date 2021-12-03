@@ -1,0 +1,11 @@
+1;pfsense.local;192.168.1.1;freebsd
+2;proxmox-1.local;192.168.1.11;debian
+2;proxmox-2.local;192.168.1.12;debian
+2;proxmox-3.local;192.168.1.13;debian
+3;mysql57-master.local;192.168.1.100;debian
+4;mysql57-slave.local;192.168.1.101;debian
+3;nginx-proxy.local;192.168.1.10;debian
+3;windows-ad-dns.local;192.168.1.2;windows
+3;windows-mssql.local;192.168.1.102;windows
+2;webserver.local;192.168.1.111;debian
+5;ansible.local;192.168.1.103;centos
