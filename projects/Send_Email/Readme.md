@@ -14,7 +14,7 @@ The script requires:-
 1. yourmail@gmail.com
 2. Sender Name you want to display
 3. Auth Password:- [Google Support Link] (https://support.google.com/accounts/answer/185833?hl=en) 
-    > Generate it using this process explained 
+     Generate it using this process explained 
 4. sendermail@gmail.com
 5. body message
 
