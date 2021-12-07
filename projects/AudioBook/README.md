@@ -1,14 +1,14 @@
 # AudioBook
 
 ### Description
-This application will make an mp3 based on you pdf file.
+This program will make an mp3 (audio book) based on you pdf file.
 
-### Instal the requirements
+### Install the requirements
 ```
 pip install gtts
 pip install PyPDF2
 ```
-### Dun the application
+### Run the application
 ```
 python Audio-book.py
 ```
