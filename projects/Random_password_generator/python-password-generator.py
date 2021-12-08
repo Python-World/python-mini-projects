@@ -1,10 +1,27 @@
+#import the necessary modules
 import random
 import string
 
-total = string.ascii_letters + string.digits + string.punctuation
+print('hello,Welcome to Password generator!')
 
-length = 16
+#input the length of password
+length=int(input('\Enter the length of password: '))
 
-password = "".join(random.sample(total, length))
+#define data
+lower=string.ascii_lowercase
+upper=string.ascii_uppercase
+num=string.digits
+symbols=string.punctuation
 
+#combine the data
+all=lower+upper+num+symbols
+
+#use random
+temp=random.sample(all,length)
+
+#create the password
+password="".join(temp)
+
+#print the password
 print(password)
+
