@@ -1,6 +1,7 @@
 import PyPDF2
 
-merged_pdf = open('{path of file that you want to demerge}', mode='rb')
+# Note: here instead of Python.pdf you should give the whole path to the pdf if the pdf is not present in the same directory where python program is present
+merged_pdf = open('Python.pdf', mode='rb')
 
 
 pdf = PyPDF2.PdfFileReader(merged_pdf)
@@ -18,7 +19,9 @@ for i in range(1, pdf.numPages+1):
         print('Limit exceeded! ')
         break
 
-    base_path = '/Users/darpan/Desktop/{}.pdf'
+    # Note: In the braces you should give the desired path of where new files should be stored
+    base_path = '{}.pdf'
+    # If you want to store the new pdfs in the same directory, then leave the braces empty
     path = base_path.format(name)
     f = open(path, mode='wb')
     pdf_writer = PyPDF2.PdfFileWriter()
