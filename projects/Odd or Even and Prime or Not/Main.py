@@ -24,4 +24,4 @@ if num > 1:
 else: 
     prime_or_not_result=" nor prime number"
 
-print(Odd_or_even,prime_or_not_result)
+print(Odd_or_even_result,prime_or_not_result)
