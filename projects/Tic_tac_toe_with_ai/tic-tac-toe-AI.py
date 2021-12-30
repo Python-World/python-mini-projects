@@ -96,7 +96,7 @@ def CompAI(board, name, choice):
     position = 0
     possibilities = [x for x, letter in enumerate(board) if letter == ' ' and x != 0]
     
-    # including both X and O, since if computer will win, he will place a choice there, but if the component will win --> we have to block that move
+    # including both X and O, since if computer will win, he will place a choice there, but if the opponent will win --> we have to block that move
     for let in ['O', 'X']:
         for i in possibilities:
             # Creating a copy of the board everytime, placing the move and checking if it wins;
@@ -268,10 +268,10 @@ while True:
             if win_check(theBoard, p1_choice):
                 display_board(theBoard, available)
                 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-                if(mode):
+                if(mode != 2):
                     print(f'\n\nCONGRATULATIONS {p1_name}! YOU HAVE WON THE GAME!\n\n')
                 else:
-                    print('\n\nTHE Computer HAS WON THE GAME!\n\n')
+                    print(f'\n\n{p1_name} HAS WON THE GAME!\n\n')
                 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
                 play_game = False
                 
@@ -309,10 +309,10 @@ while True:
             if win_check(theBoard, p2_choice):
                 display_board(theBoard, available)
                 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-                if(mode):
+                if(mode == 1):
                     print(f'\n\nCONGRATULATIONS {p2_name}! YOU HAVE WON THE GAME!\n\n')
                 else:
-                    print('\n\nTHE Computer HAS WON THE GAME!\n\n')
+                    print(f'\n\n{p2_name} HAS WON THE GAME!\n\n')
                 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
                 play_game = False
                 
@@ -343,4 +343,4 @@ print("\n\n\t\t\tTHE END!")
 
 
 
-#END    
+#END
