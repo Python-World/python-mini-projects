@@ -1,0 +1,1 @@
+PySimpleGUI==4.43.0
