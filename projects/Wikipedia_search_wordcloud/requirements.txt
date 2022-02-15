@@ -6,7 +6,7 @@ idna==2.10
 kiwisolver==1.2.0
 matplotlib==3.3.1
 numpy==1.19.1
-Pillow==7.2.0
+Pillow==9.0.0
 pyparsing==2.4.7
 python-dateutil==2.8.1
 requests==2.24.0
