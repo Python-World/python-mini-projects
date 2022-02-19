@@ -1,5 +1,5 @@
 # Python Password Generator
-##### THIS SIMPLE PROJECT WAS MADE USING PYTHON LIBRARY FUNCTIONS LIKE `string` & `random`.
+##### THIS SIMPLE PROJECT WAS MADE USING PYTHON LIBRARY FUNCTIONS LIKE `string` , `random` & `pyperclip`.
 
 * `string.ascii_letters`
 	- The concatenation of the ascii_lowercase and ascii_uppercase constants described below. This value is not locale-dependent.
@@ -21,3 +21,22 @@ The string <kbd>01234567</kbd>.
 
 * `string.punctuation`
 	- String of ASCII characters which are considered punctuation characters in the C locale: `!"#$%&'()*+,-./:;<=>?@[\]^_{|}~`
+
+
+--------------------------
+## Password Security Level
+
+* `a`
+	- the password with ascii letters , digits & punctuation
+
+* `b`
+	- the password with ascii letters & digits.
+
+* `c`
+	- the password just with ascii letters .
+
+* `d`
+	- the password with ascii lowercase & digits .
+
+* `e`
+	- the password just with digits .
