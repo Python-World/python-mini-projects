@@ -1,6 +1,6 @@
 utils==1.0.1
 sumeval==0.2.2
-tensorflow==2.3.0
+tensorflow==2.6.0
 wget==3.2
 sumy==0.8.1
 model==0.6.0
