@@ -3,7 +3,7 @@ Flask-SQLAlchemy==2.4.4
 Flask==1.1.2
 HTMLParser==0.0.2
 PIL==1.1.6
-Pillow==8.3.2
+Pillow==9.0.1
 PyAudio==0.2.11
 PyAutoGUI==0.9.50
 PyPDF2==1.26.0
