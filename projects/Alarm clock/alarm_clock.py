@@ -16,6 +16,7 @@ def Threading():
 	t1=Thread(target=alarm)
 	t1.start()
 
+
 def alarm():
 	# Infinite Loop
 	while True:
@@ -34,6 +35,7 @@ def alarm():
 			print("Time to Wake up")
 			# Playing sound
 			winsound.PlaySound("sound.wav",winsound.SND_ASYNC)
+			break
 
 # Add Labels, Frame, Button, Optionmenus
 Label(root,text="Alarm Clock",font=("Helvetica 20 bold"),fg="red").pack(pady=10)
@@ -81,6 +83,7 @@ secs = OptionMenu(frame, second, *seconds)
 secs.pack(side=LEFT)
 
 Button(root,text="Set Alarm",font=("Helvetica 15"),command=Threading).pack(pady=20)
+
 
 # Execute Tkinter
 root.mainloop()
