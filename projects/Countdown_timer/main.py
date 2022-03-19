@@ -1,11 +1,10 @@
 import time
 
-
 def countdown(t):
     while int(t):
-        if t > 10:
+        if t > 10:  # more than 10 seconds
             mins, secs = divmod(t, 60)
-            timer = '{:02d}:{:02d}'.format(mins, secs)
+            timer = '{:02d}:{:02d}'.format(mins,secs)
             print(timer, end="\r")
             time.sleep(1)
             t -= 1
@@ -18,7 +17,6 @@ def countdown(t):
 
     print('Timer completed!')
 
+t = int(input('Enter the time in seconds: '))
 
-t = input('Enter the time in seconds: ')
-
-countdown(int(t))
+countdown(int)
