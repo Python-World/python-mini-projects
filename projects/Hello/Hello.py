@@ -1,3 +1,3 @@
 # This is simple program to show how print statement works
 
-print('Hello Python World')
+print('Hello Python World', end="[options]")  # end is for, to end the print line with "\n", "\t", "\r", etc.....
