@@ -18,6 +18,8 @@ if args.type == 'h':
     sec = 60 * 60 / args.frequency
 elif args.type == 'm':
     sec = 60 / args.frequency
+elif args.type == 's':
+    sec = args.frequency
 
 if sec < 1.:
     sec = 1.
