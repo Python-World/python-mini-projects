@@ -6,7 +6,7 @@ PIL==1.1.6
 Pillow==8.3.2
 PyAudio==0.2.11
 PyAutoGUI==0.9.50
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 SpeechRecognition==3.8.1
 beautifulsoup4==4.9.1
 certifi==2020.6.20
