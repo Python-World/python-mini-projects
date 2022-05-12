@@ -17,6 +17,7 @@ Start MySQL and Apache server on Xampp.
 Initialize Database schema by going to MySQL Server admin page by passing the queries in initialize.sql
 
 Install the Virtual Environment module, activate the Virtual Environment and install the required modules.
+
     ```
     pip install virtualenv
     virtualenv venv
@@ -29,11 +30,12 @@ Install the Virtual Environment module, activate the Virtual Environment and ins
 Steps:
 
 Run the app 
+
     ```
     flask run
     ```
 
-## Screenshot/GIF showing the sample use of the script
+## Screenshots of the project
 <!--Remove the below lines and add yours -->
 ![Home Page](ShortenerHome.png)
 ![Result Page](ShortenerResult.png)
