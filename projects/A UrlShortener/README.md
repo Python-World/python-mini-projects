@@ -30,7 +30,7 @@ Activate the Virtual Environment
 
 Install the required modules
 
-    pip install requirements.txt
+    pip install -r requirements.txt
 
 ## How to run the project
 <!--Remove the below lines and add yours -->
