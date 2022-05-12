@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <link rel='icon' href='{{url_for('static',filename='tabIcon.png')}}'/>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <style>
+      body{
+          margin: 0px;
+          padding: 0px;
+          background-color: black;
+          color: white;
+      }
+      .mid{
+          display: block;
+          width: 60%;
+          margin: 2% auto;
+      }
+      .navbar{
+          display: block;
+      }
+      .navbar li{
+          display: inline-block;
+          font-size: 20px;
+          padding: 5%;
+      }
+      .navbar li a{
+          color: #FFF;
+          text-decoration: none;
+      }
+      .navbar li a:hover{
+        color: #777;
+        border-bottom: 2px solid #777;
+      }
+      .mid .navbar .active {
+        border-bottom: 2px solid #777;
+        color: #777;
+      }
+      .mid .navbar .active:hover {
+        border-bottom: 2px solid #777;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="mid">
+        <ul class="navbar">
+          <ul class="navbar">
+              <li><a href="/urlShortener" class="active">Shortener Tool</a></li>
+              <li><a href="/history">History</a></li>
+              <li><a href="#">Profile</a></li>
+              <li><a href="#">Settings</a></li>
+        </ul>
+      </div> 
+    </header>
+    <form class="login-box"  action="/url" method="post">
+        {% for key,value in result.items() %}
+          {% if key!="linkCode" %}
+            <h1>{{key}}: <a href="{{value}}">{{value}}</a></h1>
+            {% endif %}
+        {% endfor %}
+    </form>
+  </body>
+</html>
