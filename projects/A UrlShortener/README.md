@@ -16,13 +16,19 @@ Start MySQL and Apache server on Xampp.
 
 Initialize Database schema by going to MySQL Server admin page by passing the queries in initialize.sql
 
-Install the Virtual Environment module, activate the Virtual Environment and install the required modules.
+Install the Virtual Environment module
 
     pip install virtualenv
 
+Create a virtual environment
+
     virtualenv venv
 
+Activate the Virtual Environment
+
     venv\scripts\activate.bat
+
+Install the required modules
 
     pip install requirements.txt
 
