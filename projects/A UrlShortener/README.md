@@ -12,11 +12,11 @@ Modules used in this app are Flask and PyShortener.
 
 Steps:
 
-    Start MySQL and Apache server on Xampp.
+Start MySQL and Apache server on Xampp.
 
-    Initialize Database schema by going to MySQL Server admin page by passing the queries in initialize.sql
+Initialize Database schema by going to MySQL Server admin page by passing the queries in initialize.sql
 
-    Install the Virtual Environment module, activate the Virtual Environment and install the required modules.
+Install the Virtual Environment module, activate the Virtual Environment and install the required modules.
     ```
     pip install virtualenv
     virtualenv venv
@@ -28,7 +28,7 @@ Steps:
 <!--Remove the below lines and add yours -->
 Steps:
 
-    Run the app 
+Run the app 
     ```
     flask run
     ```
