@@ -18,12 +18,13 @@ Initialize Database schema by going to MySQL Server admin page by passing the qu
 
 Install the Virtual Environment module, activate the Virtual Environment and install the required modules.
 
-    ```
     pip install virtualenv
+
     virtualenv venv
+
     venv\scripts\activate.bat
+
     pip install requirements.txt
-    ```
 
 ## How to run the project
 <!--Remove the below lines and add yours -->
@@ -31,9 +32,7 @@ Steps:
 
 Run the app 
 
-    ```
     flask run
-    ```
 
 ## Screenshots of the project
 <!--Remove the below lines and add yours -->
