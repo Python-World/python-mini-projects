@@ -3,6 +3,8 @@
 ### Types of data structures available
 - **Doubly LinkedList**
 <img src="https://sebhastian.com/doubly-linked-list-javascript/doubly-linked-list-example.png">
+<hr/>
+
 ### Doubly LinkedList Methods
     Push
     Pop
