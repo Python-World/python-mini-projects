@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <link rel='icon' href='{{url_for('static',filename='tabIcon.png')}}'/>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+  </head>
+  <body>
+<form class="login-box"  action="/urlShortener" method="post">
+  <h1>Login Page</h1>
+  <div class="textbox">
+    <i class="fas fa-user"></i>
+    <input type="text" placeholder="Username" name="Username">
+  </div>
+    <br>
+  <div class="textbox">
+    <i class="fas fa-lock"></i>
+    <input type="password" placeholder="Password" name="Password">
+  </div>
+  <br>
+  <input type="submit" class="btn" value="Login">   
+  <br>
+  <h3>Not registered? <a href="/beforeRegister">Register now</a></h3>
+</form>
+  </body>
+</html>

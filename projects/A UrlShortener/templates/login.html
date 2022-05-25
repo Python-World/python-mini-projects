@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <link rel='icon' href='{{url_for('static',filename='tabIcon.png')}}'/>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+  </head>
+  <body>
+<form class="login-box"  action="/login" method="post">
+  <h1>Register Page</h1>
+  <div class="textbox">
+    <i class="fas fa-user"></i>
+    <input type="text" placeholder="Name" name="name">
+  </div>
+  <br>
+  <div class="textbox">
+    <i class="fas fa-user"></i>
+    <input type="text" placeholder="Username" name="username">
+  </div>
+  <br>
+
+  <div class="textbox">
+    <i class="fas fa-user"></i>
+    <input type="text" placeholder="Email" name="email">
+  </div>
+  <br>
+
+  <div class="textbox">
+    <i class="fas fa-lock"></i>
+    <input type="password" placeholder="Password" name="pass">
+  </div>
+  <br>
+
+  <div class="textbox">
+    <i class="fas fa-lock"></i>
+    <input type="password" placeholder="Confirm Password" name="repass">
+  </div>
+  <br>
+
+  <input type="submit" class="btn" value="Register">
+  <br>
+
+  <h3>Already registered? <a href="/">Login now</a></h3>
+  <!-- <button onclick="window.location = 'http://localhost:5000/login'">Login now</button> -->
+</form>
+  </body>
+</html>

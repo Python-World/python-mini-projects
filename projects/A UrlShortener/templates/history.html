@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <link rel='icon' href='{{url_for('static',filename='tabIcon.png')}}'/>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <style>
+      body{
+          margin: 0px;
+          padding: 0px;
+          background-color: black;
+          color: white;
+      }
+      .mid{
+          display: block;
+          width: 60%;
+          margin: 2% auto;
+      }
+      .navbar{
+          display: block;
+      }
+      .navbar li{
+          display: inline-block;
+          font-size: 20px;
+          padding: 5%;
+      }
+      .navbar li a{
+          color: #FFF;
+          text-decoration: none;
+      }
+      .navbar li a:hover{
+        color: #777;
+        border-bottom: 2px solid #777;
+      }
+      .mid .navbar .active {
+        border-bottom: 2px solid #777;
+        color: #777;
+      }
+      .mid .navbar .active:hover {
+        border-bottom: 2px solid #777;
+        color: #555;
+      }
+      h1{
+        display:inline;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="mid">
+        <ul class="navbar">
+          <ul class="navbar">
+            <li><a href="/urlShortener">Shortener Tool</a></li>
+            <li><a href="/history" class="active">History</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+      </div> 
+    </header>
+    <ol>
+      <div>
+      {% for i in range(len1) %}
+        <li>
+          {% for j in range(0,4) %}
+            {% if r[i][2]==username %}
+              {% if j!=2 %}
+                {% if j==0 %}
+                  <h1>Old Link: <a href="{{r[i][j]}}">{{r[i][j]}}</a></h1><br>
+                {% endif %}
+                {% if j==1 %}
+                  <h1>Shortened Link: <a href="{{r[i][j]}}">{{r[i][j]}}</a></h1><br>
+                {% endif %}
+                {% if j==3 %}
+                  <h1>Link Nickname: {{r[i][j]}}</h1><br>
+                {% endif %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          <br>
+        </li>
+      {% endfor %}
+      </div>
+    </ol>
+  </body>
+</html>
