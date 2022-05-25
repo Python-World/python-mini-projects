@@ -26,7 +26,7 @@ idna==2.10
 img2pdf==0.4.0
 jupyterlab==2.2.10
 kiwisolver==1.2.0
-lxml==4.6.3
+lxml==4.6.5
 matplotlib==3.3.0
 model==0.6.0
 newspaper==0.1.0.7
