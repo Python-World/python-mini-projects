@@ -129,7 +129,7 @@ SR No   | Project | Author
 32 | [Currency Convertor cli app](https://github.com/Python-World/python-mini-projects/tree/master/projects/Currency_converter) | [github-of-wone](https://github.com/github-of-wone/)
 33 | [Stopwatch Application](https://github.com/Python-World/python-mini-projects/tree/master/projects/Create_a_simple_stopwatch) | [Gaodong](https://github.com/xlgd)
 34 | [CLI Proxy Tester](https://github.com/Python-World/python-mini-projects/tree/master/projects/cli_proxy_tester) | [Ingo Kleiber](https://github.com/IngoKl)
-35 | [XML to JSON file Convertor](https://github.com/Python-World/python-mini-projects/tree/master/projects/Convert_XML_to_JSON) | [John Kirtley](https://github.com/johnkirtley)
+35 | [XML to JSON file Convertor](https://github.com/Python-World/python-mini-projects/tree/master/projects/Convert_XML_To_JSON) | [John Kirtley](https://github.com/johnkirtley)
 36 | [Compress file and folders](https://github.com/Python-World/python-mini-projects/tree/master/projects/Write_script_to_compress_folder_and_files) | [Gaodong](https://github.com/xlgd)
 37 | [Find IMDB movie ratings](https://github.com/Python-World/python-mini-projects/tree/master/projects/Find_imdb_rating) | [ShivSt](https://github.com/ShivSt)
 38 | [Convert dictionary to python object](https://github.com/Python-World/python-mini-projects/tree/master/projects/convert_dictionary_to_python_object) | [Varun-22](https://github.com/Varun-22)
