@@ -1,0 +1,17 @@
+yay,we have successfully demerged a "Python" book pdf containing 810 pages🥳.
+Python book was demerged into 4 books: Python1,Python2,Python3,Python4
+Bookname  No.of pages
+Python1    270
+Python2    270
+Python3    90
+Python4    180
+Total      810(270+270+90+180)
+
+This python script was a interactive program.
+It means the program when executed asks user to input and runs accordingly.
+Note: 
+1. We should be careful while giving no.of pages as input. If the given input exceeds the limit it will yell "Limit Exceeded!".
+2. We can always come out of the program if we need only some part of pdf.
+   Example: If we have a pdf of 400 pages and we need only first 200 pages of it in 2 different pages
+            then we can input for those 2 pdfs and then PRESS CMD+C(Mac) or CTRL+C(windows)
+
