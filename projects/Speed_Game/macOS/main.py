@@ -206,7 +206,7 @@ class CountryPage(tk.Frame):
         global country_img, answer
         pass_count = pass_count - 1
         if (pass_count < 0):
-            print("패스 그만")
+            print("Don't pass")
             pass_count = 0
             tk.messagebox.showerror('Pass', 'You Don\'t have pass ticket!')
         else:
