@@ -1,0 +1,12 @@
+#Ai_Attendence_Project 
+<br>
+This Program detects the face of the given members and will record the presence 
+in attendence.csv file with date and time 
+#Libraries Used
+
+1. Dlib 
+2. face-recognition 
+3. os
+4. cv2
+5. numpy
+6. dateandtime
