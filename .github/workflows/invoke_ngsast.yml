@@ -1,0 +1,29 @@
+# This workflow integrates ShiftLeft NG SAST with GitHub
+# Visit https://docs.shiftleft.io for help
+name: ShiftLeft
+
+on:
+  pull_request:
+  workflow_dispatch:
+  push:
+  # We recommend triggering a scan when merging to your default branch as a best practice,
+  # especially if you'd like to compare the results of two scans (e.g., a feature branch against the
+  # default branch)
+    branches:
+      - main
+      - master
+
+jobs:
+  NextGen-Static-Analysis:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Download ShiftLeft CLI
+      run: |
+        curl https://cdn.shiftleft.io/download/sl > ${GITHUB_WORKSPACE}/sl && chmod a+rx ${GITHUB_WORKSPACE}/sl
+    - name: NextGen Static Analysis
+      run: ${GITHUB_WORKSPACE}/sl analyze --wait --app beginner-python-projects --tag branch=${{ github.head_ref }} --python .
+      env:
+        SHIFTLEFT_ACCESS_TOKEN: ${{ secrets.SHIFTLEFT_ACCESS_TOKEN }}
+        SHIFTLEFT_ACCESS_TOKEN: ${{ secrets.SHIFTLEFT_ACCESS_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
