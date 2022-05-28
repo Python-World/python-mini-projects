@@ -1,0 +1,7 @@
+from pytube import YouTube
+link = "https://youtu.be/EBfe40aZY54"
+video = YouTube(link)
+def finish():
+    print("download finish")
+video.streams.get_highest_resolution().download(output_path="C:\Users\ACER\Document\idio")
+video.register_on_complete_callback(finish())
