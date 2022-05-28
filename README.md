@@ -47,7 +47,7 @@ If you are new to Github and open source then, visit [here.](https://towardsdata
     git push
     ```
     
-    Alternatively, GitHub also provides syncing now - click "Fetch upstream" at the top of your repo below "Code" button.
+    Alternatively, GitHub also provides syncing now -- click "Fetch upstream" at the top of your repo below "Code" button.
 
 - If you run into a **merge conflict**, you have to resolve the conflict. There are a lot of guides online, or you can try this one by [opensource.com](https://opensource.com/article/20/4/git-merge-conflict).
 
