@@ -11,14 +11,12 @@
   },
   "issueSettings": {
     "minSeverityLevel": "LOW",
-    "issueType": "DEPENDENCY"
-  },
-  "remediateSettings": {
-    "enableRenovate": true,
-    "extends": ["github>mend/merge-confidence:beta"]
+    "issueType": "DEPENDENCY" 
  },
   "remediateSettings": {
     "workflowRules": {
       "enabled": true
-    }
+    },
+    "enableRenovate": true,
+    "extends": ["github>mend/merge-confidence:beta"]  
 }
