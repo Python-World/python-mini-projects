@@ -14,6 +14,10 @@
     "issueType": "DEPENDENCY"
   },
   "remediateSettings": {
+    "enableRenovate": true,
+    "extends": ["github>mend/merge-confidence:beta"]
+ },
+  "remediateSettings": {
     "workflowRules": {
       "enabled": true
     }
