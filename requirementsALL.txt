@@ -14,12 +14,12 @@ chardet==3.0.4
 chromedriver-binary==85.0.4183.38.0
 click==7.1.2
 cycler==0.10.0
-dnspython==2.0.0
+dnspython==1.0.0
 emoji==0.6.0
 ffmpeg==1.4
-ffpyplayer==4.3.1
+ffpyplayer==4.1.1
 gTTS==2.1.1
-gensim==3.8.3
+gensim==3.7.3
 geopy==2.0.0
 googletrans==3.0.0
 idna==2.10
